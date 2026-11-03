@@ -119,7 +119,7 @@ def tg_links(reply_to, text):
 def yt_prepare(x):
     """stage the video (and thumbnail) for YouTube; the upload itself is one direct tool call (can exceed a cell)"""
     return {"status": "prepared", "s3key": s3key(x["urls"][0]), "name": x["urls"][0]["name"],
-            "thumb_s3key": s3key({"urls": [x["thumb_url"]], "name": os.path.basename(x["thumb_url"])}) if x.get("thumb_url") else None}
+            "thumb_url": x.get("thumb_url")}
 
 def yt_args(x, links, prep):
     return {"title": x["title"], "description": fill_links(x["description"], links), "tags": x["tags"], "categoryId": x["categoryId"],
