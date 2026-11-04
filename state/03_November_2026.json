@@ -167,8 +167,8 @@
    "status": "error",
    "id": "d1-yo-045",
    "error": "quotaExceeded: YouTube 429 Video Uploads per day limit (RESOURCE_EXHAUSTED)",
-   "tries": 3,
-   "time": "2026-11-04T17:05+05:30"
+   "tries": 4,
+   "time": "2026-11-04T18:04+05:30"
   },
   "d1-in-012": {
    "status": "done",
