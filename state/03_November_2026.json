@@ -169,6 +169,13 @@
    "error": "quotaExceeded: YouTube 429 Video Uploads per day limit (RESOURCE_EXHAUSTED)",
    "tries": 1,
    "time": "2026-11-04T14:03+05:30"
+  },
+  "d1-in-012": {
+   "status": "done",
+   "id": "18129192527512992",
+   "url": "https://www.instagram.com/p/DfUChCbFSeH/",
+   "tries": 0,
+   "time": "2026-11-04T14:05+05:30"
   }
  },
  "links": {}
