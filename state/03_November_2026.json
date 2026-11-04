@@ -29,10 +29,12 @@
    "time": "2026-11-04T09:03+05:30"
   },
   "d1-fa-001": {
-   "status": "error",
+   "status": "done",
    "error": "Facebook rejected the access token: session invalidated (OAuthException code 190, subcode 460) - owner must reconnect Facebook",
    "tries": 1,
-   "time": "2026-11-04T09:03+05:30"
+   "time": "2026-11-04T10:04+05:30",
+   "id": "1336213902913484_122104192167529211",
+   "url": "https://www.facebook.com/1336213902913484_122104192167529211"
   },
   "d1-fa-003": {
    "status": "error",
