@@ -260,6 +260,12 @@
    "url": "https://www.facebook.com/1336213902913484/videos/4605935476397109",
    "tries": 0,
    "time": "2026-11-04T19:03+05:30"
+  },
+  "d1-yo-034": {
+   "status": "error",
+   "error": "quotaExceeded: YouTube 429 Video Uploads per day limit (RESOURCE_EXHAUSTED)",
+   "tries": 1,
+   "time": "2026-11-04T19:04+05:30"
   }
  },
  "links": {}
