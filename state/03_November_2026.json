@@ -27,6 +27,12 @@
    "url": "https://www.instagram.com/p/DfTgCqikfY6/",
    "tries": 0,
    "time": "2026-11-04T09:03+05:30"
+  },
+  "d1-fa-001": {
+   "status": "error",
+   "error": "Facebook rejected the access token: session invalidated (OAuthException code 190, subcode 460) - owner must reconnect Facebook",
+   "tries": 1,
+   "time": "2026-11-04T09:03+05:30"
   }
  },
  "links": {}
