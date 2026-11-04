@@ -162,6 +162,13 @@
    "error": "quotaExceeded: YouTube 429 Video Uploads per day limit (RESOURCE_EXHAUSTED)",
    "tries": 1,
    "time": "2026-11-04T14:03+05:30"
+  },
+  "d1-yo-045": {
+   "status": "error",
+   "id": "d1-yo-045",
+   "error": "quotaExceeded: YouTube 429 Video Uploads per day limit (RESOURCE_EXHAUSTED)",
+   "tries": 1,
+   "time": "2026-11-04T14:03+05:30"
   }
  },
  "links": {}
