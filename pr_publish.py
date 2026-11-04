@@ -21,9 +21,21 @@ def item(file, pid):
     return next(x for x in manifest(file)["posts"] if x["id"] == pid)
 
 def fill_links(text, links):
-    for k in ("YT_PPT", "YT_MCQ", "YT_EXP"):
-        text = text.replace("{" + k + "}", (links or {}).get(k) or YT_CHANNEL)
-    return text
+    """Owner's rule (4 Nov 2026): a YouTube link is given only once that video is actually on YouTube – a line whose video
+    is not uploaded yet is left out (no channel link as a stand-in), and no 'GS-wise clips (Instagram)' line, so a post
+    never carries several confusing links. The video link reaches Telegram as a reply once the video is up."""
+    out = []
+    for line in text.split("\n"):
+        if "GS-wise clips (Instagram)" in line: continue
+        miss = False
+        for k in ("YT_PPT", "YT_MCQ", "YT_EXP"):
+            if "{" + k + "}" in line:
+                if (links or {}).get(k): line = line.replace("{" + k + "}", links[k])
+                else: miss = True
+        if not miss: out.append(line)
+    text = "\n".join(out)
+    while "\n\n\n" in text: text = text.replace("\n\n\n", "\n\n")
+    return text.strip()
 
 def fetch(entry, d="/tmp/pr"):
     os.makedirs(d, exist_ok=True); out = os.path.join(d, entry["name"])
