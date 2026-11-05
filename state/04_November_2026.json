@@ -199,8 +199,8 @@
   "d1-yo-040": {
    "status": "error",
    "error": "quotaExceeded: YouTube Video Uploads per day limit (429 rateLimitExceeded)",
-   "tries": 3,
-   "time": "2026-11-05T19:08+05:30"
+   "tries": 4,
+   "time": "2026-11-05T20:06+05:30"
   },
   "d1-yo-043": {
    "status": "error",
