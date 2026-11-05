@@ -20,6 +20,14 @@ def manifest(file):
 def item(file, pid):
     return next(x for x in manifest(file)["posts"] if x["id"] == pid)
 
+# Owner's standing rule (5 Nov 2026): the first line of EVERY post (captions and YouTube descriptions; not the Telegram
+# link replies) is this standard line. Added here so it also reaches posts staged before the rule; never added twice.
+STD_LINE = f"Telegram – Daily PDFs: {TG_LINK} | YouTube – Full Videos: {YT_CHANNEL}"
+
+def with_std(text):
+    text = (text or "").strip()
+    return text if text.startswith(STD_LINE) else (STD_LINE + "\n\n" + text).strip()
+
 def fill_links(text, links):
     """Owner's rule (4 Nov 2026): a YouTube link is given only once that video is actually on YouTube – a line whose video
     is not uploaded yet is left out (no channel link as a stand-in), and no 'GS-wise clips (Instagram)' line, so a post
@@ -35,7 +43,7 @@ def fill_links(text, links):
         if not miss: out.append(line)
     text = "\n".join(out)
     while "\n\n\n" in text: text = text.replace("\n\n\n", "\n\n")
-    return text.strip()
+    return with_std(text)
 
 def fetch(entry, d="/tmp/pr"):
     os.makedirs(d, exist_ok=True); out = os.path.join(d, entry["name"])
