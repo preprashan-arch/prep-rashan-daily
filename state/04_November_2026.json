@@ -206,6 +206,13 @@
    "error": "quotaExceeded: 429 Video Uploads per day limit (rateLimitExceeded)",
    "tries": 1,
    "time": "2026-11-05T14:03+05:30"
+  },
+  "d1-in-014": {
+   "status": "done",
+   "id": "18092125352679663",
+   "url": "https://www.instagram.com/p/DfWnSX1HNVg/",
+   "tries": 0,
+   "time": "2026-11-05T14:05+05:30"
   }
  },
  "links": {
