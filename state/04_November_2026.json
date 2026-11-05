@@ -188,6 +188,12 @@
    "url": "https://t.me/Prep_Rashan/156",
    "tries": 0,
    "time": "2026-11-05T13:32+05:30"
+  },
+  "d1-yo-038": {
+   "status": "error",
+   "error": "quotaExceeded: 429 Video Uploads per day limit (rateLimitExceeded)",
+   "tries": 1,
+   "time": "2026-11-05T14:03+05:30"
   }
  },
  "links": {
