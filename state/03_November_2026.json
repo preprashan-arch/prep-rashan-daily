@@ -381,8 +381,8 @@
   "d2-yo-043": {
    "status": "error",
    "error": "quotaExceeded: YouTube Video Uploads per day limit (429 rateLimitExceeded)",
-   "tries": 2,
-   "time": "2026-11-05T18:03+05:30"
+   "tries": 3,
+   "time": "2026-11-05T19:08+05:30"
   },
   "d2-fa-019": {
    "status": "done",
