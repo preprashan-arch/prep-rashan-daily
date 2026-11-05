@@ -383,6 +383,13 @@
    "error": "quotaExceeded: 429 Video Uploads per day limit (rateLimitExceeded)",
    "tries": 1,
    "time": "2026-11-05T14:03+05:30"
+  },
+  "d2-fa-019": {
+   "status": "done",
+   "id": "1336213902913484_122105252073529211",
+   "url": "https://www.facebook.com/1336213902913484_122105252073529211",
+   "tries": 0,
+   "time": "2026-11-05T14:05+05:30"
   }
  },
  "links": {
