@@ -191,9 +191,9 @@
   },
   "d1-yo-038": {
    "status": "error",
-   "error": "quotaExceeded: 429 Video Uploads per day limit (rateLimitExceeded)",
-   "tries": 1,
-   "time": "2026-11-05T14:03+05:30"
+   "error": "quotaExceeded: 429 Video Uploads per day limit (shared YouTube allowance used up)",
+   "tries": 2,
+   "time": "2026-11-05T15:03+05:30"
   },
   "d1-yo-040": {
    "status": "error",
