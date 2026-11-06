@@ -344,6 +344,12 @@
    "error": "Facebook 324 Missing or invalid image file",
    "tries": 1,
    "time": "2026-11-06T09:03+05:30"
+  },
+  "d2-fa-063": {
+   "status": "error",
+   "error": "Facebook 400 Unable to fetch video file from URL",
+   "tries": 1,
+   "time": "2026-11-06T09:03+05:30"
   }
  },
  "links": {
