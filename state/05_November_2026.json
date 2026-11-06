@@ -249,6 +249,18 @@
    "tries": 0,
    "time": "2026-11-06T14:05+05:30",
    "boost": "done"
+  },
+  "tg-polls": {
+   "status": "done",
+   "id": 167,
+   "url": "https://t.me/Prep_Rashan/165",
+   "polls": [
+    165,
+    166,
+    167
+   ],
+   "tries": 0,
+   "time": "2026-11-06T14:55+05:30"
   }
  },
  "links": {
