@@ -155,9 +155,11 @@
    "time": "2026-11-06T13:02+05:30"
   },
   "d1-yo-049": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-06T13:04+05:30"
+   "time": "2026-11-06T13:31+05:30",
+   "id": "32WImTqdQww",
+   "url": "https://youtu.be/32WImTqdQww"
   },
   "d1-yo-050": {
    "status": "uploading",
@@ -165,5 +167,7 @@
    "time": "2026-11-06T13:04+05:30"
   }
  },
- "links": {}
+ "links": {
+  "YT_PPT": "https://youtu.be/32WImTqdQww"
+ }
 }
