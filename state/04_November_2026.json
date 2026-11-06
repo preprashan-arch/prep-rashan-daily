@@ -331,7 +331,7 @@
    "status": "done",
    "error": "Telegram 400: failed to get HTTP URL content (PDF media link)",
    "tries": 1,
-   "time": "2026-11-06T11:01+05:30",
+   "time": "2026-11-06T10:42+05:30",
    "id": 161,
    "url": "https://t.me/Prep_Rashan/161"
   },
