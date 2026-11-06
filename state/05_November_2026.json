@@ -214,6 +214,13 @@
    "error": "quotaExceeded: YouTube 429 Video Uploads per day limit (shared project)",
    "tries": 1,
    "time": "2026-11-06T14:03+05:30"
+  },
+  "d1-fa-025": {
+   "status": "done",
+   "id": "1336213902913484_122106038271529211",
+   "url": "https://www.facebook.com/1336213902913484_122106038271529211",
+   "tries": 0,
+   "time": "2026-11-06T14:04+05:30"
   }
  },
  "links": {
