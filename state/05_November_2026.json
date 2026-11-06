@@ -122,7 +122,8 @@
    "id": "1111842484911788",
    "url": "https://www.facebook.com/1336213902913484/videos/1111842484911788",
    "time": "2026-11-06T11:26+05:30",
-   "tries": 0
+   "tries": 0,
+   "boost": "done"
   },
   "d1-in-006": {
    "status": "done",
