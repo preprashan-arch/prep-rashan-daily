@@ -326,6 +326,12 @@
    "url": "https://www.facebook.com/1336213902913484/videos/1125120553261537",
    "tries": 0,
    "time": "2026-11-05T21:03+05:30"
+  },
+  "d2-te-055": {
+   "status": "error",
+   "error": "Telegram 400: failed to get HTTP URL content (PDF media link)",
+   "tries": 1,
+   "time": "2026-11-06T09:02+05:30"
   }
  },
  "links": {
