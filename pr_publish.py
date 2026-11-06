@@ -8,7 +8,7 @@
 import hashlib, html, json, os, re, shutil, time, urllib.request
 
 RAWBASE = "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/"
-PAGE_ID = "1336213902913484"; TG_CHAT = "@Prep_Rashan"; TG_LINK = "https://t.me/Prep_Rashan"
+PAGE_ID = "1465479556641770"; TG_CHAT = "@Prep_Rashan"; TG_LINK = "https://t.me/Prep_Rashan"
 YT_CHANNEL = "https://www.youtube.com/channel/UCSIYewCD5ru2dFNBJ373IPQ"
 _MAN = {}
 
