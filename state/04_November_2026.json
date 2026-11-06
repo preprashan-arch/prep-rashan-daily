@@ -338,6 +338,12 @@
    "error": "instagram container 18119107760022643 ERROR (video fetch)",
    "tries": 1,
    "time": "2026-11-06T09:03+05:30"
+  },
+  "d2-fa-005": {
+   "status": "error",
+   "error": "Facebook 324 Missing or invalid image file",
+   "tries": 1,
+   "time": "2026-11-06T09:03+05:30"
   }
  },
  "links": {
