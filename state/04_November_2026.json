@@ -328,10 +328,12 @@
    "time": "2026-11-05T21:03+05:30"
   },
   "d2-te-055": {
-   "status": "error",
+   "status": "done",
    "error": "Telegram 400: failed to get HTTP URL content (PDF media link)",
    "tries": 1,
-   "time": "2026-11-06T09:02+05:30"
+   "time": "2026-11-06T11:01+05:30",
+   "id": 161,
+   "url": "https://t.me/Prep_Rashan/161"
   },
   "d2-in-062": {
    "status": "error",
