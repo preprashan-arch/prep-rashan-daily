@@ -88,7 +88,8 @@
    "id": "1994072281261430",
    "url": "https://www.facebook.com/1336213902913484/videos/1994072281261430",
    "time": "2026-11-06T10:43+05:30",
-   "tries": 0
+   "tries": 0,
+   "boost": "done"
   },
   "d1-in-002": {
    "status": "done",
