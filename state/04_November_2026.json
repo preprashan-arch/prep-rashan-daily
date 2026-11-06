@@ -424,6 +424,12 @@
    "url": "https://t.me/Prep_Rashan/164",
    "tries": 0,
    "time": "2026-11-06T13:33+05:30"
+  },
+  "d2-yo-048": {
+   "status": "error",
+   "error": "quotaExceeded: YouTube 429 Video Uploads per day limit (shared project)",
+   "tries": 1,
+   "time": "2026-11-06T14:03+05:30"
   }
  },
  "links": {
