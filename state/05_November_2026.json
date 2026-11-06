@@ -231,8 +231,8 @@
   "d1-yo-043": {
    "status": "error",
    "error": "quotaExceeded: YouTube 429 Video Uploads per day limit (shared project)",
-   "tries": 3,
-   "time": "2026-11-06T16:03+05:30"
+   "tries": 4,
+   "time": "2026-11-06T17:03+05:30"
   },
   "d1-fa-025": {
    "status": "done",
