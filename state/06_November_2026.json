@@ -203,10 +203,11 @@
   "d1-yo-049": {
    "status": "done",
    "tries": 0,
-   "time": "2026-11-07T13:31+05:30",
+   "time": "2026-11-07T13:33+05:30",
    "id": "PU7fOTHvsss",
    "url": "https://youtu.be/PU7fOTHvsss",
-   "privacy": "public"
+   "privacy": "public",
+   "playlist": "added"
   },
   "d1-yo-031": {
    "status": "done",
