@@ -475,13 +475,17 @@
    "boost": "done"
   },
   "d2-yo-051": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-07T13:18+05:30"
+   "time": "2026-11-07T13:31+05:30",
+   "id": "VtXuQckDy74",
+   "url": "https://youtu.be/VtXuQckDy74",
+   "privacy": "public"
   }
  },
  "links": {
   "YT_PPT": "https://youtu.be/32WImTqdQww",
-  "YT_MCQ": "https://youtu.be/Qt3npbgIF8Q"
+  "YT_MCQ": "https://youtu.be/Qt3npbgIF8Q",
+  "YT_EXP": "https://youtu.be/VtXuQckDy74"
  }
 }
