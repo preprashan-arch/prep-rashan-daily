@@ -194,10 +194,11 @@
   "d1-yo-048": {
    "status": "done",
    "tries": 0,
-   "time": "2026-11-07T13:31+05:30",
+   "time": "2026-11-07T13:33+05:30",
    "id": "kPT_hGUPF04",
    "url": "https://youtu.be/kPT_hGUPF04",
-   "privacy": "public"
+   "privacy": "public",
+   "playlist": "added"
   },
   "d1-yo-049": {
    "status": "done",
