@@ -28,7 +28,9 @@ def with_std(text):
     # 8 Nov 2026 fix: Instagram/Facebook captions carry the links line as LINE 2 (hook first – owner's rule 5 Nov evening);
     # this used to add it again on top, so those posts showed the links line twice. Now it is added only when missing.
     text = (text or "").strip()
-    return text if STD_LINE in text else (STD_LINE + "\n\n" + text).strip()
+    # 9 Nov 2026 (owner): compilation posts carry "Telegram – Daily PDFs: …" + the direct video links instead of the channel
+    # link – any line that already names the Telegram link means the post has its links line, so nothing is added
+    return text if (STD_LINE in text or f"Telegram – Daily PDFs: {TG_LINK}" in text) else (STD_LINE + "\n\n" + text).strip()
 
 def fill_links(text, links):
     """Owner's rule (4 Nov 2026): a YouTube link is given only once that video is actually on YouTube – a line whose video
