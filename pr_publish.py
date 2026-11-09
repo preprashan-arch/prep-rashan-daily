@@ -47,7 +47,43 @@ def fill_links(text, links):
         if not miss: out.append(line)
     text = "\n".join(out)
     while "\n\n\n" in text: text = text.replace("\n\n\n", "\n\n")
-    return with_std(text)
+    return direct(with_std(text), _CUR.get("x"), links)
+
+# ---- owner's rule (9 Nov 2026, "always make it a rule"): ANY link posted under any content opens that content directly –
+# a video link opens the video (never the channel page), a PDF link opens the PDF (the Telegram message), and so on.
+# The channel links of the standard links line / "📥 PDFs" lines are replaced at posting time by the post's own content
+# links (links: YT_PPT/YT_MCQ/YT_EXP, TG_DCA/TG_MCQ/TG_EXP, TG_COMP from run_due.content_links); a link whose content is
+# not posted yet is left out, never replaced by a page link.
+import re as _re
+_CUR = {}
+_YT_CH = "https://www.youtube.com/channel/UCSIYewCD5ru2dFNBJ373IPQ"
+def direct(text, x, links):
+    if not x: return text
+    links = links or {}; d = x.get("deck"); pl = x["platform"]
+    pdf = links.get({"ppt": "TG_DCA", "d1": "TG_MCQ", "d2": "TG_EXP", "comp": "TG_COMP"}.get(d, ""))
+    vid = None if d == "comp" else links.get({"ppt": "YT_PPT", "d1": "YT_MCQ", "d2": "YT_EXP"}.get(d, ""))
+    if pl == "telegram" and x.get("kind") == "pdf": pdf = None              # the post IS the PDF
+    if pl == "youtube" and x.get("kind_yt") in ("complete", "comp"): vid = None   # the post IS the video
+    out = []
+    for line in text.split("\n"):
+        if line.startswith("Telegram – Daily PDFs:") or line.startswith("Telegram – PDFs:"):
+            parts = ([f"Telegram – {'PDFs' if d == 'comp' else 'Daily PDF'}: {pdf}"] if pdf else []) + \
+                    ([f"YouTube – Full Video: {vid}"] if vid else [])
+            if parts: out.append(" | ".join(parts))
+            continue
+        if line.startswith("📥 PDFs (") and "t.me/Prep_Rashan" in line:   # "📥 PDFs (DCA, Info, MCQs): Telegram …" -> the one PDF it opens
+            if pdf: out.append(f"📥 PDF: {pdf}")
+            continue
+        if _YT_CH in line:
+            if not vid: continue
+            line = line.replace(_YT_CH, vid)
+        if _re.search(r"https://t\.me/Prep_Rashan(?![/\w])", line):
+            if not pdf: continue
+            line = _re.sub(r"https://t\.me/Prep_Rashan(?![/\w])", pdf, line)
+        out.append(line)
+    text = "\n".join(out).strip()
+    while "\n\n\n" in text: text = text.replace("\n\n\n", "\n\n")
+    return text
 
 def fetch(entry, d="/tmp/pr"):
     os.makedirs(d, exist_ok=True); out = os.path.join(d, entry["name"])
@@ -156,7 +192,7 @@ def _head(u):
 def post(file, pid, links=None, resume=None, dry=False):
     """dry=True: everything except making it public (Instagram containers are created but not published;
     Facebook/Telegram/YouTube only check that the files can be fetched)"""
-    x = item(file, pid)
+    x = item(file, pid); _CUR["x"] = x
     try:
         if dry and x["platform"] in ("facebook", "telegram"):
             return {"status": "dry", "files": [_head(e["urls"][0]) for e in x["urls"]], "text": fill_links(x.get("caption", ""), links)[:120]}
