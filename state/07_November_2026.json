@@ -526,9 +526,11 @@
    "boost": "done"
   },
   "d2-yo-056": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-09T13:19+05:30"
+   "time": "2026-11-09T13:31+05:30",
+   "id": "RLIJU-DvzJo",
+   "url": "https://youtu.be/RLIJU-DvzJo"
   },
   "d2-yo-052": {
    "status": "uploading",
@@ -538,6 +540,7 @@
  },
  "links": {
   "YT_PPT": "https://youtu.be/4PaizdC8GVU",
-  "YT_MCQ": "https://youtu.be/YkmyTvDfBtQ"
+  "YT_MCQ": "https://youtu.be/YkmyTvDfBtQ",
+  "YT_EXP": "https://youtu.be/RLIJU-DvzJo"
  }
 }
