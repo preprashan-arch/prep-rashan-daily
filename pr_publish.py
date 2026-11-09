@@ -51,9 +51,9 @@ def fill_links(text, links):
 
 # ---- owner's rule (9 Nov 2026, "always make it a rule"): ANY link posted under any content opens that content directly –
 # a video link opens the video (never the channel page), a PDF link opens the PDF (the Telegram message), and so on.
-# The channel links of the standard links line / "📥 PDFs" lines are replaced at posting time by the post's own content
-# links (links: YT_PPT/YT_MCQ/YT_EXP, TG_DCA/TG_MCQ/TG_EXP, TG_COMP from run_due.content_links); a link whose content is
-# not posted yet is left out, never replaced by a page link.
+# The standard links line (channel links) stays (owner 9 Nov 2026 16:22) and the post's own content links are added under
+# it (links: YT_PPT/YT_MCQ/YT_EXP, TG_DCA/TG_MCQ/TG_EXP, TG_COMP from run_due.content_links); a content link is added only
+# once that content is posted.
 import re as _re
 _CUR = {}
 _YT_CH = "https://www.youtube.com/channel/UCSIYewCD5ru2dFNBJ373IPQ"
@@ -64,25 +64,16 @@ def direct(text, x, links):
     vid = None if d == "comp" else links.get({"ppt": "YT_PPT", "d1": "YT_MCQ", "d2": "YT_EXP"}.get(d, ""))
     if pl == "telegram" and x.get("kind") == "pdf": pdf = None              # the post IS the PDF
     if pl == "youtube" and x.get("kind_yt") in ("complete", "comp"): vid = None   # the post IS the video
-    out = []
-    for line in text.split("\n"):
-        if line.startswith("Telegram – Daily PDFs:") or line.startswith("Telegram – PDFs:"):
-            parts = ([f"Telegram – {'PDFs' if d == 'comp' else 'Daily PDF'}: {pdf}"] if pdf else []) + \
-                    ([f"YouTube – Full Video: {vid}"] if vid else [])
-            if parts: out.append(" | ".join(parts))
-            continue
-        if line.startswith("📥 PDFs (") and "t.me/Prep_Rashan" in line:   # "📥 PDFs (DCA, Info, MCQs): Telegram …" -> the one PDF it opens
-            if pdf: out.append(f"📥 PDF: {pdf}")
-            continue
-        if _YT_CH in line:
-            if not vid: continue
-            line = line.replace(_YT_CH, vid)
-        if _re.search(r"https://t\.me/Prep_Rashan(?![/\w])", line):
-            if not pdf: continue
-            line = _re.sub(r"https://t\.me/Prep_Rashan(?![/\w])", pdf, line)
-        out.append(line)
-    text = "\n".join(out).strip()
-    while "\n\n\n" in text: text = text.replace("\n\n\n", "\n\n")
+    # owner 9 Nov 2026 16:22: "keep this as a rule beyond the link" – the standard links line (Telegram channel | YouTube
+    # channel) STAYS as it is, and the post's own content links are added right under it (each opens the video / the PDF)
+    add = [f"▶️ Video: {vid}"] if vid and vid not in text else []
+    add += [f"📥 PDF: {pdf}"] if pdf and pdf not in text else []
+    if not add: return text
+    L = text.split("\n")
+    k = next((n for n, l in enumerate(L) if l.startswith("Telegram – Daily PDFs:") or l.startswith("Telegram – PDFs:")), None)
+    if k is None: return text
+    L.insert(k + 1, " | ".join(add))
+    text = "\n".join(L)
     return text
 
 def fetch(entry, d="/tmp/pr"):
