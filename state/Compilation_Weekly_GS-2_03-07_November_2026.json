@@ -96,13 +96,16 @@
    "url": "https://youtu.be/7mKxrGJjAIs"
   },
   "c2-yo-14": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-10T13:04+05:30"
+   "time": "2026-11-10T13:34+05:30",
+   "id": "Favxpz6H2Fw",
+   "url": "https://youtu.be/Favxpz6H2Fw"
   }
  },
  "links": {
   "YT_PPT": "https://youtu.be/sQ96FqERyuU",
-  "YT_MCQ": "https://youtu.be/7mKxrGJjAIs"
+  "YT_MCQ": "https://youtu.be/7mKxrGJjAIs",
+  "YT_EXP": "https://youtu.be/Favxpz6H2Fw"
  }
 }
