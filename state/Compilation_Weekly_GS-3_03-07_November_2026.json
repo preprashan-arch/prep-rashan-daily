@@ -82,9 +82,11 @@
    "boost": "done"
   },
   "c3-yo-12": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-10T13:04+05:30"
+   "time": "2026-11-10T13:34+05:30",
+   "id": "f5j9FI8gOyw",
+   "url": "https://youtu.be/f5j9FI8gOyw"
   },
   "c3-yo-13": {
    "status": "uploading",
@@ -97,5 +99,7 @@
    "time": "2026-11-10T13:04+05:30"
   }
  },
- "links": {}
+ "links": {
+  "YT_PPT": "https://youtu.be/f5j9FI8gOyw"
+ }
 }
