@@ -153,6 +153,22 @@ def fb_video(x, links):
     m = re.search(r'"id"\s*:\s*"(\d+)"', s); vid = m.group(1) if m else None
     return {"status": "done", "id": vid, "url": f"https://www.facebook.com/{PAGE_ID}/videos/{vid}" if vid else None, "raw": s[:300]}
 
+def reshare(c, dry=False):
+    """owner's yes, 10 Nov 2026: on a day without a new edition re-share one of the week's best Reels on Instagram AND Facebook
+    (c = one candidate from reshare.py plan: ig_id, caption, title). The video Instagram already holds is posted again."""
+    src = _ig("GET", f"/{c['ig_id']}?fields=media_url,media_type").get("media_url")
+    if not src: raise RuntimeError(f"instagram {c['ig_id']}: no media_url")
+    if dry: return {"status": "dry", "media_url": src[:80]}
+    cid = _ig("POST", "/me/media", {"media_type": "REELS", "video_url": src, "caption": c["caption"], "share_to_feed": True})["id"]
+    ig = _ig_publish(cid) if _ig_wait(cid, 140) else {"status": "pending", "resume": cid}
+    try:
+        res = _ok(*run_composio_tool("FACEBOOK_CREATE_VIDEO_POST", {"page_id": PAGE_ID, "title": c.get("title", "")[:250],
+                                                                    "description": c["caption"], "file_url": src}))
+        m = re.search(r'"id"\s*:\s*"(\d+)"', json.dumps(res)); vid = m.group(1) if m else None
+        fb = {"status": "done", "id": vid, "url": f"https://www.facebook.com/{PAGE_ID}/videos/{vid}" if vid else None}
+    except Exception as e: fb = {"status": "error", "error": str(e)[:300]}
+    return {"ig": ig, "fb": fb, "source": c["ig_id"]}
+
 def tg_html(text):
     parts = re.split(r"(</?b>)", text)
     return "".join(p if p in ("<b>", "</b>") else html.escape(p, quote=False) for p in parts)
