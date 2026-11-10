@@ -82,9 +82,11 @@
    "boost": "done"
   },
   "c2-yo-12": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-10T13:04+05:30"
+   "time": "2026-11-10T13:34+05:30",
+   "id": "sQ96FqERyuU",
+   "url": "https://youtu.be/sQ96FqERyuU"
   },
   "c2-yo-13": {
    "status": "uploading",
@@ -97,5 +99,7 @@
    "time": "2026-11-10T13:04+05:30"
   }
  },
- "links": {}
+ "links": {
+  "YT_PPT": "https://youtu.be/sQ96FqERyuU"
+ }
 }
