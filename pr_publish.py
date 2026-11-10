@@ -61,6 +61,7 @@ def direct(text, x, links):
     if not x: return text
     links = links or {}; d = x.get("deck"); pl = x["platform"]
     pdf = links.get({"ppt": "TG_DCA", "d1": "TG_MCQ", "d2": "TG_EXP", "comp": "TG_COMP"}.get(d, ""))
+    if x.get("kind_yt") == "comp" or str(x.get("id", "")).startswith("c"): pdf = links.get("TG_COMP")   # compilation posts carry deck ppt/d1/d2 (10 Nov 2026)
     vid = None if d == "comp" else links.get({"ppt": "YT_PPT", "d1": "YT_MCQ", "d2": "YT_EXP"}.get(d, ""))
     if pl == "telegram" and x.get("kind") == "pdf": pdf = None              # the post IS the PDF
     if pl == "youtube" and x.get("kind_yt") in ("complete", "comp"): vid = None   # the post IS the video
