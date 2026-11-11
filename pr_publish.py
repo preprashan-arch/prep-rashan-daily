@@ -169,6 +169,16 @@ def reshare(c, dry=False):
     except Exception as e: fb = {"status": "error", "error": str(e)[:300]}
     return {"ig": ig, "fb": fb, "source": c["ig_id"]}
 
+def story(ig_id, dry=False):
+    """owner's yes, 12 Nov 2026: one Instagram Story a day at 7 PM – the day's best-performing Reel (most views so far)
+    shared to Stories. The video Instagram already holds is posted again as a Story (Stories carry no caption)."""
+    src = _ig("GET", f"/{ig_id}?fields=media_url,media_type").get("media_url")
+    if not src: raise RuntimeError(f"instagram {ig_id}: no media_url")
+    if dry: return {"status": "dry", "media_url": src[:80]}
+    cid = _ig("POST", "/me/media", {"media_type": "STORIES", "video_url": src})["id"]
+    r = _ig_publish(cid) if _ig_wait(cid, 140) else {"status": "pending", "resume": cid}
+    return dict(r, source=ig_id)
+
 def tg_html(text):
     parts = re.split(r"(</?b>)", text)
     return "".join(p if p in ("<b>", "</b>") else html.escape(p, quote=False) for p in parts)
