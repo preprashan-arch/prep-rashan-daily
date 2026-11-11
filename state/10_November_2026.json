@@ -446,7 +446,8 @@
    "id": "1012809351862003",
    "url": "https://www.facebook.com/reel/1012809351862003/",
    "tries": 0,
-   "time": "2026-11-11T20:02+05:30"
+   "time": "2026-11-11T20:02+05:30",
+   "boost": "done"
   },
   "tg-digest-2026-11-11": {
    "status": "done",
