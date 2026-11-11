@@ -214,6 +214,11 @@
    "tries": 0,
    "time": "2026-11-11T13:04+05:30",
    "boost": "done"
+  },
+  "d1-yo-070": {
+   "status": "uploading",
+   "tries": 0,
+   "time": "2026-11-11T13:19+05:30"
   }
  },
  "links": {}
