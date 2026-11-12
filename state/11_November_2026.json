@@ -264,9 +264,11 @@
    "boost": "done"
   },
   "d1-yo-071": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-12T13:19+05:30"
+   "time": "2026-11-12T13:31+05:30",
+   "id": "j7ObYcPMbsw",
+   "url": "https://youtu.be/j7ObYcPMbsw"
   },
   "d1-yo-072": {
    "status": "uploading",
@@ -274,5 +276,7 @@
    "time": "2026-11-12T13:19+05:30"
   }
  },
- "links": {}
+ "links": {
+  "YT_PPT": "https://youtu.be/j7ObYcPMbsw"
+ }
 }
