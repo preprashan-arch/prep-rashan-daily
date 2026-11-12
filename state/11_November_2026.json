@@ -271,12 +271,15 @@
    "url": "https://youtu.be/j7ObYcPMbsw"
   },
   "d1-yo-072": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-12T13:19+05:30"
+   "time": "2026-11-12T13:31+05:30",
+   "id": "MauoSMz5NE0",
+   "url": "https://youtu.be/MauoSMz5NE0"
   }
  },
  "links": {
-  "YT_PPT": "https://youtu.be/j7ObYcPMbsw"
+  "YT_PPT": "https://youtu.be/j7ObYcPMbsw",
+  "YT_MCQ": "https://youtu.be/MauoSMz5NE0"
  }
 }
