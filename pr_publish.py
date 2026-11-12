@@ -169,10 +169,11 @@ def reshare(c, dry=False):
     except Exception as e: fb = {"status": "error", "error": str(e)[:300]}
     return {"ig": ig, "fb": fb, "source": c["ig_id"]}
 
-def story(ig_id, dry=False):
+def story(ig_id, src=None, dry=False):
     """owner's yes, 12 Nov 2026: one Instagram Story a day at 7 PM – the day's best-performing Reel (most views so far)
     shared to Stories. The video Instagram already holds is posted again as a Story (Stories carry no caption)."""
-    src = _ig("GET", f"/{ig_id}?fields=media_url,media_type").get("media_url")
+    # 12 Nov 2026: Instagram refuses its own CDN media_url for Stories (container ERROR) – pass our file's URL (src)
+    src = src or _ig("GET", f"/{ig_id}?fields=media_url,media_type").get("media_url")
     if not src: raise RuntimeError(f"instagram {ig_id}: no media_url")
     if dry: return {"status": "dry", "media_url": src[:80]}
     cid = _ig("POST", "/me/media", {"media_type": "STORIES", "video_url": src})["id"]
