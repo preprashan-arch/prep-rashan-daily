@@ -278,6 +278,11 @@
    "tries": 0,
    "time": "2026-11-13T13:13+05:30",
    "boost": "done"
+  },
+  "d1-yo-086": {
+   "status": "uploading",
+   "time": "2026-11-13T13:22:59+05:30",
+   "tries": 0
   }
  },
  "links": {}
