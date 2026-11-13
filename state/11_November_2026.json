@@ -745,6 +745,13 @@
    "scheduled": "2026-11-14T09:00:00+05:30",
    "tries": 0,
    "time": "2026-11-13T13:37+05:30"
+  },
+  "tg-links-d2": {
+   "status": "done",
+   "id": 282,
+   "url": "https://t.me/Prep_Rashan/282",
+   "time": "2026-11-13T13:38+05:30",
+   "tries": 0
   }
  },
  "links": {
