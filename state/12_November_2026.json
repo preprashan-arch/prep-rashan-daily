@@ -287,12 +287,15 @@
    "url": "https://youtu.be/GmoeQJ8pa-A"
   },
   "d1-yo-087": {
-   "status": "uploading",
-   "time": "2026-11-13T13:23:01+05:30",
-   "tries": 0
+   "status": "done",
+   "time": "2026-11-13T13:33+05:30",
+   "tries": 0,
+   "id": "M_N2DYgF_ZA",
+   "url": "https://youtu.be/M_N2DYgF_ZA"
   }
  },
  "links": {
-  "YT_PPT": "https://youtu.be/GmoeQJ8pa-A"
+  "YT_PPT": "https://youtu.be/GmoeQJ8pa-A",
+  "YT_MCQ": "https://youtu.be/M_N2DYgF_ZA"
  }
 }
