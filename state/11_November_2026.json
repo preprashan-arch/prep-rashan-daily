@@ -655,10 +655,12 @@
   },
   "d2-yo-073": {
    "status": "done",
-   "time": "2026-11-13T13:33+05:30",
+   "time": "2026-11-13T13:38+05:30",
    "tries": 0,
    "id": "oIfoTN7TEb0",
-   "url": "https://youtu.be/oIfoTN7TEb0"
+   "url": "https://youtu.be/oIfoTN7TEb0",
+   "playlist": "added",
+   "thumb": "set"
   },
   "d2-yo-058": {
    "status": "done",
