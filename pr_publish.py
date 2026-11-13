@@ -5,7 +5,7 @@
 #   print(post("<file>", "<post id>", {"YT_PPT": "...", ...}))
 # Every function returns a dict: {"status": "done"|"pending"|"error", ...}. "pending" = call again later with the
 # returned "resume" value (Reels still processing). Approved captions come from the day's manifest unchanged.
-import hashlib, html, json, os, re, shutil, time, urllib.request
+import datetime as dt, hashlib, html, json, os, re, shutil, time, urllib.request
 
 RAWBASE = "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/"
 PAGE_ID = "1465479556641770"; TG_CHAT = "@Prep_Rashan"; TG_LINK = "https://t.me/Prep_Rashan"
@@ -200,9 +200,30 @@ def yt_prepare(x):
     return {"status": "prepared", "s3key": s3key(x["urls"][0]), "name": x["urls"][0]["name"],
             "thumb_url": x.get("thumb_url")}
 
+def yt_privacy(x):
+    """morning Shorts (owner 13 Nov 2026): uploaded private with publish_at = their slot; once that moment has passed
+    (e.g. a quota refusal rolled them to the next day's batch) they go up public straight away"""
+    if x.get("publish_at"):
+        return "private" if dt.datetime.fromisoformat(x["publish_at"]) > dt.datetime.now(dt.timezone.utc) else "public"
+    return x["privacyStatus"]
+
 def yt_args(x, links, prep):
     return {"title": x["title"], "description": fill_links(x["description"], links), "tags": x["tags"], "categoryId": x["categoryId"],
-            "privacyStatus": x["privacyStatus"], "videoFile": {"name": prep["name"], "mimetype": "video/mp4", "s3key": prep["s3key"]}}
+            "privacyStatus": yt_privacy(x), "videoFile": {"name": prep["name"], "mimetype": "video/mp4", "s3key": prep["s3key"]}}
+
+def yt_schedule(vid, publish_at):
+    """set publishAt on a private upload (the upload tool has no such field): read the video's status, write it back
+    unchanged + publishAt (a status update without a field would clear it). Returns the new status or raises."""
+    when = dt.datetime.fromisoformat(publish_at).astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+    r, e = proxy_execute("GET", "/videos", "youtube", query_params={"part": "status", "id": vid})
+    if e: raise RuntimeError(f"read status: {str(e)[:200]}")
+    items = (r.get("data", r) if isinstance(r, dict) else {}).get("items") or []
+    if not items: raise RuntimeError(f"video {vid} not found")
+    st = {k: v for k, v in items[0]["status"].items() if k in ("embeddable", "license", "publicStatsViewable", "selfDeclaredMadeForKids", "containsSyntheticMedia")}
+    st.update(privacyStatus="private", publishAt=when)
+    r, e = proxy_execute("PUT", "/videos", "youtube", query_params={"part": "status"}, body={"id": vid, "status": st})
+    if e: raise RuntimeError(f"set publishAt: {str(e)[:300]}")
+    return (r.get("data", r) if isinstance(r, dict) else {}).get("status")
 
 def _head(u):
     r = urllib.request.urlopen(urllib.request.Request(u, method="HEAD"), timeout=60)
