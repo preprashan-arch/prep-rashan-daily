@@ -906,6 +906,12 @@
    "url": "https://www.instagram.com/reel/DfsD1ceBLEh/",
    "tries": 0,
    "time": "2026-11-13T21:58+05:30"
+  },
+  "d2-in-307": {
+   "status": "error",
+   "error": "Instagram 50-posts-per-24h API limit reached (code 9/2207042) - retried when quota frees",
+   "tries": 1,
+   "time": "2026-11-13T21:59+05:30"
   }
  },
  "links": {
