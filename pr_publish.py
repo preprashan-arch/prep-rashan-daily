@@ -212,6 +212,25 @@ def yt_args(x, links, prep):
     return {"title": x["title"], "description": fill_links(x["description"], links), "tags": x["tags"], "categoryId": x["categoryId"],
             "privacyStatus": yt_privacy(x), "videoFile": {"name": prep["name"], "mimetype": "video/mp4", "s3key": prep["s3key"]}}
 
+def yt_lang(vid):
+    """owner's yes (13 Nov 2026, step 4 "Fix the language setting to Hindi on every video"): the upload tool has no language
+    fields, so after every upload set video language + audio language to Hindi (hi). Reads the snippet and writes it back
+    unchanged (title, description, tags, category) + the two language fields. Returns (defaultLanguage, defaultAudioLanguage)."""
+    r, e = proxy_execute("GET", "/videos", "youtube", query_params={"part": "snippet", "id": vid})
+    if e: raise RuntimeError(f"read snippet: {str(e)[:200]}")
+    items = (r.get("data", r) if isinstance(r, dict) else {}).get("items") or []
+    if not items: raise RuntimeError(f"video {vid} not found")
+    sn = items[0]["snippet"]
+    if sn.get("defaultLanguage") == "hi" and sn.get("defaultAudioLanguage") == "hi": return ("hi", "hi")
+    body = {k: sn[k] for k in ("title", "description", "categoryId", "tags") if sn.get(k)}
+    body.update(defaultLanguage="hi", defaultAudioLanguage="hi")
+    r, e = proxy_execute("PUT", "/videos", "youtube", query_params={"part": "snippet"}, body={"id": vid, "snippet": body})
+    if e: raise RuntimeError(f"set language: {str(e)[:300]}")
+    out = (r.get("data", r) if isinstance(r, dict) else {}).get("snippet") or {}
+    if out.get("description", "") != body.get("description", "") or out.get("title") != body["title"]:
+        raise RuntimeError("language update changed the title/description – check the video by hand")
+    return (out.get("defaultLanguage"), out.get("defaultAudioLanguage"))
+
 def yt_schedule(vid, publish_at):
     """set publishAt on a private upload (the upload tool has no such field): read the video's status, write it back
     unchanged + publishAt (a status update without a field would clear it). Returns the new status or raises."""
