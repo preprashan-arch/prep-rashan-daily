@@ -204,13 +204,17 @@
    "url": "https://youtu.be/dP2b68gM7Wk"
   },
   "d2-yo-054": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-14T13:19+05:30"
+   "time": "2026-11-14T13:32+05:30",
+   "id": "q8uWt-9SkCM",
+   "url": "https://youtu.be/q8uWt-9SkCM",
+   "scheduled": "2026-11-15T05:00:00+05:30"
   }
  },
  "links": {
   "YT_PPT": "https://youtu.be/NqzfY5_M2uk",
-  "YT_MCQ": "https://youtu.be/dP2b68gM7Wk"
+  "YT_MCQ": "https://youtu.be/dP2b68gM7Wk",
+  "YT_EXP": "https://youtu.be/q8uWt-9SkCM"
  }
 }
