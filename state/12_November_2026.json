@@ -449,7 +449,8 @@
    "url": "https://youtu.be/jYlhOylZoys",
    "scheduled": "2026-11-14T08:00:00+05:30",
    "tries": 0,
-   "time": "2026-11-13T13:37+05:30"
+   "time": "2026-11-13T13:37+05:30",
+   "boost": "done"
   },
   "mo1411-yo-6a": {
    "status": "done",
