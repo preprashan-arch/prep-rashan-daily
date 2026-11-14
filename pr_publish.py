@@ -19,13 +19,13 @@ def manifest(file):
 
 def item(file, pid):
     x = next(x for x in manifest(file)["posts"] if x["id"] == pid)
-    # owner, 14 Nov 2026 11:01: the Full MCQs with Explanations (Complete) video of editions from 14 Nov 2026 (owner 11:10: "Change from tomorrow") is uploaded the day
+    # owner, 14 Nov 2026 11:01: the Full MCQs with Explanations (Complete) video of editions from 13 Nov 2026 (owner 11:14: "from today itself") is uploaded the day
     # before (with its edition's Full MCQs video) private + publishAt = its own day 05:00 IST – same rule as run_due.exp_early_patch
     if x.get("platform") == "youtube" and x.get("kind_yt") == "complete" and x.get("deck") == "d2" and not x.get("publish_at") \
             and not file.startswith("Compilation_"):
         try: d = dt.datetime.strptime(file, "%d_%B_%Y").date()
         except ValueError: d = None
-        if d and d >= dt.date(2026, 11, 14):
+        if d and d >= dt.date(2026, 11, 13):
             ist = dt.timezone(dt.timedelta(hours=5, minutes=30))
             x = dict(x, exp_early=True, privacyStatus="private",
                      publish_at=dt.datetime.combine(d + dt.timedelta(days=x["day"]), dt.time(5, 0), ist).isoformat(timespec="minutes"))
