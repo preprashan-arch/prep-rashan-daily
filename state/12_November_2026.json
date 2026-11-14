@@ -829,13 +829,16 @@
    "boost": "done"
   },
   "d2-yo-088": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-14T13:19+05:30"
+   "time": "2026-11-14T13:32+05:30",
+   "id": "ve75kYE3v_k",
+   "url": "https://youtu.be/ve75kYE3v_k"
   }
  },
  "links": {
   "YT_PPT": "https://youtu.be/GmoeQJ8pa-A",
-  "YT_MCQ": "https://youtu.be/M_N2DYgF_ZA"
+  "YT_MCQ": "https://youtu.be/M_N2DYgF_ZA",
+  "YT_EXP": "https://youtu.be/ve75kYE3v_k"
  }
 }
