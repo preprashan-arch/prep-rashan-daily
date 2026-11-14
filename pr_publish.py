@@ -131,8 +131,9 @@ def ig_carousel(x, links, dry=False):
     return _ig_publish(cid)
 
 def ig_reel(x, links, resume=None, dry=False):
-    cid = resume or _ig("POST", "/me/media", {"media_type": "REELS", "video_url": x["urls"][0]["urls"][0],
-                                              "caption": fill_links(x["caption"], links), "share_to_feed": True})["id"]
+    body = {"media_type": "REELS", "video_url": x["urls"][0]["urls"][0], "caption": fill_links(x["caption"], links), "share_to_feed": True}
+    if x.get("tag") == "pair" and x.get("thumb_url"): body["cover_url"] = x["thumb_url"]     # hook cover (P2, Option A 14 Nov 2026) – the question → answer pairs
+    cid = resume or _ig("POST", "/me/media", body)["id"]
     if not _ig_wait(cid, 140): return {"status": "pending", "resume": cid}
     if dry: return {"status": "dry", "container": cid, "finished": True}
     return _ig_publish(cid)
