@@ -60,7 +60,7 @@ _YT_CH = "https://www.youtube.com/channel/UCSIYewCD5ru2dFNBJ373IPQ"
 def direct(text, x, links):
     if not x: return text
     links = links or {}; d = x.get("deck"); pl = x["platform"]
-    pdf = links.get({"ppt": "TG_DCA", "d1": "TG_MCQ", "d2": "TG_EXP", "comp": "TG_COMP"}.get(d, ""))
+    pdf = links.get({"ppt": "TG_DCA", "top": "TG_DCA", "d1": "TG_MCQ", "d2": "TG_EXP", "comp": "TG_COMP"}.get(d, ""))
     if x.get("kind_yt") == "comp" or str(x.get("id", "")).startswith("c"): pdf = links.get("TG_COMP")   # compilation posts carry deck ppt/d1/d2 (10 Nov 2026)
     vid = None if d == "comp" else links.get({"ppt": "YT_PPT", "d1": "YT_MCQ", "d2": "YT_EXP"}.get(d, ""))
     if pl == "telegram" and x.get("kind") == "pdf": pdf = None              # the post IS the PDF
@@ -191,6 +191,22 @@ def tg_pdf(x, links):
     s = json.dumps(res); m = re.search(r'"message_id"\s*:\s*(\d+)', s); mid = int(m.group(1)) if m else None
     return {"status": "done", "id": mid, "url": f"{TG_LINK}/{mid}" if mid else None}
 
+def tg_pair(x, links):
+    """owner, 14 Nov 2026 07:43: the hourly MCQ → answer pairs on Telegram – the slide as a photo with its caption (links line
+    + the post's own Video | PDF links, added by fill_links/direct); under the question an anonymous regular poll a/b/c/d"""
+    res = _ok(*run_composio_tool("TELEGRAM_SEND_PHOTO", {"chat_id": TG_CHAT, "photo": x["urls"][0]["urls"][0],
+                                                       "caption": tg_html(fill_links(x["caption"], links)), "parse_mode": "HTML"}))
+    m = re.search(r'"message_id"\s*:\s*(\d+)', json.dumps(res)); mid = int(m.group(1)) if m else None
+    out = {"status": "done", "id": mid, "url": f"{TG_LINK}/{mid}" if mid else None}
+    if x.get("poll"):
+        try:
+            pr = _ok(*run_composio_tool("TELEGRAM_SEND_POLL", {"chat_id": TG_CHAT, "question": x["poll"]["question"],
+                                                             "options": x["poll"]["options"], "type": "regular", "is_anonymous": True,
+                                                             **({"reply_to_message_id": mid} if mid else {})}))
+            pm = re.search(r'"message_id"\s*:\s*(\d+)', json.dumps(pr)); out["poll"] = int(pm.group(1)) if pm else "sent"
+        except Exception as e: out["poll"] = f"error: {str(e)[:200]}"      # the photo is out – the poll is noted, not retried twice
+    return out
+
 def tg_links(reply_to, text):
     res = _ok(*run_composio_tool("TELEGRAM_SEND_MESSAGE", {"chat_id": TG_CHAT, "text": text, "reply_to_message_id": reply_to,
                                                          "disable_web_page_preview": False}))
@@ -260,7 +276,7 @@ def post(file, pid, links=None, resume=None, dry=False):
             return {"status": "dry", "files": [_head(u) for u in x["urls"][0]["urls"]], "title": x["title"]}
         if x["platform"] == "instagram": return ig_carousel(x, links, dry) if x["kind"] == "carousel" else ig_reel(x, links, resume, dry)
         if x["platform"] == "facebook": return fb_carousel(x, links) if x["kind"] == "carousel" else fb_video(x, links)
-        if x["platform"] == "telegram": return tg_pdf(x, links)
+        if x["platform"] == "telegram": return tg_pair(x, links) if x.get("tag") == "pair" else tg_pdf(x, links)
         if x["platform"] == "youtube":
             prep = yt_prepare(x); return {"status": "prepared", "prep": prep, "args": yt_args(x, links, prep)}
         return {"status": "error", "error": f"platform {x['platform']} not enabled"}
