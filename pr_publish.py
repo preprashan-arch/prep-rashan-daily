@@ -215,8 +215,11 @@ def tg_pair(x, links):
     out = {"status": "done", "id": mid, "url": f"{TG_LINK}/{mid}" if mid else None}
     if x.get("poll"):
         try:
-            pr = _ok(*run_composio_tool("TELEGRAM_SEND_POLL", {"chat_id": TG_CHAT, "question": x["poll"]["question"],
-                                                             "options": x["poll"]["options"], "type": "regular", "is_anonymous": True,
+            P = x["poll"]; quiz = P.get("type") == "quiz"           # owner 15 Nov 2026: quiz mode – the answer shows on voting
+            pr = _ok(*run_composio_tool("TELEGRAM_SEND_POLL", {"chat_id": TG_CHAT, "question": P["question"], "options": P["options"],
+                                                             "type": "quiz" if quiz else "regular", "is_anonymous": True,
+                                                             **({"correct_option_id": P["correct_option_id"]} if quiz else {}),
+                                                             **({"explanation": P["explanation"]} if quiz and P.get("explanation") else {}),
                                                              **({"reply_to_message_id": mid} if mid else {})}))
             pm = re.search(r'"message_id"\s*:\s*(\d+)', json.dumps(pr)); out["poll"] = int(pm.group(1)) if pm else "sent"
         except Exception as e: out["poll"] = f"error: {str(e)[:200]}"      # the photo is out – the poll is noted, not retried twice
@@ -291,7 +294,7 @@ def post(file, pid, links=None, resume=None, dry=False):
             return {"status": "dry", "files": [_head(u) for u in x["urls"][0]["urls"]], "title": x["title"]}
         if x["platform"] == "instagram": return ig_carousel(x, links, dry) if x["kind"] == "carousel" else ig_reel(x, links, resume, dry)
         if x["platform"] == "facebook": return fb_carousel(x, links) if x["kind"] == "carousel" else fb_video(x, links)
-        if x["platform"] == "telegram": return tg_pair(x, links) if x.get("tag") == "pair" else tg_pdf(x, links)
+        if x["platform"] == "telegram": return tg_pair(x, links) if x.get("tag") in ("pair", "concept") else tg_pdf(x, links)   # concept: the DCA page photo (plan v2, 16 Nov 2026)
         if x["platform"] == "youtube":
             prep = yt_prepare(x); return {"status": "prepared", "prep": prep, "args": yt_args(x, links, prep)}
         return {"status": "error", "error": f"platform {x['platform']} not enabled"}
