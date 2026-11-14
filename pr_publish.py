@@ -43,7 +43,7 @@ def with_std(text):
     # link – any line that already names the Telegram link means the post has its links line, so nothing is added
     return text if (STD_LINE in text or f"Telegram – Daily PDFs: {TG_LINK}" in text) else (STD_LINE + "\n\n" + text).strip()
 
-def fill_links(text, links):
+def fill_links(text, links, x=None):
     """Owner's rule (4 Nov 2026): a YouTube link is given only once that video is actually on YouTube – a line whose video
     is not uploaded yet is left out (no channel link as a stand-in), and no 'GS-wise clips (Instagram)' line, so a post
     never carries several confusing links. The video link reaches Telegram as a reply once the video is up."""
@@ -58,7 +58,9 @@ def fill_links(text, links):
         if not miss: out.append(line)
     text = "\n".join(out)
     while "\n\n\n" in text: text = text.replace("\n\n\n", "\n\n")
-    return direct(with_std(text), _CUR.get("x"), links)
+    # 14 Nov 2026 fix: the post is passed in by the caller (x) – the shared _CUR global could hold ANOTHER post when several
+    # posts are prepared at the same time, which gave 11 Shorts a "▶️ Video:" link to the wrong full video
+    return direct(with_std(text), x if x is not None else _CUR.get("x"), links)
 
 # ---- owner's rule (9 Nov 2026, "always make it a rule"): ANY link posted under any content opens that content directly –
 # a video link opens the video (never the channel page), a PDF link opens the PDF (the Telegram message), and so on.
@@ -78,6 +80,8 @@ def direct(text, x, links):
     if pl == "youtube" and x.get("kind_yt") in ("complete", "comp"): vid = None   # the post IS the video
     # owner 9 Nov 2026 16:22: "keep this as a rule beyond the link" – the standard links line (Telegram channel | YouTube
     # channel) STAYS as it is, and the post's own content links are added right under it (each opens the video / the PDF)
+    own = _re.search(r"Full (?:video|lecture): (https://youtu\.be/[\w-]{11})", text)
+    if own and vid and vid != own.group(1): vid = None    # 14 Nov 2026: a Short's own full video is already linked – never a second, different one
     add = [f"▶️ Video: {vid}"] if vid and vid not in text else []
     add += [f"📥 PDF: {pdf}"] if pdf and pdf not in text else []
     if not add: return text
@@ -136,13 +140,13 @@ def _ig_publish(cid):
 def ig_carousel(x, links, dry=False):
     kids = [_ig("POST", "/me/media", {"image_url": e["urls"][0], "is_carousel_item": True})["id"] for e in x["urls"]]
     for k in kids: _ig_wait(k, 60)
-    cid = _ig("POST", "/me/media", {"media_type": "CAROUSEL", "children": ",".join(kids), "caption": fill_links(x["caption"], links)})["id"]
+    cid = _ig("POST", "/me/media", {"media_type": "CAROUSEL", "children": ",".join(kids), "caption": fill_links(x["caption"], links, x)})["id"]
     ok = _ig_wait(cid, 60)
     if dry: return {"status": "dry", "container": cid, "finished": ok, "children": len(kids)}
     return _ig_publish(cid)
 
 def ig_reel(x, links, resume=None, dry=False):
-    body = {"media_type": "REELS", "video_url": x["urls"][0]["urls"][0], "caption": fill_links(x["caption"], links), "share_to_feed": True}
+    body = {"media_type": "REELS", "video_url": x["urls"][0]["urls"][0], "caption": fill_links(x["caption"], links, x), "share_to_feed": True}
     if x.get("tag") == "pair" and x.get("thumb_url"): body["cover_url"] = x["thumb_url"]     # hook cover (P2, Option A 14 Nov 2026) – the question → answer pairs
     cid = resume or _ig("POST", "/me/media", body)["id"]
     if not _ig_wait(cid, 140): return {"status": "pending", "resume": cid}
@@ -151,14 +155,14 @@ def ig_reel(x, links, resume=None, dry=False):
 
 def fb_carousel(x, links):
     res = _ok(*run_composio_tool("FACEBOOK_CREATE_MULTI_PHOTO_POST", {"page_id": PAGE_ID, "photo_urls": [e["urls"][0] for e in x["urls"]],
-                                                                    "message": fill_links(x["caption"], links)}))
+                                                                    "message": fill_links(x["caption"], links, x)}))
     pid = json.dumps(res); m = re.search(r'"(?:post_)?id"\s*:\s*"(\d+_\d+)"', pid)
     post_id = m.group(1) if m else None
     return {"status": "done", "id": post_id, "url": f"https://www.facebook.com/{post_id}" if post_id else None, "raw": pid[:300]}
 
 def fb_video(x, links):
     e = x["urls"][0]
-    args = {"page_id": PAGE_ID, "title": x.get("title", "")[:250], "description": fill_links(x["caption"], links)}
+    args = {"page_id": PAGE_ID, "title": x.get("title", "")[:250], "description": fill_links(x["caption"], links, x)}
     if len(e["urls"]) == 1: args["file_url"] = e["urls"][0]
     else: args["video"] = {"name": e["name"], "mimetype": "video/mp4", "s3key": s3key(e)}
     res = _ok(*run_composio_tool("FACEBOOK_CREATE_VIDEO_POST", args)); s = json.dumps(res)
@@ -198,7 +202,7 @@ def tg_html(text):
 
 def tg_pdf(x, links):
     res = _ok(*run_composio_tool("TELEGRAM_SEND_DOCUMENT", {"chat_id": TG_CHAT, "document": x["urls"][0]["urls"][0],
-                                                          "caption": tg_html(fill_links(x["caption"], links)), "parse_mode": "HTML"}))
+                                                          "caption": tg_html(fill_links(x["caption"], links, x)), "parse_mode": "HTML"}))
     s = json.dumps(res); m = re.search(r'"message_id"\s*:\s*(\d+)', s); mid = int(m.group(1)) if m else None
     return {"status": "done", "id": mid, "url": f"{TG_LINK}/{mid}" if mid else None}
 
@@ -206,7 +210,7 @@ def tg_pair(x, links):
     """owner, 14 Nov 2026 07:43: the hourly MCQ → answer pairs on Telegram – the slide as a photo with its caption (links line
     + the post's own Video | PDF links, added by fill_links/direct); under the question an anonymous regular poll a/b/c/d"""
     res = _ok(*run_composio_tool("TELEGRAM_SEND_PHOTO", {"chat_id": TG_CHAT, "photo": x["urls"][0]["urls"][0],
-                                                       "caption": tg_html(fill_links(x["caption"], links)), "parse_mode": "HTML"}))
+                                                       "caption": tg_html(fill_links(x["caption"], links, x)), "parse_mode": "HTML"}))
     m = re.search(r'"message_id"\s*:\s*(\d+)', json.dumps(res)); mid = int(m.group(1)) if m else None
     out = {"status": "done", "id": mid, "url": f"{TG_LINK}/{mid}" if mid else None}
     if x.get("poll"):
@@ -236,7 +240,7 @@ def yt_privacy(x):
     return x["privacyStatus"]
 
 def yt_args(x, links, prep):
-    return {"title": x["title"], "description": fill_links(x["description"], links), "tags": x["tags"], "categoryId": x["categoryId"],
+    return {"title": x["title"], "description": fill_links(x["description"], links, x), "tags": x["tags"], "categoryId": x["categoryId"],
             "privacyStatus": yt_privacy(x), "videoFile": {"name": prep["name"], "mimetype": "video/mp4", "s3key": prep["s3key"]}}
 
 def yt_lang(vid):
@@ -282,7 +286,7 @@ def post(file, pid, links=None, resume=None, dry=False):
     x = item(file, pid); _CUR["x"] = x
     try:
         if dry and x["platform"] in ("facebook", "telegram"):
-            return {"status": "dry", "files": [_head(e["urls"][0]) for e in x["urls"]], "text": fill_links(x.get("caption", ""), links)[:120]}
+            return {"status": "dry", "files": [_head(e["urls"][0]) for e in x["urls"]], "text": fill_links(x.get("caption", ""), links, x)[:120]}
         if dry and x["platform"] == "youtube":
             return {"status": "dry", "files": [_head(u) for u in x["urls"][0]["urls"]], "title": x["title"]}
         if x["platform"] == "instagram": return ig_carousel(x, links, dry) if x["kind"] == "carousel" else ig_reel(x, links, resume, dry)
