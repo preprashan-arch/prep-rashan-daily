@@ -385,9 +385,12 @@
    "scheduled": "2026-11-16T21:00:00+05:30"
   },
   "pa1611-yo-8q": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-15T13:34+05:30"
+   "time": "2026-11-15T13:35+05:30",
+   "id": "vYZZnM7pQiA",
+   "url": "https://youtu.be/vYZZnM7pQiA",
+   "scheduled": "2026-11-16T20:00:00+05:30"
   }
  },
  "links": {
