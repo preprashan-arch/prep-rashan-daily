@@ -483,7 +483,9 @@
    "id": "18123857938916946",
    "url": "https://www.instagram.com/reel/DfwCVz9uiRf/",
    "tries": 0,
-   "time": "2026-11-15T11:04+05:30"
+   "time": "2026-11-15T11:04+05:30",
+   "boost": "done",
+   "yt_in_comment": true
   }
  },
  "links": {
