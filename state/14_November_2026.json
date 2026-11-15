@@ -257,9 +257,12 @@
    "scheduled": "2026-11-16T19:30:00+05:30"
   },
   "cx1611-yo-8": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-15T13:33+05:30"
+   "time": "2026-11-15T13:35+05:30",
+   "id": "QKjhj_nzRo4",
+   "url": "https://youtu.be/QKjhj_nzRo4",
+   "scheduled": "2026-11-16T21:30:00+05:30"
   },
   "pa1611-yo-1a": {
    "status": "uploading",
