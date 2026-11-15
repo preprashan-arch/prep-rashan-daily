@@ -209,9 +209,12 @@
    "scheduled": "2026-11-16T07:30:00+05:30"
   },
   "cx1611-yo-2": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-15T13:33+05:30"
+   "time": "2026-11-15T13:34+05:30",
+   "id": "PIRYZiAGhTc",
+   "url": "https://youtu.be/PIRYZiAGhTc",
+   "scheduled": "2026-11-16T09:30:00+05:30"
   },
   "cx1611-yo-3": {
    "status": "uploading",
