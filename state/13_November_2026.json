@@ -429,7 +429,9 @@
    "id": "18068138069512617",
    "url": "https://www.instagram.com/reel/Dfv02-FKCJC/",
    "tries": 0,
-   "time": "2026-11-15T09:05+05:30"
+   "time": "2026-11-15T09:05+05:30",
+   "boost": "done",
+   "yt_in_comment": true
   },
   "d2-in-065": {
    "status": "done",
