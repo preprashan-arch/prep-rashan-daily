@@ -672,7 +672,9 @@
    "id": "18133174741838900",
    "url": "https://www.instagram.com/reel/Dfw5c14hUix/",
    "tries": 0,
-   "time": "2026-11-15T19:04+05:30"
+   "time": "2026-11-15T19:04+05:30",
+   "boost": "done",
+   "yt_in_comment": true
   },
   "d2-fa-047": {
    "status": "done",
