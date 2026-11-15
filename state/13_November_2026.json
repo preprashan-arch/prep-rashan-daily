@@ -507,7 +507,9 @@
    "id": "17976713592176710",
    "url": "https://www.instagram.com/reel/DfwJkiqh4sC/",
    "tries": 0,
-   "time": "2026-11-15T12:05+05:30"
+   "time": "2026-11-15T12:05+05:30",
+   "boost": "done",
+   "yt_in_comment": true
   },
   "d2-in-069": {
    "status": "done",
