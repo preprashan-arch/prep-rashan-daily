@@ -1108,9 +1108,12 @@
    "scheduled": "2026-11-17T10:00:00+05:30"
   },
   "pa1711-yo-3a": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-16T13:34+05:30"
+   "time": "2026-11-16T13:37+05:30",
+   "id": "Ii4bllYiiZY",
+   "url": "https://youtu.be/Ii4bllYiiZY",
+   "scheduled": "2026-11-17T11:00:00+05:30"
   },
   "pa1711-yo-4q": {
    "status": "uploading",
