@@ -51,7 +51,8 @@ def fill_links(text, links, x=None):
     for line in text.split("\n"):
         if "GS-wise clips (Instagram)" in line: continue
         miss = False
-        for k in ("YT_PPT", "YT_MCQ", "YT_EXP", "TG_CDCA", "TG_CMCQ", "TG_CEXP"):   # TG_C*: the combined GS-1 to GS-4 PDFs (16 Nov 2026)
+        keys = ["YT_PPT", "YT_MCQ", "YT_EXP", "TG_CDCA", "TG_CMCQ", "TG_CEXP"] + re.findall(r"\{(IMG_\d\d|TG_DCA)\}", line)
+        for k in keys:   # TG_C*: the combined GS-1 to GS-4 PDFs (16 Nov 2026); IMG_NN / TG_DCA: the Concept Image posts (prompt v28, 16 Nov 2026)
             if "{" + k + "}" in line:
                 if (links or {}).get(k): line = line.replace("{" + k + "}", links[k])
                 else: miss = True
@@ -170,6 +171,37 @@ def fb_video(x, links):
     m = re.search(r'"id"\s*:\s*"(\d+)"', s); vid = m.group(1) if m else None
     return {"status": "done", "id": vid, "url": f"https://www.facebook.com/{PAGE_ID}/videos/{vid}" if vid else None, "raw": s[:300]}
 
+def fb_photo(x, links, published=True):
+    """prompt v28 (owner 16 Nov 2026 – "Post as pic as well as Facebook allows images"): the Concept Image as a Facebook photo
+    post; published=False = an unpublished Page photo (for the Page Story)"""
+    args = {"page_id": PAGE_ID, "url": x["urls"][0]["urls"][0]}
+    k = f"IMG_{int(x['img']):02d}" if x.get("img") else None
+    if published and k and not (links or {}).get(k) and x.get("_file"):
+        # the Telegram image post usually goes out in the same run, after the links were read – look its link up in the record
+        try:
+            st = json.loads(urllib.request.urlopen(RAWBASE + f"main/state/{x['_file']}.json?t={int(time.time())}", timeout=60).read())
+            tid = next((p["id"] for p in manifest(x["_file"])["posts"] if p.get("tag") == "conceptimg" and p["platform"] == "telegram"
+                        and p.get("img") == x["img"]), None)
+            u = (st.get("posts", {}).get(tid) or {}).get("url") if tid else None
+            if u: links = dict(links or {}, **{k: u})
+        except Exception: pass
+    if published: args["message"] = fill_links(x["caption"], links, x)
+    else: args["published"] = False
+    res = _ok(*run_composio_tool("FACEBOOK_CREATE_PHOTO_POST", args)); s = json.dumps(res)
+    m = re.search(r'"post_id"\s*:\s*"(\d+_\d+)"', s); ph = re.search(r'"id"\s*:\s*"(\d+)"', s)
+    post_id = m.group(1) if m else None
+    return {"status": "done", "id": post_id or (ph.group(1) if ph else None), "photo_id": ph.group(1) if ph else None,
+            "url": f"https://www.facebook.com/{post_id}" if post_id else None, "raw": s[:300]}
+
+def fb_story(x):
+    """prompt v28 (owner 16 Nov 2026, Facebook Story: "Sure"): the Concept Image alone on the Page's Story – an unpublished Page
+    photo first, then FACEBOOK_PUBLISH_PAGE_PHOTO_STORY with its photo id"""
+    ph = fb_photo(x, None, published=False)
+    if not ph.get("photo_id"): raise RuntimeError(f"facebook story: no photo id ({ph.get('raw', '')[:200]})")
+    res = _ok(*run_composio_tool("FACEBOOK_PUBLISH_PAGE_PHOTO_STORY", {"page_id": PAGE_ID, "photo_id": ph["photo_id"]})); s = json.dumps(res)
+    m = re.search(r'"(?:post_id|id)"\s*:\s*"([\d_]+)"', s)
+    return {"status": "done", "id": m.group(1) if m else ph["photo_id"], "url": None, "raw": s[:300]}
+
 def reshare(c, dry=False):
     """owner's yes, 10 Nov 2026: on a day without a new edition re-share one of the week's best Reels on Instagram AND Facebook
     (c = one candidate from reshare.py plan: ig_id, caption, title). The video Instagram already holds is posted again."""
@@ -287,15 +319,22 @@ def _head(u):
 def post(file, pid, links=None, resume=None, dry=False):
     """dry=True: everything except making it public (Instagram containers are created but not published;
     Facebook/Telegram/YouTube only check that the files can be fetched)"""
-    x = item(file, pid); _CUR["x"] = x
+    x = dict(item(file, pid), _file=file); _CUR["x"] = x
     try:
         if dry and x["platform"] in ("facebook", "telegram"):
             return {"status": "dry", "files": [_head(e["urls"][0]) for e in x["urls"]], "text": fill_links(x.get("caption", ""), links, x)[:120]}
         if dry and x["platform"] == "youtube":
             return {"status": "dry", "files": [_head(u) for u in x["urls"][0]["urls"]], "title": x["title"]}
-        if x["platform"] == "instagram": return ig_carousel(x, links, dry) if x["kind"] == "carousel" else ig_reel(x, links, resume, dry)
-        if x["platform"] == "facebook": return fb_carousel(x, links) if x["kind"] == "carousel" else fb_video(x, links)
-        if x["platform"] == "telegram": return tg_pair(x, links) if x.get("tag") in ("pair", "concept") else tg_pdf(x, links)   # concept: the DCA page photo (plan v2, 16 Nov 2026)
+        if x["platform"] == "instagram":
+            if x["kind"] == "story":          # prompt v28: the Concept Image Story (our own 1080 × 1920 file)
+                r = story(None, x["urls"][0]["urls"][0], dry) if not resume else (_ig_publish(resume) if _ig_wait(resume, 140) else {"status": "pending", "resume": resume})
+                return r
+            return ig_carousel(x, links, dry) if x["kind"] == "carousel" else ig_reel(x, links, resume, dry)
+        if x["platform"] == "facebook":
+            if x["kind"] == "photo": return fb_photo(x, links)       # prompt v28: Concept Image photo posts
+            if x["kind"] == "story": return fb_story(x)              # prompt v28: Concept Image Page Story
+            return fb_carousel(x, links) if x["kind"] == "carousel" else fb_video(x, links)
+        if x["platform"] == "telegram": return tg_pair(x, links) if x.get("tag") in ("pair", "concept", "conceptimg") else tg_pdf(x, links)   # concept: the DCA page photo (plan v2, 16 Nov 2026); conceptimg: the Concept Image (v28)
         if x["platform"] == "youtube":
             prep = yt_prepare(x); return {"status": "prepared", "prep": prep, "args": yt_args(x, links, prep)}
         return {"status": "error", "error": f"platform {x['platform']} not enabled"}
