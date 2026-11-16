@@ -1122,12 +1122,14 @@
    "old_private_copy": "3XevgLKTQN8"
   },
   "pa1711-yo-3a": {
-   "status": "done",
-   "tries": 0,
-   "time": "2026-11-16T13:37+05:30",
-   "id": "Ii4bllYiiZY",
-   "url": "https://youtu.be/Ii4bllYiiZY",
-   "scheduled": "2026-11-17T11:00:00+05:30"
+   "status": "error",
+   "tries": 1,
+   "time": "2026-11-16T14:10+05:30",
+   "id": null,
+   "url": null,
+   "scheduled": null,
+   "error": "set 3 swapped Q15 -> Q12 (owner 16 Nov 14:00, no repetition) – old upload Ii4bllYiiZY kept private, unscheduled",
+   "old_private_copy": "Ii4bllYiiZY"
   },
   "pa1711-yo-4q": {
    "status": "done",
