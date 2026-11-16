@@ -1212,10 +1212,11 @@
    "scheduled": "2026-11-17T21:00:00+05:30"
   },
   "cx1711-yo-3": {
-   "status": "held",
+   "status": "error",
    "note": "held 16 Nov 13:35 – same concept clip and title as cx1611-yo-7 (FSB9X-MtfVM, 16 Nov 19:30); asking owner",
-   "tries": 0,
-   "time": "2026-11-16T13:37+05:30"
+   "tries": 1,
+   "time": "2026-11-16T14:10+05:30",
+   "error": "set 3 swapped to Q12 – new concept Short to upload"
   },
   "cx1611-te-4": {
    "status": "done",
