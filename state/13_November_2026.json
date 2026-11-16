@@ -677,7 +677,10 @@
    "tries": 0,
    "time": "2026-11-15T19:04+05:30",
    "boost": "done",
-   "yt_in_comment": true
+   "yt_in_comment": true,
+   "replied": [
+    "18116526758167897"
+   ]
   },
   "d2-fa-047": {
    "status": "done",
