@@ -799,7 +799,8 @@
    "url": "https://www.instagram.com/reel/DfydE4Shwc8/",
    "note": "container ERROR on first try, retried with ?v= cache-bust",
    "tries": 0,
-   "time": "2026-11-16T09:34+05:30"
+   "time": "2026-11-16T09:34+05:30",
+   "boost": "done"
   },
   "cx1611-fa-2": {
    "status": "done",
