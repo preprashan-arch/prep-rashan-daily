@@ -1060,9 +1060,12 @@
    "scheduled": "2026-11-17T19:30:00+05:30"
   },
   "cx1711-yo-8": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-16T13:34+05:30"
+   "time": "2026-11-16T13:36+05:30",
+   "id": "Ko0D26F9YkU",
+   "url": "https://youtu.be/Ko0D26F9YkU",
+   "scheduled": "2026-11-17T21:30:00+05:30"
   },
   "pa1711-yo-1q": {
    "status": "uploading",
