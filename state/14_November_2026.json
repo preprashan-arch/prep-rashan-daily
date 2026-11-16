@@ -1020,9 +1020,12 @@
    "scheduled": "2026-11-17T07:30:00+05:30"
   },
   "cx1711-yo-2": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-16T13:33+05:30"
+   "time": "2026-11-16T13:36+05:30",
+   "id": "0nSQGUil4a8",
+   "url": "https://youtu.be/0nSQGUil4a8",
+   "scheduled": "2026-11-17T09:30:00+05:30"
   },
   "cx1711-yo-4": {
    "status": "uploading",
