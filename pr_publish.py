@@ -51,7 +51,7 @@ def fill_links(text, links, x=None):
     for line in text.split("\n"):
         if "GS-wise clips (Instagram)" in line: continue
         miss = False
-        for k in ("YT_PPT", "YT_MCQ", "YT_EXP"):
+        for k in ("YT_PPT", "YT_MCQ", "YT_EXP", "TG_CDCA", "TG_CMCQ", "TG_CEXP"):   # TG_C*: the combined GS-1 to GS-4 PDFs (16 Nov 2026)
             if "{" + k + "}" in line:
                 if (links or {}).get(k): line = line.replace("{" + k + "}", links[k])
                 else: miss = True
