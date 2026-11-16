@@ -434,7 +434,9 @@
    "time": "2026-11-15T13:35+05:30",
    "id": "vYZZnM7pQiA",
    "url": "https://youtu.be/vYZZnM7pQiA",
-   "scheduled": "2026-11-16T20:00:00+05:30"
+   "scheduled": "2026-11-16T20:00:00+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "tg-links-ppt": {
    "status": "done",
