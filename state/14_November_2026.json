@@ -591,7 +591,8 @@
   "pa1611-yo-1q~links": {
    "boost": "done",
    "tries": 0,
-   "time": "2026-11-16T06:05+05:30"
+   "time": "2026-11-16T06:05+05:30",
+   "pdf": true
   },
   "tg-links-d2": {
    "status": "done",
