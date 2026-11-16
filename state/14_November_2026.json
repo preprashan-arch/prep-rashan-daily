@@ -1301,7 +1301,9 @@
    "id": "1170276289283760",
    "url": "https://www.facebook.com/reel/1170276289283760/",
    "tries": 0,
-   "time": "2026-11-16T14:09+05:30"
+   "time": "2026-11-16T14:09+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "pa1611-in-5q": {
    "status": "done",
