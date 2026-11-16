@@ -392,7 +392,9 @@
    "time": "2026-11-15T13:35+05:30",
    "id": "UXazk02GtBQ",
    "url": "https://youtu.be/UXazk02GtBQ",
-   "scheduled": "2026-11-16T16:00:00+05:30"
+   "scheduled": "2026-11-16T16:00:00+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "pa1611-yo-7a": {
    "status": "done",
