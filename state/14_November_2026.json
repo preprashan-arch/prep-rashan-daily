@@ -1820,7 +1820,10 @@
    "tries": 0,
    "time": "2026-11-16T21:05+05:30",
    "boost": "done",
-   "yt_in_comment": false
+   "yt_in_comment": false,
+   "replied": [
+    "17876974947636470"
+   ]
   },
   "d2-fa-049": {
    "status": "done",
