@@ -579,7 +579,8 @@
   "pa1611-in-1q~links": {
    "boost": "done",
    "tries": 0,
-   "time": "2026-11-16T06:05+05:30"
+   "time": "2026-11-16T06:05+05:30",
+   "pdf": true
   },
   "pa1611-fa-1q~links": {
    "boost": "done",
