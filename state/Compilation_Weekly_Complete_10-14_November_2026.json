@@ -83,9 +83,11 @@
    "boost": "done"
   },
   "cc-yo-15": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-16T14:32+05:30"
+   "time": "2026-11-16T14:32+05:30",
+   "id": "RCkDEW-eY60",
+   "url": "https://youtu.be/RCkDEW-eY60"
   }
  },
  "links": {
@@ -94,6 +96,7 @@
   "TG_CEXP": "https://t.me/Prep_Rashan/360",
   "YT_MCQ": "https://youtu.be/6OSsgFrFAnM",
   "YT_EXP": "https://youtu.be/5uLH2fvAk1w",
-  "YT_PPT": "https://youtu.be/nuVRo_i7KIY"
+  "YT_PPT": "https://youtu.be/nuVRo_i7KIY",
+  "YT_PPT_2": "https://youtu.be/RCkDEW-eY60"
  }
 }
