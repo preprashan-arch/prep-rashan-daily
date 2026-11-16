@@ -57,10 +57,12 @@
    "time": "2026-11-16T13:05+05:30"
   },
   "cc-yo-12": {
-   "status": "uploading",
+   "status": "done",
    "tries": 1,
    "time": "2026-11-16T14:32+05:30",
-   "error": "split into Part 1 + Part 2 (owner 16 Nov 2026, B) – uploads in the 17 Nov 13:35 batch"
+   "error": null,
+   "id": "nuVRo_i7KIY",
+   "url": "https://youtu.be/nuVRo_i7KIY"
   },
   "cc-yo-13": {
    "status": "done",
@@ -91,6 +93,7 @@
   "TG_CMCQ": "https://t.me/Prep_Rashan/359",
   "TG_CEXP": "https://t.me/Prep_Rashan/360",
   "YT_MCQ": "https://youtu.be/6OSsgFrFAnM",
-  "YT_EXP": "https://youtu.be/5uLH2fvAk1w"
+  "YT_EXP": "https://youtu.be/5uLH2fvAk1w",
+  "YT_PPT": "https://youtu.be/nuVRo_i7KIY"
  }
 }
