@@ -308,7 +308,9 @@
    "time": "2026-11-15T13:35+05:30",
    "id": "LKLmUwJcL2U",
    "url": "https://youtu.be/LKLmUwJcL2U",
-   "scheduled": "2026-11-16T08:00:00+05:30"
+   "scheduled": "2026-11-16T08:00:00+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "pa1611-yo-3a": {
    "status": "done",
