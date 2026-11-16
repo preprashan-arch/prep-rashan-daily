@@ -59,8 +59,8 @@
   "cc-yo-12": {
    "status": "error",
    "tries": 1,
-   "time": "2026-11-16T13:38+05:30",
-   "error": "upload refused twice at 13:35/13:38 – Composio: tool response payload is too large (413) – file 664 MB; checked: not on the channel"
+   "time": "2026-11-16T14:06+05:30",
+   "error": "split into Part 1 + Part 2 (owner 16 Nov 2026, B) – uploads in the 17 Nov 13:35 batch"
   },
   "cc-yo-13": {
    "status": "done",
