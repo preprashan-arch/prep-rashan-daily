@@ -1112,12 +1112,12 @@
    "scheduled": "2026-11-17T09:00:00+05:30"
   },
   "pa1711-yo-3q": {
-   "status": "error",
+   "status": "done",
    "tries": 1,
-   "time": "2026-11-16T14:10+05:30",
-   "id": null,
-   "url": null,
-   "scheduled": null,
+   "time": "2026-11-16T14:23+05:30",
+   "id": "n1bVvcZLlW4",
+   "url": "https://youtu.be/n1bVvcZLlW4",
+   "scheduled": "2026-11-17T10:00:00+05:30",
    "error": "set 3 swapped Q15 -> Q12 (owner 16 Nov 14:00, no repetition) – old upload 3XevgLKTQN8 kept private, unscheduled",
    "old_private_copy": "3XevgLKTQN8"
   },
