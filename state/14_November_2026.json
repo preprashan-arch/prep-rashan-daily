@@ -1052,9 +1052,12 @@
    "scheduled": "2026-11-17T17:30:00+05:30"
   },
   "cx1711-yo-7": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-16T13:33+05:30"
+   "time": "2026-11-16T13:36+05:30",
+   "id": "q-zVj-HurPE",
+   "url": "https://youtu.be/q-zVj-HurPE",
+   "scheduled": "2026-11-17T19:30:00+05:30"
   },
   "cx1711-yo-8": {
    "status": "uploading",
