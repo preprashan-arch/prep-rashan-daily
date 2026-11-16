@@ -1,5 +1,13 @@
 {
- "posts": {},
+ "posts": {
+  "c4-te-01": {
+   "status": "done",
+   "id": 362,
+   "url": "https://t.me/Prep_Rashan/362",
+   "tries": 0,
+   "time": "2026-11-16T13:04+05:30"
+  }
+ },
  "links": {
   "TG_CDCA": "https://t.me/Prep_Rashan/358",
   "TG_CMCQ": "https://t.me/Prep_Rashan/359",
