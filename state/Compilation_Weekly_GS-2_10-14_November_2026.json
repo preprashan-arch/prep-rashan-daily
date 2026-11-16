@@ -78,9 +78,11 @@
    "url": "https://youtu.be/jHL_H-UO1HM"
   },
   "c2-yo-22": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-16T13:25+05:30"
+   "time": "2026-11-16T13:32+05:30",
+   "id": "UgHgoAhMwM0",
+   "url": "https://youtu.be/UgHgoAhMwM0"
   },
   "c2-yo-23": {
    "status": "uploading",
@@ -92,6 +94,7 @@
   "TG_CDCA": "https://t.me/Prep_Rashan/358",
   "TG_CMCQ": "https://t.me/Prep_Rashan/359",
   "TG_CEXP": "https://t.me/Prep_Rashan/360",
-  "YT_PPT": "https://youtu.be/jHL_H-UO1HM"
+  "YT_PPT": "https://youtu.be/jHL_H-UO1HM",
+  "YT_MCQ": "https://youtu.be/UgHgoAhMwM0"
  }
 }
