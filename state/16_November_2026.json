@@ -68,9 +68,12 @@
    "scheduled": "2026-11-18T05:00+05:30"
   },
   "cx1811-yo-1": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-17T13:33+05:30"
+   "time": "2026-11-17T13:35+05:30",
+   "id": "7hefrqYzwAQ",
+   "url": "https://youtu.be/7hefrqYzwAQ",
+   "scheduled": "2026-11-18T07:30:00+05:30"
   },
   "cx1811-yo-2": {
    "status": "uploading",
