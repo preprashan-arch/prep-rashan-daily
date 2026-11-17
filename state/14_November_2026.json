@@ -1204,7 +1204,9 @@
    "time": "2026-11-16T13:37+05:30",
    "id": "XHvekO1243M",
    "url": "https://youtu.be/XHvekO1243M",
-   "scheduled": "2026-11-17T15:00:00+05:30"
+   "scheduled": "2026-11-17T15:00:00+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "pa1711-yo-6q": {
    "status": "done",
