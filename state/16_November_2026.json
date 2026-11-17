@@ -124,9 +124,12 @@
    "scheduled": "2026-11-18T19:30:00+05:30"
   },
   "cx1811-yo-8": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-17T13:33+05:30"
+   "time": "2026-11-17T13:35+05:30",
+   "id": "mUHO4eZ2tDw",
+   "url": "https://youtu.be/mUHO4eZ2tDw",
+   "scheduled": "2026-11-18T21:30:00+05:30"
   },
   "pa1811-yo-1q": {
    "status": "uploading",
