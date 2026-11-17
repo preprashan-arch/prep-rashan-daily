@@ -100,9 +100,12 @@
    "scheduled": "2026-11-18T13:30:00+05:30"
   },
   "cx1811-yo-5": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-17T13:33+05:30"
+   "time": "2026-11-17T13:35+05:30",
+   "id": "NUk64biCegs",
+   "url": "https://youtu.be/NUk64biCegs",
+   "scheduled": "2026-11-18T15:30:00+05:30"
   },
   "cx1811-yo-6": {
    "status": "uploading",
