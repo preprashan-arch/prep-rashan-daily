@@ -1984,7 +1984,9 @@
    "id": "2302783533788979",
    "url": "https://www.facebook.com/reel/2302783533788979/",
    "tries": 0,
-   "time": "2026-11-17T07:03+05:30"
+   "time": "2026-11-17T07:03+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   }
  },
  "links": {
