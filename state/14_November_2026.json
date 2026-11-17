@@ -1152,7 +1152,9 @@
    "url": "https://youtu.be/n1bVvcZLlW4",
    "scheduled": "2026-11-17T10:00:00+05:30",
    "error": "set 3 swapped Q15 -> Q12 (owner 16 Nov 14:00, no repetition) – old upload 3XevgLKTQN8 kept private, unscheduled",
-   "old_private_copy": "3XevgLKTQN8"
+   "old_private_copy": "3XevgLKTQN8",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "pa1711-yo-3a": {
    "status": "done",
