@@ -2740,7 +2740,9 @@
    "id": "4262946387336906",
    "url": "https://www.facebook.com/reel/4262946387336906/",
    "tries": 0,
-   "time": "2026-11-17T19:03+05:30"
+   "time": "2026-11-17T19:03+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   }
  },
  "links": {
