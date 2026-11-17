@@ -1267,7 +1267,9 @@
    "time": "2026-11-16T13:37+05:30",
    "id": "PBrXdf-w3qY",
    "url": "https://youtu.be/PBrXdf-w3qY",
-   "scheduled": "2026-11-17T21:00:00+05:30"
+   "scheduled": "2026-11-17T21:00:00+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "cx1711-yo-3": {
    "status": "done",
