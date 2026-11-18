@@ -1879,7 +1879,9 @@
    "id": "1124354923743009",
    "url": "https://www.facebook.com/reel/1124354923743009/",
    "tries": 0,
-   "time": "2026-11-18T21:05+05:30"
+   "time": "2026-11-18T21:05+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "d2-fa-049": {
    "status": "done",
