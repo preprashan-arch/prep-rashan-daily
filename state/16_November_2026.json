@@ -884,6 +884,13 @@
    "error": "Telegram: failed to get HTTP URL content (fbcdn 960 copy, 2 tries)",
    "tries": 1,
    "time": "2026-11-18T12:04+05:30"
+  },
+  "pa1811-fa-4q": {
+   "status": "done",
+   "id": "28773833852311817",
+   "url": "https://www.facebook.com/reel/28773833852311817/",
+   "tries": 0,
+   "time": "2026-11-18T12:04+05:30"
   }
  },
  "links": {
