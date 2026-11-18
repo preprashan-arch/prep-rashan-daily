@@ -39,9 +39,11 @@
    "time": "2026-11-18T09:06+05:30"
   },
   "d1-yo-065": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-18T13:19+05:30"
+   "time": "2026-11-18T13:31+05:30",
+   "id": "MNgvrwoJ69I",
+   "url": "https://youtu.be/MNgvrwoJ69I"
   },
   "d1-yo-066": {
    "status": "uploading",
@@ -60,6 +62,7 @@
   }
  },
  "links": {
-  "TG_PPT": "https://t.me/Prep_Rashan/455"
+  "TG_PPT": "https://t.me/Prep_Rashan/455",
+  "YT_PPT": "https://youtu.be/MNgvrwoJ69I"
  }
 }
