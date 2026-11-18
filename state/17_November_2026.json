@@ -68,9 +68,12 @@
    "url": "https://youtu.be/UqRXl2_T154"
   },
   "cx1911-yo-1": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-18T13:31+05:30"
+   "time": "2026-11-18T13:34+05:30",
+   "id": "p897ZwvntIY",
+   "url": "https://youtu.be/p897ZwvntIY",
+   "scheduled": "2026-11-19T07:30:00+05:30"
   },
   "cx1911-yo-2": {
    "status": "uploading",
