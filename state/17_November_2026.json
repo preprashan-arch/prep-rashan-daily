@@ -108,9 +108,12 @@
    "scheduled": "2026-11-19T15:30:00+05:30"
   },
   "cx1911-yo-6": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-18T13:32+05:30"
+   "time": "2026-11-18T13:34+05:30",
+   "id": "GDad-_6hEsc",
+   "url": "https://youtu.be/GDad-_6hEsc",
+   "scheduled": "2026-11-19T17:30:00+05:30"
   },
   "cx1911-yo-7": {
    "status": "uploading",
