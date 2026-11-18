@@ -872,6 +872,12 @@
    "url": "https://www.instagram.com/reel/Df33zj-M8Mh/",
    "tries": 0,
    "time": "2026-11-18T12:04+05:30"
+  },
+  "pa1811-te-4q": {
+   "status": "error",
+   "error": "Telegram: failed to get HTTP URL content (5 tries incl. ?v= and a Composio R2 copy)",
+   "tries": 1,
+   "time": "2026-11-18T12:04+05:30"
   }
  },
  "links": {
