@@ -1346,7 +1346,9 @@
    "id": "4795073000815782",
    "url": "https://www.facebook.com/reel/4795073000815782/",
    "tries": 0,
-   "time": "2026-11-18T16:03+05:30"
+   "time": "2026-11-18T16:03+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "ci1811-fa-4": {
    "status": "done",
