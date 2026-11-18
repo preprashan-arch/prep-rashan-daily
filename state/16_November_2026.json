@@ -1870,7 +1870,9 @@
    "id": "18080371658741896",
    "url": "https://www.instagram.com/reel/Df41mYtBGmn/",
    "tries": 0,
-   "time": "2026-11-18T21:05+05:30"
+   "time": "2026-11-18T21:05+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "pa1811-fa-8a": {
    "status": "done",
