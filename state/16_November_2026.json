@@ -886,10 +886,13 @@
    "poll": 472
   },
   "ci1811-te-2": {
-   "status": "error",
+   "status": "done",
    "error": "Telegram: failed to get HTTP URL content (fbcdn 960 copy, 2 tries)",
    "tries": 1,
-   "time": "2026-11-18T12:04+05:30"
+   "time": "2026-11-18T13:40+05:30",
+   "id": 474,
+   "url": "https://t.me/Prep_Rashan/474",
+   "note": "sent as 960x1200 copy"
   },
   "pa1811-fa-4q": {
    "status": "done",
