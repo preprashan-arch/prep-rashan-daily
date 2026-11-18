@@ -878,6 +878,12 @@
    "error": "Telegram: failed to get HTTP URL content (5 tries incl. ?v= and a Composio R2 copy)",
    "tries": 1,
    "time": "2026-11-18T12:04+05:30"
+  },
+  "ci1811-te-2": {
+   "status": "error",
+   "error": "Telegram: failed to get HTTP URL content (fbcdn 960 copy, 2 tries)",
+   "tries": 1,
+   "time": "2026-11-18T12:04+05:30"
   }
  },
  "links": {
