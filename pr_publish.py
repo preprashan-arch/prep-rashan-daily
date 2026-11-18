@@ -239,13 +239,39 @@ def tg_pdf(x, links):
     s = json.dumps(res); m = re.search(r'"message_id"\s*:\s*(\d+)', s); mid = int(m.group(1)) if m else None
     return {"status": "done", "id": mid, "url": f"{TG_LINK}/{mid}" if mid else None}
 
+def _fb_copies(x):
+    """Facebook's copies of the picture (largest first, then the 960-wide one): an UNPUBLISHED Page photo of our own file –
+    nothing appears on the Page – used only when Telegram refuses our link"""
+    r = fb_photo(x, None, published=False); ph = r.get("photo_id") or r.get("id")
+    g, e = proxy_execute("GET", f"/{ph}", "facebook", query_params={"fields": "images"})
+    imgs = sorted((g or {}).get("images") or [], key=lambda i: -int(i.get("width") or 0))
+    big = [i["source"] for i in imgs if int(i.get("width") or 0) <= 2048][:1]
+    mid = [i["source"] for i in imgs if int(i.get("width") or 0) == 960]
+    return [(u, w) for u, w in [(big[0] if big else None, "largest"), (mid[0] if mid else None, "960 wide")] if u]
+
+def tg_photo(x, caption):
+    """owner, 19 Nov 2026 00:24 – choice A: our own full-quality link first, once more with a fresh link, and only if Telegram
+    still refuses, Facebook's copy of the same picture (automatic; the result carries a note for the hourly update)"""
+    url = x["urls"][0]["urls"][0]; errs = []
+    args = {"chat_id": TG_CHAT, "caption": caption, "parse_mode": "HTML"}
+    for u in (url, url + ("&" if "?" in url else "?") + f"v={int(time.time())}"):
+        r, e = run_composio_tool("TELEGRAM_SEND_PHOTO", dict(args, photo=u))
+        if not e: return r, None
+        errs.append(str(e)[:160])
+        if not re.search(r"URL content|wrong file|failed to get|fetch", str(e), re.I): raise RuntimeError(str(e)[:500])
+        time.sleep(5)
+    for u, w in _fb_copies(x):
+        r, e = run_composio_tool("TELEGRAM_SEND_PHOTO", dict(args, photo=u))
+        if not e: return r, f"Telegram refused our link twice – sent Facebook's copy ({w})"
+        errs.append(str(e)[:160])
+    raise RuntimeError("Telegram refused the picture (own link twice, Facebook copy too): " + " | ".join(errs))
+
 def tg_pair(x, links):
     """owner, 14 Nov 2026 07:43: the hourly MCQ → answer pairs on Telegram – the slide as a photo with its caption (links line
     + the post's own Video | PDF links, added by fill_links/direct); under the question an anonymous regular poll a/b/c/d"""
-    res = _ok(*run_composio_tool("TELEGRAM_SEND_PHOTO", {"chat_id": TG_CHAT, "photo": x["urls"][0]["urls"][0],
-                                                       "caption": tg_html(fill_links(x["caption"], links, x)), "parse_mode": "HTML"}))
+    res, note = tg_photo(x, tg_html(fill_links(x["caption"], links, x)))
     m = re.search(r'"message_id"\s*:\s*(\d+)', json.dumps(res)); mid = int(m.group(1)) if m else None
-    out = {"status": "done", "id": mid, "url": f"{TG_LINK}/{mid}" if mid else None}
+    out = {"status": "done", "id": mid, "url": f"{TG_LINK}/{mid}" if mid else None, **({"note": note} if note else {})}
     if x.get("poll"):
         try:
             P = x["poll"]; quiz = P.get("type") == "quiz"           # owner 15 Nov 2026: quiz mode – the answer shows on voting
