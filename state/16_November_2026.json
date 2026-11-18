@@ -243,7 +243,9 @@
    "time": "2026-11-17T13:35+05:30",
    "id": "TBeVk6-b-II",
    "url": "https://youtu.be/TBeVk6-b-II",
-   "scheduled": "2026-11-18T11:00:00+05:30"
+   "scheduled": "2026-11-18T11:00:00+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "pa1811-yo-4a": {
    "status": "done",
