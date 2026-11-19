@@ -294,7 +294,9 @@
    "time": "2026-11-18T13:35+05:30",
    "id": "RVRsLWQ8kew",
    "url": "https://youtu.be/RVRsLWQ8kew",
-   "scheduled": "2026-11-19T21:00:00+05:30"
+   "scheduled": "2026-11-19T21:00:00+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "pa1911-yo-8q": {
    "status": "done",
