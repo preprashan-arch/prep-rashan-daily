@@ -2311,9 +2311,12 @@
    "scheduled": "2026-11-20T16:00:00+05:30"
   },
   "pa2011-yo-7a": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-19T22:32+05:30"
+   "time": "2026-11-19T22:37+05:30",
+   "id": "CgurBRT6S7I",
+   "url": "https://youtu.be/CgurBRT6S7I",
+   "scheduled": "2026-11-20T19:00:00+05:30"
   },
   "pa2011-yo-7q": {
    "status": "done",
