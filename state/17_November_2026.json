@@ -175,7 +175,9 @@
    "time": "2026-11-18T13:34+05:30",
    "id": "y7EROSNwLvE",
    "url": "https://youtu.be/y7EROSNwLvE",
-   "scheduled": "2026-11-19T08:00:00+05:30"
+   "scheduled": "2026-11-19T08:00:00+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "pa1911-yo-3a": {
    "status": "done",
