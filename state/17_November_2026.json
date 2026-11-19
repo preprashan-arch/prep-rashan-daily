@@ -1246,7 +1246,9 @@
    "id": "2264292804137895",
    "url": "https://www.facebook.com/reel/2264292804137895/",
    "tries": 0,
-   "time": "2026-11-19T14:04+05:30"
+   "time": "2026-11-19T14:04+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   }
  },
  "links": {
