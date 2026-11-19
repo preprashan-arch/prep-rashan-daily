@@ -2292,9 +2292,12 @@
    "scheduled": "2026-11-20T14:00:00+05:30"
   },
   "pa2011-yo-6a": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-19T22:32+05:30"
+   "time": "2026-11-19T22:36+05:30",
+   "id": "2C01YHo0_hs",
+   "url": "https://youtu.be/2C01YHo0_hs",
+   "scheduled": "2026-11-20T17:00:00+05:30"
   },
   "pa2011-yo-6q": {
    "status": "done",
