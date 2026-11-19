@@ -1229,7 +1229,9 @@
    "id": "18113824334620050",
    "url": "https://www.instagram.com/reel/Df6qVHCtKBl/",
    "tries": 0,
-   "time": "2026-11-19T14:04+05:30"
+   "time": "2026-11-19T14:04+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "ci1911-fa-3": {
    "status": "done",
