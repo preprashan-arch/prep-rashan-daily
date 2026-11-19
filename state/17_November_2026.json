@@ -2157,9 +2157,12 @@
    "time": "2026-11-19T22:00+05:30"
   },
   "cx2011-yo-1": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-19T22:31+05:30"
+   "time": "2026-11-19T22:36+05:30",
+   "id": "Sp_EhRTQHco",
+   "url": "https://youtu.be/Sp_EhRTQHco",
+   "scheduled": "2026-11-20T07:30:00+05:30"
   },
   "cx2011-yo-2": {
    "status": "uploading",
