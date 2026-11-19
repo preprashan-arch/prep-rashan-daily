@@ -1990,7 +1990,9 @@
    "id": "18037324367892480",
    "url": "https://www.instagram.com/reel/Df7aWgrhNyt/",
    "tries": 0,
-   "time": "2026-11-19T21:04+05:30"
+   "time": "2026-11-19T21:04+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "ci1911-fa-7": {
    "status": "done",
