@@ -397,7 +397,9 @@
    "id": "18121865861075391",
    "url": "https://www.instagram.com/reel/Df5zR2SOdkb/",
    "tries": 0,
-   "time": "2026-11-19T06:03+05:30"
+   "time": "2026-11-19T06:03+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "pa1911-fa-1q": {
    "status": "done",
