@@ -252,7 +252,9 @@
    "time": "2026-11-18T13:35+05:30",
    "id": "22UONN27DGA",
    "url": "https://youtu.be/22UONN27DGA",
-   "scheduled": "2026-11-19T17:00:00+05:30"
+   "scheduled": "2026-11-19T17:00:00+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "pa1911-yo-6q": {
    "status": "done",
