@@ -1,3 +1,16 @@
-{"platform": "instagram", "id": "18101798996437568", "url": "https://www.instagram.com/p/Df63qSloT_i/", "posted": "2026-11-19T16:00+05:30",
+{
+ "platform": "instagram",
+ "id": "18101798996437568",
+ "url": "https://www.instagram.com/p/Df63qSloT_i/",
+ "posted": "2026-11-19T16:00+05:30",
  "what": "Answer-writing poll Part 1 (owner's yes 15:56): Q1 write regularly? Q2 if yes evaluated? Q3 if no want daily Sample Answer-Rashan? replies like 1Y 2N / 1N 3Y",
- "count_at": "21:40 final check – tally 1Y/1N, 2Y/2N, 3Y/3N for the owner; Part 2 (live time) decided by the owner after that"}
+ "count_at": "21:40 final check – tally 1Y/1N, 2Y/2N, 3Y/3N for the owner; Part 2 (live time) decided by the owner after that",
+ "reply_rule": "owner 19 Nov 2026 16:01: reply to EVERY comment with 'Thankyou so much🙏. We Highly Apprecite Your Esteemed Response.😃' or a better interactive line – used (typos fixed): base line 'Thank you so much 🙏 We highly appreciate your esteemed response. 😃' + one line by vote",
+ "reply_lines": {
+  "1Y 2Y": "Writing AND getting evaluated – that's topper discipline! Keep going 💪",
+  "1Y 2N": "You're writing – brilliant! Evaluation is the missing half. Stay tuned 🔔",
+  "1N 3Y": "Every rank starts with one answer – let's start yours. Stay tuned 🔔",
+  "1N 3N": "Fair enough! Whenever you're ready to write, we're right here 🔔",
+  "other": "(base line only, or a short reply that fits the comment)"
+ }
+}
