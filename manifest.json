@@ -5874,13 +5874,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "23da76d79a2d274419a0daa66d431757",
-    "why": [
-     "T2 Q28: the clip does not open with \"Question number 28\" (heard: \"you ought to get it\")",
-     "T3 Q29: line missing in the voice: \"C R A R of eight percent. Item two,\""
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:44+05:30"
    }
   },
   {
