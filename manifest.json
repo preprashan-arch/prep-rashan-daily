@@ -8394,13 +8394,10 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_7a_Q31-Q33_cover.jpg",
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "3d6c48a6d66fc5b92c97b913befef1b6",
-    "why": [
-     "T3 Q33: line missing in the voice: \"ई यू में omnibus rules के तहत disclosure है,\"",
-     "T2 the clip's audio matches only 73% of its source span (wrong cut/offset?)"
-    ],
-    "checked": "2026-11-20T19:23+05:30"
+    "why": [],
+    "checked": "2026-11-20T19:31+05:30"
    }
   },
   {
