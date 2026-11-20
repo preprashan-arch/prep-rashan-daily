@@ -3680,7 +3680,9 @@
    "id": "1864563541242099",
    "url": "https://www.facebook.com/reel/1864563541242099/",
    "tries": 0,
-   "time": "2026-11-20T21:04+05:30"
+   "time": "2026-11-20T21:04+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "cx2011-te-8": {
    "status": "done",
