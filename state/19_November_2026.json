@@ -150,9 +150,12 @@
    "boost": "done"
   },
   "pa2111-yo-1q": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-20T19:34+05:30"
+   "time": "2026-11-20T19:39+05:30",
+   "id": "hD0C7hHXB4Y",
+   "url": "https://youtu.be/hD0C7hHXB4Y",
+   "scheduled": "2026-11-21T06:00+05:30"
   },
   "pa2111-yo-1a": {
    "status": "uploading",
