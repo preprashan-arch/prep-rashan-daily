@@ -8801,12 +8801,10 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_8q_Q7-Q9_cover.jpg",
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "827ea1941aaeee95cbfd75e7c27ff94c",
-    "why": [
-     "T2 a spoken word is cut at the clip end (311.4s): \"Question\""
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:45+05:30"
    }
   },
   {
