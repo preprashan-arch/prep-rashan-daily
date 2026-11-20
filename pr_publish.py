@@ -360,7 +360,7 @@ def post(file, pid, links=None, resume=None, dry=False):
             if x["kind"] == "photo": return fb_photo(x, links)       # prompt v28: Concept Image photo posts
             if x["kind"] == "story": return fb_story(x)              # prompt v28: Concept Image Page Story
             return fb_carousel(x, links) if x["kind"] == "carousel" else fb_video(x, links)
-        if x["platform"] == "telegram": return tg_pair(x, links) if x.get("tag") in ("pair", "concept", "conceptimg") else tg_pdf(x, links)   # concept: the DCA page photo (plan v2, 16 Nov 2026); conceptimg: the Concept Image (v28)
+        if x["platform"] == "telegram": return tg_pair(x, links) if x.get("tag") in ("pair", "concept", "conceptimg", "mains", "answers") else tg_pdf(x, links)   # concept: the DCA page photo (plan v2, 16 Nov 2026); conceptimg: the Concept Image (v28)
         if x["platform"] == "youtube":
             prep = yt_prepare(x); return {"status": "prepared", "prep": prep, "args": yt_args(x, links, prep)}
         return {"status": "error", "error": f"platform {x['platform']} not enabled"}
