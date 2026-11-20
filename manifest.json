@@ -3695,14 +3695,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "410e89374a77f20a698412ee7adc06ae",
-    "why": [
-     "T0 MISSING voice 1560.5s: \"और सरकारी हिस्सेदारी, और सही code चुनना है। सही जवाब है ऑप्शन ए, सिर्फ\" (heard 12%)",
-     "T0 MISSING voice 1828.2s: \"ई यू में omnibus rules के तहत disclosure है,\" (heard 41%)",
-     "T0 MISSING voice 1925.9s: \"July दो हज़ार छब्बीस तक तीन सौ point पाँच gigawatt non fossil capacity\" (heard 34%)"
-    ],
-    "checked": "2026-11-20T19:23+05:30"
+    "why": [],
+    "checked": "2026-11-20T19:31+05:30"
    }
   },
   {
