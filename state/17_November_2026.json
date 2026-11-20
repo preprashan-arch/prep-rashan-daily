@@ -3517,7 +3517,9 @@
    "id": "1047187825055377",
    "url": "https://www.facebook.com/reel/1047187825055377/",
    "tries": 0,
-   "time": "2026-11-20T18:03+05:30"
+   "time": "2026-11-20T18:03+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   }
  },
  "links": {
