@@ -8394,14 +8394,10 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_7a_Q31-Q33_cover.jpg",
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "3d6c48a6d66fc5b92c97b913befef1b6",
-    "why": [
-     "T2 a spoken word is cut at the clip start (1700.5s): \"The\"",
-     "T2 a spoken word is cut at the clip end (1714.9s): \"Question\"",
-     "T3 Q31: line missing in the voice: \"यानी पहला statement एक ही सामान के अलग prices की बात करता है\""
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:44+05:30"
    }
   },
   {
