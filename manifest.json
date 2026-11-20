@@ -6156,14 +6156,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "7833240ecd34110e7baac2dda832d9bc",
-    "why": [
-     "T2 a spoken word is cut at the clip start (1509.6s): \"The\"",
-     "T2 a spoken word is cut at the clip start (1563.3s): \"The\"",
-     "T3 Q29: line missing in the voice: \"C R A R of eight percent. Item two,\""
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:44+05:30"
    }
   },
   {
