@@ -4140,13 +4140,10 @@
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/Daily_Current_Affairs_-_Rashan_19_November_2026_PPT_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/thumb_ppt.jpg",
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "7ff7730987084dfda524b20538202c0e",
-    "why": [
-     "T0 MISSING voice 1292.9s: \"clade two point three point two point one a,\" (heard 32%)",
-     "T0 MISSING voice 1794.6s: \"पच्चीस point चार दो लाख titles, community सिर्फ़ एक point दो चार लाख। \" (heard 45%)"
-    ],
-    "checked": "2026-11-20T19:23+05:30"
+    "why": [],
+    "checked": "2026-11-20T19:31+05:30"
    }
   },
   {
