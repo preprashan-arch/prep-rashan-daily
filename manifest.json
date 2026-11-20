@@ -13074,12 +13074,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "8781c8d9b94ac20e754ec6156e0ec774",
-    "why": [
-     "T2 a spoken word is cut at the clip start (647.1s): \"ڈ\""
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:46+05:30"
    }
   },
   {
