@@ -10917,13 +10917,10 @@
    "cover": "concept_2111_6_Q16_cover.jpg",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/concept_2111_6_Q16_cover.jpg",
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "f855e243066039c9fa1b901f8631be91",
-    "why": [
-     "T2 a spoken word is cut at the clip start (502.0s): \"Chhata\"",
-     "T2 the clip's audio matches only 78% of its source span (wrong cut/offset?)"
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:45+05:30"
    }
   },
   {
