@@ -12614,13 +12614,10 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_1a_Q10-Q12_cover.jpg",
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "701ecaa81b8897a3b09034d0f5eb7697",
-    "why": [
-     "T2 the clip's audio matches only 62% of its source span (wrong cut/offset?)",
-     "T2 the voice is still speaking when the end card starts"
-    ],
-    "checked": "2026-11-20T19:23+05:30"
+    "why": [],
+    "checked": "2026-11-20T19:32+05:30"
    }
   },
   {
