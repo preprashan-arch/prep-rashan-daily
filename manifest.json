@@ -13210,14 +13210,10 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_2a_Q19-Q21_cover.jpg",
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "2fbbc9ab6886751b04470a3d174dbbc4",
-    "why": [
-     "T2 a spoken word is cut at the clip start (1054.5s): \"is\"",
-     "T2 a spoken word is cut at the clip start (1111.6s): \"The\"",
-     "T2 a spoken word is cut at the clip start (1184.0s): \"The\""
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:46+05:30"
    }
   },
   {
