@@ -10409,13 +10409,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "ff25377bcc0ceef854580e83122cc150",
-    "why": [
-     "T2 a spoken word is cut at the clip end (1745.7s): \"Now,\"",
-     "T2 the clip's audio matches only 72% of its source span (wrong cut/offset?)"
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:45+05:30"
    }
   },
   {
