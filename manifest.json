@@ -6470,14 +6470,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "d50a2a459c06a541a3f4f93fccaf5e0f",
-    "why": [
-     "T2 a spoken word is cut at the clip start (1744.0s): \"Question\"",
-     "T2 Q52: the clip does not open with \"Question number 52\" (heard: \"you ought to get it\")",
-     "T2 Q54: the clip ends 15.7s before the voice finishes \"म पर free मिलेगी, link description में। Thank you.\""
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:44+05:30"
    }
   },
   {
