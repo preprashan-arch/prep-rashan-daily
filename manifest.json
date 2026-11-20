@@ -9480,7 +9480,13 @@
      "size": 2716582,
      "name": "concept_2111_1_Q10_fa_C1.mp4"
     }
-   ]
+   ],
+   "sync": {
+    "result": "PASS",
+    "md5": "b3b3f31a5dbbe91d6485663e71c1b040",
+    "why": [],
+    "checked": "2026-11-20T19:15+05:30"
+   }
   },
   {
    "platform": "youtube",
