@@ -46,9 +46,11 @@
    "url": "https://youtu.be/wnELp0kD__A"
   },
   "d1-yo-065": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-20T17:05+05:30"
+   "time": "2026-11-20T17:06+05:30",
+   "id": "45jVswRc6n0",
+   "url": "https://youtu.be/45jVswRc6n0"
   },
   "d1-yo-067": {
    "status": "uploading",
@@ -63,6 +65,7 @@
  },
  "links": {
   "TG_PPT": "https://t.me/Prep_Rashan/612",
-  "YT_PPT": "https://youtu.be/wnELp0kD__A"
+  "YT_PPT": "https://youtu.be/wnELp0kD__A",
+  "YT_MCQ": "https://youtu.be/45jVswRc6n0"
  }
 }
