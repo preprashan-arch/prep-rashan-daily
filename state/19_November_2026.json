@@ -296,9 +296,12 @@
    "scheduled": "2026-11-21T17:00+05:30"
   },
   "pa2111-yo-7a": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-20T19:36+05:30"
+   "time": "2026-11-20T19:42+05:30",
+   "id": "An0pg_79dx8",
+   "url": "https://youtu.be/An0pg_79dx8",
+   "scheduled": "2026-11-21T19:00+05:30"
   },
   "pa2111-yo-8a": {
    "status": "uploading",
