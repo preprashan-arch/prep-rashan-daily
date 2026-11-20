@@ -3299,12 +3299,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "09dd5b24951489d00c3d95ffe6b9ebd4",
-    "why": [
-     "T0 MISSING voice 1572.3s: \"INAS three hundred twelve Albatross,\" (heard 41%)"
-    ],
-    "checked": "2026-11-20T19:23+05:30"
+    "why": [],
+    "checked": "2026-11-20T19:30+05:30"
    }
   },
   {
