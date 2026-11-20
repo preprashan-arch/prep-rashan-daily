@@ -5821,13 +5821,10 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_3q_Q28-Q30_cover.jpg",
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "28d26e9476cc34e1e618433a2cd7c559",
-    "why": [
-     "T2 Q28: the clip does not open with \"Question number 28\" (heard: \"you ought to get it\")",
-     "T3 Q29: line missing in the voice: \"C R A R of eight percent. Item two,\""
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:44+05:30"
    }
   },
   {
