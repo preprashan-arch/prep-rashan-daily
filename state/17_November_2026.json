@@ -2356,6 +2356,14 @@
    "poll": 592,
    "tries": 0,
    "time": "2026-11-20T06:03+05:30"
+  },
+  "pa2011-te-1q2": {
+   "status": "done",
+   "id": 593,
+   "url": "https://t.me/Prep_Rashan/593",
+   "poll": 594,
+   "tries": 0,
+   "time": "2026-11-20T06:03+05:30"
   }
  },
  "links": {
