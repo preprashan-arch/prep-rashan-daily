@@ -12638,7 +12638,13 @@
      "size": 1835970,
      "name": "set_2111_1a_Q10-Q12_fa_S.mp4"
     }
-   ]
+   ],
+   "sync": {
+    "result": "PASS",
+    "md5": "3fc29d2d0b7bba90dd9d1f4d2e00e389",
+    "why": [],
+    "checked": "2026-11-20T19:16+05:30"
+   }
   },
   {
    "platform": "youtube",
