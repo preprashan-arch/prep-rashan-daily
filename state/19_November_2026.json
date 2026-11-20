@@ -166,9 +166,12 @@
    "scheduled": "2026-11-21T07:00+05:30"
   },
   "cx2111-yo-1": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-20T19:35+05:30"
+   "time": "2026-11-20T19:39+05:30",
+   "id": "neoCH2nZ790",
+   "url": "https://youtu.be/neoCH2nZ790",
+   "scheduled": "2026-11-21T07:30+05:30"
   },
   "cx2111-yo-2": {
    "status": "uploading",
