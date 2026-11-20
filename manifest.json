@@ -11323,7 +11323,13 @@
      "size": 3011979,
      "name": "concept_2111_7_Q31_yo_C1_916.mp4"
     }
-   ]
+   ],
+   "sync": {
+    "result": "PASS",
+    "md5": "41268df8fc043e94ef61436fa0fd1c8d",
+    "why": [],
+    "checked": "2026-11-20T19:16+05:30"
+   }
   },
   {
    "platform": "telegram",
