@@ -2319,7 +2319,9 @@
    "time": "2026-11-19T22:36+05:30",
    "id": "PTYMoI8gi-I",
    "url": "https://youtu.be/PTYMoI8gi-I",
-   "scheduled": "2026-11-20T14:00:00+05:30"
+   "scheduled": "2026-11-20T14:00:00+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "pa2011-yo-6a": {
    "status": "done",
