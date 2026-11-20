@@ -6417,14 +6417,10 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_4q_Q52-Q54_cover.jpg",
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "238b88723b76fe59e3f07d6906fc119f",
-    "why": [
-     "T2 a spoken word is cut at the clip start (1744.0s): \"Question\"",
-     "T2 Q52: the clip does not open with \"Question number 52\" (heard: \"you ought to get it\")",
-     "T2 Q54: the clip ends 15.7s before the voice finishes \"म पर free मिलेगी, link description में। Thank you.\""
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:44+05:30"
    }
   },
   {
