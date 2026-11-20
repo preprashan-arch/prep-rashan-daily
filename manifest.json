@@ -10362,7 +10362,13 @@
      "size": 2623913,
      "name": "concept_2111_4_Q52_fa_C1.mp4"
     }
-   ]
+   ],
+   "sync": {
+    "result": "PASS",
+    "md5": "dcc0f6a8ecab15b081809a902be0fbc9",
+    "why": [],
+    "checked": "2026-11-20T19:15+05:30"
+   }
   },
   {
    "platform": "youtube",
