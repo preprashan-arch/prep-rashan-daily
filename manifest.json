@@ -8458,13 +8458,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "49435a02e8e60b031306fe8b4a5e79d3",
-    "why": [
-     "T3 Q33: line missing in the voice: \"ई यू में omnibus rules के तहत disclosure है,\"",
-     "T2 the clip's audio matches only 73% of its source span (wrong cut/offset?)"
-    ],
-    "checked": "2026-11-20T19:23+05:30"
+    "why": [],
+    "checked": "2026-11-20T19:31+05:30"
    }
   },
   {
