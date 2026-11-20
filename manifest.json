@@ -12574,7 +12574,13 @@
      "name": "set_2111_1a_Q10-Q12_in_S.mp4"
     }
    ],
-   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_1a_Q10-Q12_cover.jpg"
+   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_1a_Q10-Q12_cover.jpg",
+   "sync": {
+    "result": "PASS",
+    "md5": "701ecaa81b8897a3b09034d0f5eb7697",
+    "why": [],
+    "checked": "2026-11-20T19:16+05:30"
+   }
   },
   {
    "platform": "facebook",
