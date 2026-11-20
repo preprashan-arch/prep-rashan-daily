@@ -330,7 +330,8 @@
    "id": "1172269925352200",
    "url": "https://www.facebook.com/reel/1172269925352200/",
    "tries": 0,
-   "time": "2026-11-20T20:03+05:30"
+   "time": "2026-11-20T20:03+05:30",
+   "boost": "done"
   },
   "tg-digest-2026-11-20": {
    "status": "done",
