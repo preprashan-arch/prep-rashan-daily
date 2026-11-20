@@ -10423,7 +10423,13 @@
      "size": 2795026,
      "name": "concept_2111_4_Q52_yo_C1_916.mp4"
     }
-   ]
+   ],
+   "sync": {
+    "result": "PASS",
+    "md5": "ff25377bcc0ceef854580e83122cc150",
+    "why": [],
+    "checked": "2026-11-20T19:15+05:30"
+   }
   },
   {
    "platform": "telegram",
