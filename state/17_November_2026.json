@@ -2374,7 +2374,9 @@
    "time": "2026-11-19T22:37+05:30",
    "id": "rglKe9AU7dU",
    "url": "https://youtu.be/rglKe9AU7dU",
-   "scheduled": "2026-11-20T21:00:00+05:30"
+   "scheduled": "2026-11-20T21:00:00+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "pa2011-yo-8q": {
    "status": "done",
