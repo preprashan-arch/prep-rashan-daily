@@ -3171,10 +3171,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "230291f9b2bda7948d275dc59ea11b0f",
-    "why": [],
-    "checked": "2026-11-20T16:43+05:30"
+    "why": [
+     "T0 MISSING voice 1292.9s: \"clade two point three point two point one a,\" (heard 32%)",
+     "T0 MISSING voice 1631.0s: \"दो हज़ार पैंतीस तक पैंतीस percent electrification,\" (heard 31%)",
+     "T0 MISSING voice 1794.6s: \"पच्चीस point चार दो लाख titles, community सिर्फ़ एक point दो चार लाख। \" (heard 45%)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -3203,10 +3207,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "77b13a1878d308d720e07a9807c02718",
-    "why": [],
-    "checked": "2026-11-20T16:43+05:30"
+    "why": [
+     "T0 MISSING voice 1292.9s: \"clade two point three point two point one a,\" (heard 32%)",
+     "T0 MISSING voice 1631.0s: \"दो हज़ार पैंतीस तक पैंतीस percent electrification,\" (heard 31%)",
+     "T0 MISSING voice 1794.6s: \"पच्चीस point चार दो लाख titles, community सिर्फ़ एक point दो चार लाख। \" (heard 45%)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -3235,10 +3243,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "176c53bf1e13c7ef64a808b1affd2c3f",
-    "why": [],
-    "checked": "2026-11-20T16:43+05:30"
+    "why": [
+     "T0 MISSING voice 1292.9s: \"clade two point three point two point one a,\" (heard 32%)",
+     "T0 MISSING voice 1631.0s: \"दो हज़ार पैंतीस तक पैंतीस percent electrification,\" (heard 31%)",
+     "T0 MISSING voice 1794.6s: \"पच्चीस point चार दो लाख titles, community सिर्फ़ एक point दो चार लाख। \" (heard 45%)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -3267,10 +3279,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "0c2853a2313206ef37b6bfe34063d2d3",
-    "why": [],
-    "checked": "2026-11-20T16:43+05:30"
+    "why": [
+     "T0 MISSING voice 1292.9s: \"clade two point three point two point one a,\" (heard 32%)",
+     "T0 MISSING voice 1631.0s: \"दो हज़ार पैंतीस तक पैंतीस percent electrification,\" (heard 31%)",
+     "T0 MISSING voice 1794.6s: \"पच्चीस point चार दो लाख titles, community सिर्फ़ एक point दो चार लाख। \" (heard 45%)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -3299,10 +3315,13 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "09dd5b24951489d00c3d95ffe6b9ebd4",
-    "why": [],
-    "checked": "2026-11-20T16:43+05:30"
+    "why": [
+     "T0 MISSING voice 961.3s: \"C R A R of eight percent. Item two,\" (heard 47%)",
+     "T0 MISSING voice 1572.3s: \"INAS three hundred twelve Albatross,\" (heard 41%)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -3406,10 +3425,13 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "7082d75cf0ccf56266892bb5cc4d6483",
-    "why": [],
-    "checked": "2026-11-20T16:43+05:30"
+    "why": [
+     "T0 MISSING voice 961.3s: \"C R A R of eight percent. Item two,\" (heard 47%)",
+     "T0 MISSING voice 1572.3s: \"INAS three hundred twelve Albatross,\" (heard 41%)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -3513,10 +3535,13 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "52d16ab366929c176ae90f993baa66d8",
-    "why": [],
-    "checked": "2026-11-20T16:43+05:30"
+    "why": [
+     "T0 MISSING voice 961.3s: \"C R A R of eight percent. Item two,\" (heard 47%)",
+     "T0 MISSING voice 1572.3s: \"INAS three hundred twelve Albatross,\" (heard 41%)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -3620,10 +3645,13 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "12a5b9486c116f5c4f6eaa7545133ee8",
-    "why": [],
-    "checked": "2026-11-20T16:43+05:30"
+    "why": [
+     "T0 MISSING voice 961.3s: \"C R A R of eight percent. Item two,\" (heard 47%)",
+     "T0 MISSING voice 1572.3s: \"INAS three hundred twelve Albatross,\" (heard 41%)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -3695,10 +3723,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "410e89374a77f20a698412ee7adc06ae",
-    "why": [],
-    "checked": "2026-11-20T16:43+05:30"
+    "why": [
+     "T0 MISSING voice 1532.2s: \"C R A R of eight percent. Item two,\" (heard 47%)",
+     "T0 MISSING voice 1925.9s: \"July दो हज़ार छब्बीस तक तीन सौ point पाँच gigawatt non fossil capacity\" (heard 28%)",
+     "T0 MISSING voice 2470.0s: \"बाकी तीनों बातें सही हैं, clade two point three point two point one a,\" (heard 36%)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -3802,10 +3834,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "e8b83f4653a86d02890f2dce726ba691",
-    "why": [],
-    "checked": "2026-11-20T16:43+05:30"
+    "why": [
+     "T0 MISSING voice 1532.2s: \"C R A R of eight percent. Item two,\" (heard 47%)",
+     "T0 MISSING voice 1925.9s: \"July दो हज़ार छब्बीस तक तीन सौ point पाँच gigawatt non fossil capacity\" (heard 28%)",
+     "T0 MISSING voice 2470.0s: \"बाकी तीनों बातें सही हैं, clade two point three point two point one a,\" (heard 36%)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -3909,10 +3945,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "ab01b80b854292178e31ccbd6c391195",
-    "why": [],
-    "checked": "2026-11-20T16:43+05:30"
+    "why": [
+     "T0 MISSING voice 1532.2s: \"C R A R of eight percent. Item two,\" (heard 47%)",
+     "T0 MISSING voice 1925.9s: \"July दो हज़ार छब्बीस तक तीन सौ point पाँच gigawatt non fossil capacity\" (heard 28%)",
+     "T0 MISSING voice 2470.0s: \"बाकी तीनों बातें सही हैं, clade two point three point two point one a,\" (heard 36%)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -4016,10 +4056,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "ffc69679ca68be488516d2a41641d69e",
-    "why": [],
-    "checked": "2026-11-20T16:43+05:30"
+    "why": [
+     "T0 MISSING voice 1532.2s: \"C R A R of eight percent. Item two,\" (heard 47%)",
+     "T0 MISSING voice 1925.9s: \"July दो हज़ार छब्बीस तक तीन सौ point पाँच gigawatt non fossil capacity\" (heard 28%)",
+     "T0 MISSING voice 2470.0s: \"बाकी तीनों बातें सही हैं, clade two point three point two point one a,\" (heard 36%)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -4140,10 +4184,14 @@
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/Daily_Current_Affairs_-_Rashan_19_November_2026_PPT_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/thumb_ppt.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "7ff7730987084dfda524b20538202c0e",
-    "why": [],
-    "checked": "2026-11-20T16:43+05:30"
+    "why": [
+     "T0 MISSING voice 1292.9s: \"clade two point three point two point one a,\" (heard 32%)",
+     "T0 MISSING voice 1631.0s: \"दो हज़ार पैंतीस तक पैंतीस percent electrification,\" (heard 31%)",
+     "T0 MISSING voice 1794.6s: \"पच्चीस point चार दो लाख titles, community सिर्फ़ एक point दो चार लाख। \" (heard 45%)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -4679,10 +4727,13 @@
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/Daily_Current_Affairs_-_Rashan_19_November_2026_MCQs_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/thumb_d1.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "3441c1d341704b9de9f557a6768775ee",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T0 MISSING voice 961.3s: \"C R A R of eight percent. Item two,\" (heard 47%)",
+     "T0 MISSING voice 1572.3s: \"INAS three hundred twelve Albatross,\" (heard 41%)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -5273,10 +5324,14 @@
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/Daily_Current_Affairs_-_Rashan_19_November_2026_MCQs_and_Explanations_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/thumb_d2.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "c1da0b7c06da7875826acb9799b33aab",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T0 MISSING voice 1532.2s: \"C R A R of eight percent. Item two,\" (heard 47%)",
+     "T0 MISSING voice 1925.9s: \"July दो हज़ार छब्बीस तक तीन सौ point पाँच gigawatt non fossil capacity\" (heard 28%)",
+     "T0 MISSING voice 2470.0s: \"बाकी तीनों बातें सही हैं, clade two point three point two point one a,\" (heard 36%)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -5327,10 +5382,12 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/thumb_top.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "728bff5dc0e39774a12b09b35a7ac0d9",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "no audio check for this deck"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -5821,10 +5878,12 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_3q_Q28-Q30_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "28d26e9476cc34e1e618433a2cd7c559",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T3 Q29: line missing in the voice: \"C R A R of eight percent. Item two,\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -5874,10 +5933,12 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "23da76d79a2d274419a0daa66d431757",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T3 Q29: line missing in the voice: \"C R A R of eight percent. Item two,\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -5945,10 +6006,12 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "11fee04f4d98b693b8d7deba09638150",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T3 Q29: line missing in the voice: \"C R A R of eight percent. Item two,\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -6010,10 +6073,14 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_3a_Q28-Q30_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "908b294af045a0e668c9e786d3b80322",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (1509.6s): \"The\"",
+     "T2 a spoken word is cut at the clip start (1563.3s): \"The\"",
+     "T3 Q29: line missing in the voice: \"C R A R of eight percent. Item two,\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -6074,10 +6141,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "0e89ec434e09349a1cd8db7d2c4c12c0",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (1509.6s): \"The\"",
+     "T2 a spoken word is cut at the clip start (1563.3s): \"The\"",
+     "T3 Q29: line missing in the voice: \"C R A R of eight percent. Item two,\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -6156,10 +6227,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "7833240ecd34110e7baac2dda832d9bc",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (1509.6s): \"The\"",
+     "T2 a spoken word is cut at the clip start (1563.3s): \"The\"",
+     "T3 Q29: line missing in the voice: \"C R A R of eight percent. Item two,\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -6417,10 +6492,12 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_4q_Q52-Q54_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "238b88723b76fe59e3f07d6906fc119f",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 Q54: the clip ends 15.7s before the voice finishes \"म पर free मिलेगी, link description में। Thank you.\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -6470,10 +6547,12 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "d50a2a459c06a541a3f4f93fccaf5e0f",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 Q54: the clip ends 15.7s before the voice finishes \"म पर free मिलेगी, link description में। Thank you.\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -6541,10 +6620,12 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "3b052d1b4f1597dbde6aeac9d820d485",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 Q54: the clip ends 15.7s before the voice finishes \"म पर free मिलेगी, link description में। Thank you.\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -6606,10 +6687,14 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_4a_Q52-Q54_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "a9e7b783da0a85dcce64b8330f7645e4",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (2817.2s): \"Question\"",
+     "T2 a spoken word is cut at the clip start (2863.7s): \"The\"",
+     "T3 Q53: line missing in the voice: \"यानी एक constable ने बिना record के suspect को रात भर lock u\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -6670,10 +6755,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "f781db53219dc541ec48e18f20c9b824",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (2817.2s): \"Question\"",
+     "T2 a spoken word is cut at the clip start (2863.7s): \"The\"",
+     "T3 Q53: line missing in the voice: \"यानी एक constable ने बिना record के suspect को रात भर lock u\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -6752,10 +6841,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "9f93478b0376db1c95e3329699c2e55a",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (2817.2s): \"Question\"",
+     "T2 a spoken word is cut at the clip start (2863.7s): \"The\"",
+     "T3 Q53: line missing in the voice: \"यानी एक constable ने बिना record के suspect को रात भर lock u\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -7013,10 +7106,12 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_5q_Q4-Q6_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "88cd486f6a763ea7691201a05d82e725",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (225.2s): \"Question\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -7066,10 +7161,12 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "5a2c263fcdc59bd69e286376b1718258",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (225.2s): \"Question\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -7137,10 +7234,12 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "177a80cb0cbfe6e8a47670b251a34197",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (225.2s): \"Question\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -7202,10 +7301,14 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_5a_Q4-Q6_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "7cbe5637a55f342017e3754d5fb93229",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (221.7s): \"The\"",
+     "T2 a spoken word is cut at the clip start (277.1s): \"The\"",
+     "T2 a spoken word is cut at the clip end (290.0s): \"Question\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -7266,10 +7369,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "9c17b64275374fdf72956e291751c0f3",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (221.7s): \"The\"",
+     "T2 a spoken word is cut at the clip start (277.1s): \"The\"",
+     "T2 a spoken word is cut at the clip end (290.0s): \"Question\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -7348,10 +7455,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "d6b76231406d44b3d5a244a084f2e273",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (221.7s): \"The\"",
+     "T2 a spoken word is cut at the clip start (277.1s): \"The\"",
+     "T2 a spoken word is cut at the clip end (290.0s): \"Question\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -7612,7 +7723,7 @@
     "result": "PASS",
     "md5": "d2ab8419ec62af3afbd983e21eeeb4a2",
     "why": [],
-    "checked": "2026-11-20T15:27+05:30"
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -7665,7 +7776,7 @@
     "result": "PASS",
     "md5": "a36f71527db0468a501f6600a31825c3",
     "why": [],
-    "checked": "2026-11-20T15:27+05:30"
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -7736,7 +7847,7 @@
     "result": "PASS",
     "md5": "79f9d8758bf4940aefdebbf42483cae0",
     "why": [],
-    "checked": "2026-11-20T15:27+05:30"
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -7798,10 +7909,14 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_6a_Q16-Q18_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "d123705b97b681e3b9c7e70767209cf2",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (870.6s): \"The\"",
+     "T2 a spoken word is cut at the clip start (937.3s): \"The\"",
+     "T2 a spoken word is cut at the clip end (954.0s): \",question\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -7862,10 +7977,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "be5973f977bf4c4f7e10afd69e2d395a",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (870.6s): \"The\"",
+     "T2 a spoken word is cut at the clip start (937.3s): \"The\"",
+     "T2 a spoken word is cut at the clip end (954.0s): \",question\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -7944,10 +8063,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "15b90396e2db0e101f544516cf89390f",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (870.6s): \"The\"",
+     "T2 a spoken word is cut at the clip start (937.3s): \"The\"",
+     "T2 a spoken word is cut at the clip end (954.0s): \",question\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -8208,7 +8331,7 @@
     "result": "PASS",
     "md5": "2041ece56059bb5f7ac8b14d963b208e",
     "why": [],
-    "checked": "2026-11-20T15:27+05:30"
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -8261,7 +8384,7 @@
     "result": "PASS",
     "md5": "ea1eaaf889ad921fab67447fb97af7ba",
     "why": [],
-    "checked": "2026-11-20T15:27+05:30"
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -8332,7 +8455,7 @@
     "result": "PASS",
     "md5": "9f1f3612bbfbda34b0d0b32f85f239a0",
     "why": [],
-    "checked": "2026-11-20T15:27+05:30"
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -8394,10 +8517,14 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_7a_Q31-Q33_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "3d6c48a6d66fc5b92c97b913befef1b6",
-    "why": [],
-    "checked": "2026-11-20T16:44+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (1700.5s): \"The\"",
+     "T2 a spoken word is cut at the clip end (1714.9s): \"Question\"",
+     "T3 Q31: line missing in the voice: \"यानी पहला statement एक ही सामान के अलग prices की बात करता है\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -8458,10 +8585,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "49435a02e8e60b031306fe8b4a5e79d3",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (1700.5s): \"The\"",
+     "T2 a spoken word is cut at the clip end (1714.9s): \"Question\"",
+     "T3 Q31: line missing in the voice: \"यानी पहला statement एक ही सामान के अलग prices की बात करता है\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -8540,10 +8671,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "b04640ba924964d29e8facd6efa7a556",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (1700.5s): \"The\"",
+     "T2 a spoken word is cut at the clip end (1714.9s): \"Question\"",
+     "T3 Q31: line missing in the voice: \"यानी पहला statement एक ही सामान के अलग prices की बात करता है\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -8801,10 +8936,12 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_8q_Q7-Q9_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "827ea1941aaeee95cbfd75e7c27ff94c",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (311.4s): \"Question\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -8854,10 +8991,12 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "001c3518b324439d86e264053984c9ac",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (311.4s): \"Question\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -8925,10 +9064,12 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "de4110487d296f07356fd15ed1627c1e",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (311.4s): \"Question\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -8990,10 +9131,14 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_8a_Q7-Q9_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "c52a1731f0c21252ea3991eab624a461",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (374.1s): \"The\"",
+     "T2 a spoken word is cut at the clip end (388.1s): \"Question\"",
+     "T2 a spoken word is cut at the clip start (482.8s): \"The\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -9054,10 +9199,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "4efd53c60231897c5d0352e5c6ba386d",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (374.1s): \"The\"",
+     "T2 a spoken word is cut at the clip end (388.1s): \"Question\"",
+     "T2 a spoken word is cut at the clip start (482.8s): \"The\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -9136,10 +9285,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "961bf845db465f14c0b401ce00198481",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (374.1s): \"The\"",
+     "T2 a spoken word is cut at the clip end (388.1s): \"Question\"",
+     "T2 a spoken word is cut at the clip start (482.8s): \"The\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -9387,10 +9540,14 @@
    "cover": "concept_2111_1_Q10_cover.jpg",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/concept_2111_1_Q10_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "176d6c23c54122fb48727905466426f5",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (346.0s): \"Paper\"",
+     "T3 line missing in the voice: \"दो हज़ार आठ में monarchy ख़त्म हुई, और दो हज़ार पंद्रह में s\"",
+     "T2 the clip's audio matches only 46% of its source span (wrong cut/offset?)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -9430,10 +9587,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "237e3862cf0f1f5ef5fb0b5c93ed0e41",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (346.0s): \"Paper\"",
+     "T3 line missing in the voice: \"दो हज़ार आठ में monarchy ख़त्म हुई, और दो हज़ार पंद्रह में s\"",
+     "T2 the clip's audio matches only 46% of its source span (wrong cut/offset?)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -9491,10 +9652,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "4ba5023606f722463de2fcde8059a262",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (346.0s): \"Paper\"",
+     "T3 line missing in the voice: \"दो हज़ार आठ में monarchy ख़त्म हुई, और दो हज़ार पंद्रह में s\"",
+     "T2 the clip's audio matches only 44% of its source span (wrong cut/offset?)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -9696,7 +9861,7 @@
     "result": "PASS",
     "md5": "f1f9b23f9b456de4151341accc445bba",
     "why": [],
-    "checked": "2026-11-20T15:27+05:30"
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -9739,7 +9904,7 @@
     "result": "PASS",
     "md5": "2bce0c28b56623b6e0a31cbb38007661",
     "why": [],
-    "checked": "2026-11-20T15:27+05:30"
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -9800,7 +9965,7 @@
     "result": "PASS",
     "md5": "2a7eda77aa9bd5279b253b15971e569f",
     "why": [],
-    "checked": "2026-11-20T15:27+05:30"
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -9999,10 +10164,12 @@
    "cover": "concept_2111_3_Q28_cover.jpg",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/concept_2111_3_Q28_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "395293a2778ababdbe08a67eea38d08b",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (1000.0s): \"11th\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -10042,10 +10209,12 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "f93768c44c9124d00da2872af713b3b2",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (1000.0s): \"11th\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -10103,10 +10272,12 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "96aa9d25915f33e2dfecb9f819d3035b",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (1000.0s): \"11th\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -10305,10 +10476,13 @@
    "cover": "concept_2111_4_Q52_cover.jpg",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/concept_2111_4_Q52_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "588d1432b11475c70a1bae75e42de65a",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (1745.7s): \"Now,\"",
+     "T2 the clip's audio matches only 72% of its source span (wrong cut/offset?)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -10348,10 +10522,13 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "dcc0f6a8ecab15b081809a902be0fbc9",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (1745.7s): \"Now,\"",
+     "T2 the clip's audio matches only 72% of its source span (wrong cut/offset?)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -10409,10 +10586,13 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "ff25377bcc0ceef854580e83122cc150",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (1745.7s): \"Now,\"",
+     "T2 the clip's audio matches only 72% of its source span (wrong cut/offset?)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -10611,10 +10791,13 @@
    "cover": "concept_2111_5_Q4_cover.jpg",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/concept_2111_5_Q4_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "7c0f03ce66348488d635754189af0642",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (206.8s): \"Mapping\"",
+     "T3 highlights vs voice off by up to 23.2s inside the clip"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -10654,10 +10837,13 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "6d4b52b62adcf440b2f075d432780bad",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (206.8s): \"Mapping\"",
+     "T3 highlights vs voice off by up to 23.2s inside the clip"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -10715,10 +10901,13 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "e40a57d55cbc8a55d39f195ee2f2d6f4",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip end (206.8s): \"Mapping\"",
+     "T3 highlights vs voice off by up to 23.2s inside the clip"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -10917,10 +11106,14 @@
    "cover": "concept_2111_6_Q16_cover.jpg",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/concept_2111_6_Q16_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "f855e243066039c9fa1b901f8631be91",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (502.0s): \"Chhata\"",
+     "T3 line missing in the voice: \"जबकि sanctioned strength एक सौ छियानवे point दो तीन थी और यू\"",
+     "T3 line missing in the voice: \"है। Police में women सिर्फ़ ग्यारह point सात percent थीं,\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -10960,10 +11153,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "ca2d94edc41bef887f76d287590c0a74",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (502.0s): \"Chhata\"",
+     "T3 line missing in the voice: \"जबकि sanctioned strength एक सौ छियानवे point दो तीन थी और यू\"",
+     "T3 line missing in the voice: \"है। Police में women सिर्फ़ ग्यारह point सात percent थीं,\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -11021,10 +11218,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "50af36def61d7ed4f3d32d2ba3046f9f",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (502.0s): \"Chhata\"",
+     "T3 line missing in the voice: \"जबकि sanctioned strength एक सौ छियानवे point दो तीन थी और यू\"",
+     "T3 line missing in the voice: \"है। Police में women सिर्फ़ ग्यारह point सात percent थीं,\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -11223,10 +11424,14 @@
    "cover": "concept_2111_7_Q31_cover.jpg",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/concept_2111_7_Q31_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "9e8df392c0649b5c237cc84dff112c9a",
-    "why": [],
-    "checked": "2026-11-20T16:45+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (999.7s): \"گیارھا\"",
+     "T2 a spoken word is cut at the clip end (1074.0s): \"The\"",
+     "T2 the clip's audio matches only 74% of its source span (wrong cut/offset?)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -11266,10 +11471,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "3c3eac3d3325aa5629637c617dbfc972",
-    "why": [],
-    "checked": "2026-11-20T16:46+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (999.7s): \"گیارھا\"",
+     "T2 a spoken word is cut at the clip end (1074.0s): \"The\"",
+     "T2 the clip's audio matches only 74% of its source span (wrong cut/offset?)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -11327,10 +11536,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "a68e9a3d7937cc5412ceb2d34319ae43",
-    "why": [],
-    "checked": "2026-11-20T16:46+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (999.7s): \"گیارھا\"",
+     "T2 a spoken word is cut at the clip end (1074.0s): \"The\"",
+     "T2 the clip's audio matches only 74% of its source span (wrong cut/offset?)"
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -11532,7 +11745,7 @@
     "result": "PASS",
     "md5": "1955a8308c0808fca815becb192852ed",
     "why": [],
-    "checked": "2026-11-20T15:27+05:30"
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -11575,7 +11788,7 @@
     "result": "PASS",
     "md5": "91c05937a4961747d1ef456fb1236ac4",
     "why": [],
-    "checked": "2026-11-20T15:27+05:30"
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -11636,7 +11849,7 @@
     "result": "PASS",
     "md5": "3b4940a73a228cc27374a4c744e512a8",
     "why": [],
-    "checked": "2026-11-20T15:27+05:30"
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -12428,7 +12641,7 @@
     "result": "PASS",
     "md5": "f49708c4a657bae6630b09123f1c18a2",
     "why": [],
-    "checked": "2026-11-20T15:27+05:30"
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -12481,7 +12694,7 @@
     "result": "PASS",
     "md5": "295d141f60fe4c0b1f3f1dd9136f37d2",
     "why": [],
-    "checked": "2026-11-20T15:27+05:30"
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -12552,7 +12765,7 @@
     "result": "PASS",
     "md5": "d1aa0269fd25fabc17cc6e67f742c3db",
     "why": [],
-    "checked": "2026-11-20T15:27+05:30"
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -12614,10 +12827,14 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_1a_Q10-Q12_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "701ecaa81b8897a3b09034d0f5eb7697",
-    "why": [],
-    "checked": "2026-11-20T16:46+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (515.8s): \"The\"",
+     "T2 a spoken word is cut at the clip start (573.6s): \"سہی\"",
+     "T2 a spoken word is cut at the clip start (649.0s): \"The\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -12678,10 +12895,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "3fc29d2d0b7bba90dd9d1f4d2e00e389",
-    "why": [],
-    "checked": "2026-11-20T16:46+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (515.8s): \"The\"",
+     "T2 a spoken word is cut at the clip start (573.6s): \"سہی\"",
+     "T2 a spoken word is cut at the clip start (649.0s): \"The\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -12760,10 +12981,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "768c08e26d25d2c0c2b886f0774d5138",
-    "why": [],
-    "checked": "2026-11-20T16:46+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (515.8s): \"The\"",
+     "T2 a spoken word is cut at the clip start (573.6s): \"سہی\"",
+     "T2 a spoken word is cut at the clip start (649.0s): \"The\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -13021,10 +13246,12 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_2q_Q19-Q21_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "453203441635043b90e368880c1292bd",
-    "why": [],
-    "checked": "2026-11-20T16:46+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (647.1s): \"ڈ\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -13074,10 +13301,12 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "8781c8d9b94ac20e754ec6156e0ec774",
-    "why": [],
-    "checked": "2026-11-20T16:46+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (647.1s): \"ڈ\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -13145,10 +13374,12 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "2f93b105d283e46f6ee86deca7f31a92",
-    "why": [],
-    "checked": "2026-11-20T16:46+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (647.1s): \"ڈ\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -13210,10 +13441,14 @@
    ],
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/set_2111_2a_Q19-Q21_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "2fbbc9ab6886751b04470a3d174dbbc4",
-    "why": [],
-    "checked": "2026-11-20T16:46+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (1054.5s): \"is\"",
+     "T2 a spoken word is cut at the clip start (1111.6s): \"The\"",
+     "T2 a spoken word is cut at the clip start (1184.0s): \"The\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -13274,10 +13509,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "ad413292b5ad4bb0ccd96e87a75f5172",
-    "why": [],
-    "checked": "2026-11-20T16:46+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (1054.5s): \"is\"",
+     "T2 a spoken word is cut at the clip start (1111.6s): \"The\"",
+     "T2 a spoken word is cut at the clip start (1184.0s): \"The\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
@@ -13356,10 +13595,14 @@
     }
    ],
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "664951ca8f18063becb1ce44d841994d",
-    "why": [],
-    "checked": "2026-11-20T16:46+05:30"
+    "why": [
+     "T2 a spoken word is cut at the clip start (1054.5s): \"is\"",
+     "T2 a spoken word is cut at the clip start (1111.6s): \"The\"",
+     "T2 a spoken word is cut at the clip start (1184.0s): \"The\""
+    ],
+    "checked": "2026-11-20T16:54+05:30"
    }
   },
   {
