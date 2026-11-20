@@ -12678,13 +12678,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "3fc29d2d0b7bba90dd9d1f4d2e00e389",
-    "why": [
-     "T2 the clip's audio matches only 62% of its source span (wrong cut/offset?)",
-     "T2 the voice is still speaking when the end card starts"
-    ],
-    "checked": "2026-11-20T19:23+05:30"
+    "why": [],
+    "checked": "2026-11-20T19:32+05:30"
    }
   },
   {
