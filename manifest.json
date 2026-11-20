@@ -6670,14 +6670,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "f781db53219dc541ec48e18f20c9b824",
-    "why": [
-     "T2 a spoken word is cut at the clip end (2817.2s): \"Question\"",
-     "T2 a spoken word is cut at the clip start (2863.7s): \"The\"",
-     "T3 Q53: line missing in the voice: \"यानी एक constable ने बिना record के suspect को रात भर lock u\""
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:44+05:30"
    }
   },
   {
