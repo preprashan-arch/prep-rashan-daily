@@ -11327,14 +11327,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "a68e9a3d7937cc5412ceb2d34319ae43",
-    "why": [
-     "T2 a spoken word is cut at the clip start (999.7s): \"گیارھا\"",
-     "T2 a spoken word is cut at the clip end (1074.0s): \"The\"",
-     "T2 the clip's audio matches only 74% of its source span (wrong cut/offset?)"
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:46+05:30"
    }
   },
   {
