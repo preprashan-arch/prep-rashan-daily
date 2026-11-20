@@ -110,9 +110,12 @@
    "time": "2026-11-20T17:08+05:30"
   },
   "pa2111-yo-6q": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-20T17:26+05:30"
+   "time": "2026-11-20T17:27+05:30",
+   "id": "7lo_upjbiSw",
+   "url": "https://youtu.be/7lo_upjbiSw",
+   "scheduled": "2026-11-21T16:00+05:30"
   },
   "pa2111-yo-7q": {
    "status": "uploading",
