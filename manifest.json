@@ -9491,14 +9491,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "4ba5023606f722463de2fcde8059a262",
-    "why": [
-     "T2 a spoken word is cut at the clip end (346.0s): \"Paper\"",
-     "T3 highlights vs voice off by up to 2.4s inside the clip",
-     "T2 the clip's audio matches only 45% of its source span (wrong cut/offset?)"
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:45+05:30"
    }
   },
   {
