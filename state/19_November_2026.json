@@ -222,9 +222,12 @@
    "scheduled": "2026-11-21T19:30+05:30"
   },
   "cx2111-yo-8": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-20T19:35+05:30"
+   "time": "2026-11-20T19:42+05:30",
+   "id": "ScgbQke2w7w",
+   "url": "https://youtu.be/ScgbQke2w7w",
+   "scheduled": "2026-11-21T21:30+05:30"
   },
   "pa2111-yo-2a": {
    "status": "done",
