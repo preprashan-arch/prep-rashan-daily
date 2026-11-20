@@ -3171,13 +3171,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "230291f9b2bda7948d275dc59ea11b0f",
-    "why": [
-     "T0 MISSING voice 1292.9s: \"clade two point three point two point one a,\" (heard 32%)",
-     "T0 MISSING voice 1794.6s: \"पच्चीस point चार दो लाख titles, community सिर्फ़ एक point दो चार लाख। \" (heard 45%)"
-    ],
-    "checked": "2026-11-20T19:23+05:30"
+    "why": [],
+    "checked": "2026-11-20T19:30+05:30"
    }
   },
   {
