@@ -27,6 +27,16 @@
    "url": "https://t.me/Prep_Rashan/612",
    "tries": 0,
    "time": "2026-11-20T10:03+05:30"
+  },
+  "tg-polls": {
+   "status": "done",
+   "polls": [
+    619,
+    620,
+    621
+   ],
+   "tries": 0,
+   "time": "2026-11-20T10:05+05:30"
   }
  },
  "links": {
