@@ -6156,13 +6156,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "7833240ecd34110e7baac2dda832d9bc",
-    "why": [
-     "T3 Q29: line missing in the voice: \"और सरकारी हिस्सेदारी, और सही code चुनना है। सही जवाब है ऑप्श\"",
-     "T2 the clip's audio matches only 79% of its source span (wrong cut/offset?)"
-    ],
-    "checked": "2026-11-20T19:23+05:30"
+    "why": [],
+    "checked": "2026-11-20T19:31+05:30"
    }
   },
   {
