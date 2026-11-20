@@ -10103,12 +10103,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "96aa9d25915f33e2dfecb9f819d3035b",
-    "why": [
-     "T2 a spoken word is cut at the clip end (1000.0s): \"11th\""
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:45+05:30"
    }
   },
   {
