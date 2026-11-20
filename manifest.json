@@ -10611,13 +10611,10 @@
    "cover": "concept_2111_5_Q4_cover.jpg",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/concept_2111_5_Q4_cover.jpg",
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "ed15fc8a6d3079cdb8c2fc652b6cd9e2",
-    "why": [
-     "T3 highlights vs voice off by up to 23.2s inside the clip",
-     "T2 the clip's audio matches only 56% of its source span (wrong cut/offset?)"
-    ],
-    "checked": "2026-11-20T19:23+05:30"
+    "why": [],
+    "checked": "2026-11-20T19:32+05:30"
    }
   },
   {
