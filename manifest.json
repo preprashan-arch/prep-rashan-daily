@@ -10960,13 +10960,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "ca2d94edc41bef887f76d287590c0a74",
-    "why": [
-     "T2 a spoken word is cut at the clip start (502.0s): \"Chhata\"",
-     "T2 the clip's audio matches only 78% of its source span (wrong cut/offset?)"
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:45+05:30"
    }
   },
   {
