@@ -53,5 +53,16 @@
   "time": "2026-11-20T11:56+05:30",
   "owner": "20 Nov 2026 11:56 'Post it under reel also'",
   "md5": "ad3910de925a113981f491667ec56a53"
+ },
+ "hold_reply_more": {
+  "owner": "20 Nov 2026 12:00 'Post the same comment on all the commented & liked posts' + choice 'Only posts that are about Mains answer writing', 'Instagram + Facebook'",
+  "time": "2026-11-20T12:17+05:30",
+  "instagram": {
+   "pa1911-in-1q": "18104797871653693",
+   "pa1911-in-1a": "18108692525566015",
+   "pa1911-in-5q": "18344657533256792",
+   "pa2011-in-1q": "18015218645766910"
+  },
+  "facebook": "none – no Facebook post carried the Mains answer-writing poll (asked the owner)"
  }
 }
