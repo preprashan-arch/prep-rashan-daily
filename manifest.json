@@ -3267,12 +3267,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "0c2853a2313206ef37b6bfe34063d2d3",
-    "why": [
-     "T0 MISSING voice 1292.9s: \"clade two point three point two point one a,\" (heard 32%)"
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:43+05:30"
    }
   },
   {
