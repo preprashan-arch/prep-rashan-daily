@@ -214,9 +214,12 @@
    "scheduled": "2026-11-21T17:30+05:30"
   },
   "cx2111-yo-7": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-20T19:35+05:30"
+   "time": "2026-11-20T19:42+05:30",
+   "id": "qiY4xodlmfg",
+   "url": "https://youtu.be/qiY4xodlmfg",
+   "scheduled": "2026-11-21T19:30+05:30"
   },
   "cx2111-yo-8": {
    "status": "uploading",
