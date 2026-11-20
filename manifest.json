@@ -7862,12 +7862,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "be5973f977bf4c4f7e10afd69e2d395a",
-    "why": [
-     "T2 the clip's audio matches only 16% of its source span (wrong cut/offset?)"
-    ],
-    "checked": "2026-11-20T19:23+05:30"
+    "why": [],
+    "checked": "2026-11-20T19:31+05:30"
    }
   },
   {
