@@ -7348,14 +7348,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "d6b76231406d44b3d5a244a084f2e273",
-    "why": [
-     "T2 a spoken word is cut at the clip start (221.7s): \"The\"",
-     "T2 a spoken word is cut at the clip start (277.1s): \"The\"",
-     "T2 a spoken word is cut at the clip end (290.0s): \"Question\""
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:44+05:30"
    }
   },
   {
