@@ -4679,13 +4679,10 @@
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/Daily_Current_Affairs_-_Rashan_19_November_2026_MCQs_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/thumb_d1.jpg",
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "3441c1d341704b9de9f557a6768775ee",
-    "why": [
-     "T0 MISSING voice 961.3s: \"C R A R of eight percent. Item two,\" (heard 47%)",
-     "T0 MISSING voice 1572.3s: \"INAS three hundred twelve Albatross,\" (heard 41%)"
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:44+05:30"
    }
   },
   {
