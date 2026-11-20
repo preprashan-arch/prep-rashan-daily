@@ -8458,14 +8458,10 @@
     }
    ],
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "49435a02e8e60b031306fe8b4a5e79d3",
-    "why": [
-     "T2 a spoken word is cut at the clip start (1700.5s): \"The\"",
-     "T2 a spoken word is cut at the clip end (1714.9s): \"Question\"",
-     "T3 Q31: line missing in the voice: \"यानी पहला statement एक ही सामान के अलग prices की बात करता है\""
-    ],
-    "checked": "2026-11-20T15:27+05:30"
+    "why": [],
+    "checked": "2026-11-20T16:45+05:30"
    }
   },
   {
