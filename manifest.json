@@ -10913,7 +10913,13 @@
     }
    ],
    "cover": "concept_2111_6_Q16_cover.jpg",
-   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/concept_2111_6_Q16_cover.jpg"
+   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/concept_2111_6_Q16_cover.jpg",
+   "sync": {
+    "result": "PASS",
+    "md5": "f855e243066039c9fa1b901f8631be91",
+    "why": [],
+    "checked": "2026-11-20T19:15+05:30"
+   }
   },
   {
    "platform": "facebook",
