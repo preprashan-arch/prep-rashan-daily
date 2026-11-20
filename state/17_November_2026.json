@@ -2332,7 +2332,9 @@
    "time": "2026-11-19T22:36+05:30",
    "id": "2C01YHo0_hs",
    "url": "https://youtu.be/2C01YHo0_hs",
-   "scheduled": "2026-11-20T17:00:00+05:30"
+   "scheduled": "2026-11-20T17:00:00+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "pa2011-yo-6q": {
    "status": "done",
