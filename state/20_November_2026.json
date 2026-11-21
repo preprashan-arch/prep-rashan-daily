@@ -116,9 +116,11 @@
    "yt_in_comment": false
   },
   "d1-yo-067": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-21T13:18+05:30"
+   "time": "2026-11-21T13:33+05:30",
+   "id": "DYbxPJmRoOY",
+   "url": "https://youtu.be/DYbxPJmRoOY"
   },
   "d1-yo-068": {
    "status": "uploading",
@@ -131,5 +133,7 @@
    "time": "2026-11-21T13:18+05:30"
   }
  },
- "links": {}
+ "links": {
+  "YT_PPT": "https://youtu.be/DYbxPJmRoOY"
+ }
 }
