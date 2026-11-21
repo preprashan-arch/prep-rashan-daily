@@ -13583,8 +13583,8 @@
    "urls": [
     "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/Daily_Current_Affairs_-_Rashan_19_November_2026_PPT.pptx"
    ],
-   "md5": "5836a5943b1287bbe8167d5abe55bcda",
-   "size": 10183473,
+   "md5": "cf4c3973b331f067749876458ac73326",
+   "size": 10170886,
    "name": "Daily_Current_Affairs_-_Rashan_19_November_2026_PPT.pptx"
   },
   {
@@ -13805,5 +13805,8 @@
   }
  ],
  "branch": "d/19_November_2026",
- "raw": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/"
+ "raw": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/19_November_2026/",
+ "notes": [
+  "21 Nov 2026: UN Water illustration redrawn – version B (owner 12:54); DCA PDF, Info PDF, PPT deck replaced"
+ ]
 }
