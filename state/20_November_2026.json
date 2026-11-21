@@ -264,7 +264,9 @@
    "id": "18101319563429758",
    "url": "https://www.instagram.com/reel/Df_3D53APl9/",
    "time": "2026-11-21T14:31+05:30",
-   "tries": 0
+   "tries": 0,
+   "boost": "done",
+   "yt_in_comment": false
   },
   "ci2111-yo-10": {
    "status": "done",
