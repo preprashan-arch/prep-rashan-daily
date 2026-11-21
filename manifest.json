@@ -685,12 +685,10 @@
    ],
    "v51": true,
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "22ed21b8c6491453cd5186de662e7b51",
-    "why": [
-     "T3 Q15: line missing in the voice: \"two thousand one hundred ten. Pair two,\""
-    ],
-    "checked": "2026-11-21T08:26+05:30"
+    "why": [],
+    "checked": "2026-11-21T08:27+05:30"
    }
   },
   {
