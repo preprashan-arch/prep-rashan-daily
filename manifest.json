@@ -1203,7 +1203,13 @@
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/Daily_Current_Affairs_-_Rashan_20_November_2026_PPT_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/thumb_ppt.jpg",
    "v51": true,
-   "v51_publish": "public"
+   "v51_publish": "public",
+   "sync": {
+    "result": "PASS",
+    "md5": "bc240a408ea46a749a379874259c5f16",
+    "why": [],
+    "checked": "2026-11-21T09:00+05:30"
+   }
   },
   {
    "platform": "youtube",
@@ -1738,7 +1744,13 @@
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/Daily_Current_Affairs_-_Rashan_20_November_2026_MCQs_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/thumb_d1.jpg",
    "v51": true,
-   "v51_publish": "20:00"
+   "v51_publish": "20:00",
+   "sync": {
+    "result": "PASS",
+    "md5": "f7f382105f9c16f7b2149d4732a99964",
+    "why": [],
+    "checked": "2026-11-21T09:00+05:30"
+   }
   },
   {
    "platform": "youtube",
@@ -2328,7 +2340,13 @@
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/Daily_Current_Affairs_-_Rashan_20_November_2026_MCQs_and_Explanations_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/thumb_d2.jpg",
    "v51": true,
-   "v51_publish": "20:55"
+   "v51_publish": "20:55",
+   "sync": {
+    "result": "PASS",
+    "md5": "abc400b022890bb1becbfceb1435bc64",
+    "why": [],
+    "checked": "2026-11-21T09:00+05:30"
+   }
   },
   {
    "platform": "telegram",
