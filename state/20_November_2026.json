@@ -73,7 +73,9 @@
    "id": "2182711359797360",
    "url": "https://www.facebook.com/reel/2182711359797360/",
    "tries": 0,
-   "time": "2026-11-21T10:21+05:30"
+   "time": "2026-11-21T10:21+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   }
  },
  "links": {}
