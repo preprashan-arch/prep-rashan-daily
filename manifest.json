@@ -50,7 +50,8 @@
    ],
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/Daily_Current_Affairs_-_Rashan_20_November_2026_PPT_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/thumb_ppt.jpg",
-   "v51": true
+   "v51": true,
+   "v51_publish": "public"
   },
   {
    "platform": "youtube",
@@ -584,12 +585,13 @@
    ],
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/Daily_Current_Affairs_-_Rashan_20_November_2026_MCQs_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/thumb_d1.jpg",
-   "v51": true
+   "v51": true,
+   "v51_publish": "20:00"
   },
   {
    "platform": "youtube",
    "kind_yt": "complete",
-   "day": 2,
+   "day": 1,
    "kind": "video",
    "deck": "d2",
    "media": [
@@ -1173,56 +1175,8 @@
    ],
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/Daily_Current_Affairs_-_Rashan_20_November_2026_MCQs_and_Explanations_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/thumb_d2.jpg",
-   "v51": true
-  },
-  {
-   "platform": "youtube",
-   "kind_yt": "complete",
-   "day": 1,
-   "kind": "video",
-   "deck": "top",
-   "link_key": "YT_TOP",
-   "no_playlist": true,
-   "media": [
-    "/home/claude/day_20_November_2026/publish/media/top_topics.mp4"
-   ],
-   "thumb": "thumb_top.jpg",
-   "topics": [
-    "First SCO Civilisational Dialogue Forum: Heritage at Purana Qila",
-    "Fixing NEET: Rebuilding Trust in Public Examinations",
-    "Layoffs in the AI Age: How Well Are Indian Workers Protected?",
-    "Ethics in Today's News: Integrity, Informed Consent and Fair Access"
-   ],
-   "title": "Top 4 Current Affairs Today in Hindi: Fixing NEET & more | 20 November 2026 | UPSC",
-   "description": "Telegram – Daily PDFs: https://t.me/Prep_Rashan | YouTube – Full Videos: https://www.youtube.com/channel/UCSIYewCD5ru2dFNBJ373IPQ\n\n🔥 Like, Share & Subscribe – one step closer to your UPSC rank, every single day!\n🔔 Don't forget to press the bell icon!!! Never miss a day's Rashan.\n📸 Daily MCQ Reels on Instagram: https://www.instagram.com/prep_rashan/\n\nToday's 4 most important UPSC current affairs topics in about 4 minutes, one from each GS paper, in easy Hinglish – context, keywords, numbers, Prelims hook and Mains angle.\n▶️ All topics in full: {YT_PPT}\n\nCHAPTERS\n0:00 Today's top topics\n0:03 GS-I | First SCO Civilisational Dialogue Forum: Heritage at Purana Qila\n1:06 GS-II | Fixing NEET: Rebuilding Trust in Public Examinations\n2:13 GS-III | Layoffs in the AI Age: How Well Are Indian Workers Protected?\n3:28 GS-IV | Ethics in Today's News: Integrity, Informed Consent and Fair Access\n\n📌 Prep-Rashan – A Unit of Prep-Rashan Tutorial\n\n#UPSC #CurrentAffairs #UPSCHindi",
-   "tags": [
-    "UPSC",
-    "UPSC current affairs",
-    "current affairs today",
-    "current affairs in Hindi",
-    "daily current affairs",
-    "UPSC Prelims",
-    "UPSC Mains",
-    "IAS",
-    "civil services",
-    "Prep-Rashan"
-   ],
-   "categoryId": "27",
-   "privacyStatus": "public",
-   "slot": 14,
-   "id": "d1-yo-070",
-   "urls": [
-    {
-     "urls": [
-      "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/top_topics.mp4"
-     ],
-     "md5": "2798bca1bbd2926b81ed14b1fa39f4eb",
-     "size": 10225098,
-     "name": "top_topics.mp4"
-    }
-   ],
-   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/thumb_top.jpg",
-   "v51": true
+   "v51": true,
+   "v51_publish": "20:55"
   },
   {
    "platform": "telegram",
@@ -1774,6 +1728,7 @@
   "d1-yo-049",
   "d1-yo-052",
   "d1-yo-054",
+  "d1-yo-070",
   "d2-fa-002",
   "d2-fa-003",
   "d2-fa-004",
@@ -1809,6 +1764,6 @@
  ],
  "v51": {
   "morning": "2026-11-21",
-  "staged": "2026-11-21T02:20"
+  "staged": "2026-11-21T02:21"
  }
 }
