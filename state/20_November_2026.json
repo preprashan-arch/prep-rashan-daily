@@ -217,7 +217,8 @@
    "scheduled": "2026-11-21T20:00+05:30",
    "lang": "hi",
    "time": "2026-11-21T13:52+05:30",
-   "tries": 0
+   "tries": 0,
+   "thumb": "cover"
   },
   "v51-14-ti": {
    "status": "done",
