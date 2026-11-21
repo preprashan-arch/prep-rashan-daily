@@ -5,6 +5,7 @@
 # It reads EVERY post of the last DAYS days on Instagram, Facebook and YouTube (+ Telegram discussion messages after OFFSET)
 # and lists each viewer comment that has no reply from us. The run then replies to each one (reply_ig / reply_fb / reply_yt /
 # reply_tg) and records it (boost.py replied). Never wrap the thread pools in contextlib.redirect_stdout (16 Nov 2026).
+import time
 import datetime as _dt, json as _json
 from concurrent.futures import ThreadPoolExecutor as _TPE
 
@@ -89,7 +90,13 @@ def _yt_threads(days):
     for _ in range(10):
         a = {"allThreadsRelatedToChannelId": RC_YT_CHANNEL, "part": "snippet,replies", "maxResults": 100}
         if token: a["pageToken"] = token
-        r, e = run_composio_tool("YOUTUBE_LIST_COMMENT_THREADS", a)
+        # 22 Nov 2026: YouTube refuses some comment-thread pages at random ("Access forbidden") – the same call works
+        # on a retry or with another page size, so try up to 4 times (100, 50, 50, 20) before calling it an error
+        for mr in (100, 50, 50, 20):
+            a["maxResults"] = mr
+            r, e = run_composio_tool("YOUTUBE_LIST_COMMENT_THREADS", a)
+            if not e: break
+            time.sleep(2)
         if e: errs.append(f"youtube: {str(e)[:160]}"); break
         d = r.get("data") or {}
         for t in d.get("items", []):
