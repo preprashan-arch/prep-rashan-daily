@@ -53,13 +53,7 @@
      "name": "set_2111_3q_Q22-Q24_in_S_V.mp4"
     }
    ],
-   "v51": true,
-   "sync": {
-    "result": "PASS",
-    "md5": "e4e77ab890dd11aff2fa18fc46813417",
-    "why": [],
-    "checked": "2026-11-21T08:26+05:30"
-   }
+   "v51": true
   },
   {
    "platform": "facebook",
@@ -107,13 +101,7 @@
      "name": "set_2111_3q_Q22-Q24_fa_S_V.mp4"
     }
    ],
-   "v51": true,
-   "sync": {
-    "result": "PASS",
-    "md5": "6a96e1a64880ce72e308f65378a8fc92",
-    "why": [],
-    "checked": "2026-11-21T08:26+05:30"
-   }
+   "v51": true
   },
   {
    "day": 1,
@@ -245,13 +233,7 @@
      "name": "set_2111_4q_Q52-Q54_in_S_V.mp4"
     }
    ],
-   "v51": true,
-   "sync": {
-    "result": "PASS",
-    "md5": "7c2517c207259e394a0cc5f8f2ec474e",
-    "why": [],
-    "checked": "2026-11-21T08:26+05:30"
-   }
+   "v51": true
   },
   {
    "platform": "facebook",
@@ -299,13 +281,7 @@
      "name": "set_2111_4q_Q52-Q54_fa_S_V.mp4"
     }
    ],
-   "v51": true,
-   "sync": {
-    "result": "PASS",
-    "md5": "36f8ea4d9a4e788ac116d12f4bea93ce",
-    "why": [],
-    "checked": "2026-11-21T08:26+05:30"
-   }
+   "v51": true
   },
   {
    "day": 1,
@@ -437,13 +413,7 @@
      "name": "set_2111_5q_Q4-Q6_in_S_V.mp4"
     }
    ],
-   "v51": true,
-   "sync": {
-    "result": "PASS",
-    "md5": "df5504f2bcdef73087343024adc72c5d",
-    "why": [],
-    "checked": "2026-11-21T08:26+05:30"
-   }
+   "v51": true
   },
   {
    "platform": "facebook",
@@ -491,13 +461,7 @@
      "name": "set_2111_5q_Q4-Q6_fa_S_V.mp4"
     }
    ],
-   "v51": true,
-   "sync": {
-    "result": "PASS",
-    "md5": "0974f33fec8827a3ff271087d237d1af",
-    "why": [],
-    "checked": "2026-11-21T08:26+05:30"
-   }
+   "v51": true
   },
   {
    "day": 1,
@@ -624,18 +588,12 @@
      "urls": [
       "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/set_2111_6q_Q13-Q15_in_S_V.mp4"
      ],
-     "md5": "c729dedfbe69dfe897e379ca5a4529c7",
-     "size": 3592872,
+     "md5": "662760266786b647b1cd2e38f1639ea5",
+     "size": 3592866,
      "name": "set_2111_6q_Q13-Q15_in_S_V.mp4"
     }
    ],
-   "v51": true,
-   "sync": {
-    "result": "PASS",
-    "md5": "c729dedfbe69dfe897e379ca5a4529c7",
-    "why": [],
-    "checked": "2026-11-21T08:27+05:30"
-   }
+   "v51": true
   },
   {
    "platform": "facebook",
@@ -678,18 +636,12 @@
      "urls": [
       "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/set_2111_6q_Q13-Q15_fa_S_V.mp4"
      ],
-     "md5": "22ed21b8c6491453cd5186de662e7b51",
-     "size": 3591914,
+     "md5": "8fc9b96a546b0e6b2523c5c76aa55482",
+     "size": 3591908,
      "name": "set_2111_6q_Q13-Q15_fa_S_V.mp4"
     }
    ],
-   "v51": true,
-   "sync": {
-    "result": "PASS",
-    "md5": "22ed21b8c6491453cd5186de662e7b51",
-    "why": [],
-    "checked": "2026-11-21T08:27+05:30"
-   }
+   "v51": true
   },
   {
    "day": 1,
@@ -713,8 +665,8 @@
      "urls": [
       "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/conceptimg_05.png"
      ],
-     "md5": "914f388b5c00bdd5ca92c38103ec9cdc",
-     "size": 1027521,
+     "md5": "6159a91f79f98338bc72fa0ab9eeea7b",
+     "size": 1025743,
      "name": "conceptimg_05.png"
     }
    ],
@@ -742,8 +694,8 @@
      "urls": [
       "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/conceptimg_05.png"
      ],
-     "md5": "914f388b5c00bdd5ca92c38103ec9cdc",
-     "size": 1027521,
+     "md5": "6159a91f79f98338bc72fa0ab9eeea7b",
+     "size": 1025743,
      "name": "conceptimg_05.png"
     }
    ]
@@ -770,8 +722,8 @@
      "urls": [
       "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/20_November_2026/conceptimg_05_story.png"
      ],
-     "md5": "b9353397e864755cf38c8324da475f26",
-     "size": 410996,
+     "md5": "ca5e8328a73d62c65305645fd9c27ddb",
+     "size": 410353,
      "name": "conceptimg_05_story.png"
     }
    ]
@@ -821,13 +773,7 @@
      "name": "set_2111_7q_Q25-Q27_in_S_V.mp4"
     }
    ],
-   "v51": true,
-   "sync": {
-    "result": "PASS",
-    "md5": "e95493485c02c71975201042ef4b8185",
-    "why": [],
-    "checked": "2026-11-21T08:26+05:30"
-   }
+   "v51": true
   },
   {
    "platform": "facebook",
@@ -875,13 +821,7 @@
      "name": "set_2111_7q_Q25-Q27_fa_S_V.mp4"
     }
    ],
-   "v51": true,
-   "sync": {
-    "result": "PASS",
-    "md5": "b4b8ef7a5839e3c7ca8be0c8784cfecf",
-    "why": [],
-    "checked": "2026-11-21T08:26+05:30"
-   }
+   "v51": true
   },
   {
    "day": 1,
@@ -1013,13 +953,7 @@
      "name": "set_2111_8q_Q7-Q9_in_S_V.mp4"
     }
    ],
-   "v51": true,
-   "sync": {
-    "result": "PASS",
-    "md5": "7672934efe358e820de09fb3f22f2e6e",
-    "why": [],
-    "checked": "2026-11-21T08:26+05:30"
-   }
+   "v51": true
   },
   {
    "platform": "facebook",
@@ -1067,13 +1001,7 @@
      "name": "set_2111_8q_Q7-Q9_fa_S_V.mp4"
     }
    ],
-   "v51": true,
-   "sync": {
-    "result": "PASS",
-    "md5": "15af74fe9f67f39c2e71a7b7828b30c2",
-    "why": [],
-    "checked": "2026-11-21T08:26+05:30"
-   }
+   "v51": true
   },
   {
    "day": 1,
@@ -2446,13 +2374,7 @@
     }
    ],
    "caption": "UPSC Current Affairs | ✍️ UPSC Mains Answer Writing – which question should we decode on YouTube?\nTelegram – Daily PDFs: https://t.me/Prep_Rashan | YouTube – Full Videos: https://www.youtube.com/channel/UCSIYewCD5ru2dFNBJ373IPQ\n\nMains Answer Writing – Rashan | 20 November 2026\nQ1. (GS-I – 15 marks, 250 words) Explain how the antecedent character of the Indus and the pattern of its tributaries have shaped the physiography of the north-western subcontinent and the sharing of its waters.\nQ2. (GS-II – 10 marks, 150 words) Repeated paper leaks in national entrance examinations erode trust in public institutions. Critically examine whether a shift to computer-based testing alone can restore the credibility of NEET.\nQ3. (GS-III – 15 marks, 250 words) Critical minerals are now central to India's energy transition and strategic autonomy. Evaluate India's strategy to secure them, highlighting the gaps that remain.\n\n🗳️ Which question should we discuss on YouTube – through the eyes of the UPSC Examiner? Comment 1, 2 or 3 👇\nVotes close at 5 PM. The chosen questions are answered \"through the eyes of the UPSC Examiner\" on our YouTube Live at about 8:15 PM.\n\n🔥 Like, Share & Follow – one step closer to your UPSC rank, every single day!\n🔔 Don't forget to press the bell icon!!! Never miss a day's Rashan.\n💾 Save it for revision • Follow @prep_rashan for daily UPSC MCQs\n\nSend this to your UPSC study partner\n#UPSC #UPSCMains #AnswerWriting #PrepRashan #IAS",
-   "mains_reel": true,
-   "sync": {
-    "result": "PASS",
-    "md5": "a50ed912a07f7fcc2ea6eda8ef0ac4cc",
-    "why": [],
-    "checked": "2026-11-21T08:22+05:30"
-   }
+   "mains_reel": true
   },
   {
    "day": 1,
@@ -2552,13 +2474,7 @@
     }
    ],
    "caption": "UPSC Current Affairs | ✍️ UPSC Mains Answer Writing – which question should we decode on YouTube?\nTelegram – Daily PDFs: https://t.me/Prep_Rashan | YouTube – Full Videos: https://www.youtube.com/channel/UCSIYewCD5ru2dFNBJ373IPQ\n\nMains Answer Writing – Rashan | 20 November 2026\nQ4. (GS-II – 10 marks, 150 words) How far do the outcomes of the fourth India–Japan 2+2 dialogue advance India's defence-industrial and economic-security goals? Analyse.\nQ5. (GS-III – 10 marks, 150 words) Rising delinquencies in microfinance point to over-indebtedness rather than mere credit growth. Discuss the measures needed to balance financial inclusion with borrower protection.\nQ6. (GS-IV, case study – 20 marks, 250 words) You are the district officer in charge of a national entrance examination. On the evening before the exam, a credible message says the question paper may have leaked at one centre. A senior official advises you to proceed quietly, since a cancellation would hurt lakhs of candidates and the department's image. What are the ethical issues involved? What course of action would you take, and why?\n\n🗳️ Which one should we decode on YouTube – through the eyes of the UPSC Examiner? Vote 4, 5 or 6 in the comments 👇\nVotes close at 5 PM. The chosen questions are answered \"through the eyes of the UPSC Examiner\" on our YouTube Live at about 8:15 PM.\n\n🔥 Like, Share & Follow – one step closer to your UPSC rank, every single day!\n🔔 Don't forget to press the bell icon!!! Never miss a day's Rashan.\n💾 Save it for revision • Follow @prep_rashan for daily UPSC MCQs\n\nSend this to your UPSC study partner\n#UPSC #UPSCMains #AnswerWriting #PrepRashan #IAS",
-   "mains_reel": true,
-   "sync": {
-    "result": "PASS",
-    "md5": "1c0fac5878df0b93e71dba5deb60e857",
-    "why": [],
-    "checked": "2026-11-21T08:22+05:30"
-   }
+   "mains_reel": true
   },
   {
    "day": 1,
@@ -3123,6 +3039,6 @@
  ],
  "v51": {
   "morning": "2026-11-21",
-  "staged": "2026-11-21T02:52"
+  "staged": "2026-11-21T03:35"
  }
 }
