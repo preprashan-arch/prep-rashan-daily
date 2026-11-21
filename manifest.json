@@ -53,7 +53,13 @@
      "name": "set_2111_3q_Q22-Q24_in_S_V.mp4"
     }
    ],
-   "v51": true
+   "v51": true,
+   "sync": {
+    "result": "PASS",
+    "md5": "e4e77ab890dd11aff2fa18fc46813417",
+    "why": [],
+    "checked": "2026-11-21T09:08+05:30"
+   }
   },
   {
    "platform": "facebook",
@@ -101,7 +107,13 @@
      "name": "set_2111_3q_Q22-Q24_fa_S_V.mp4"
     }
    ],
-   "v51": true
+   "v51": true,
+   "sync": {
+    "result": "PASS",
+    "md5": "6a96e1a64880ce72e308f65378a8fc92",
+    "why": [],
+    "checked": "2026-11-21T09:08+05:30"
+   }
   },
   {
    "day": 1,
@@ -233,7 +245,13 @@
      "name": "set_2111_4q_Q52-Q54_in_S_V.mp4"
     }
    ],
-   "v51": true
+   "v51": true,
+   "sync": {
+    "result": "PASS",
+    "md5": "7c2517c207259e394a0cc5f8f2ec474e",
+    "why": [],
+    "checked": "2026-11-21T09:08+05:30"
+   }
   },
   {
    "platform": "facebook",
@@ -281,7 +299,13 @@
      "name": "set_2111_4q_Q52-Q54_fa_S_V.mp4"
     }
    ],
-   "v51": true
+   "v51": true,
+   "sync": {
+    "result": "PASS",
+    "md5": "36f8ea4d9a4e788ac116d12f4bea93ce",
+    "why": [],
+    "checked": "2026-11-21T09:08+05:30"
+   }
   },
   {
    "day": 1,
@@ -413,7 +437,13 @@
      "name": "set_2111_5q_Q4-Q6_in_S_V.mp4"
     }
    ],
-   "v51": true
+   "v51": true,
+   "sync": {
+    "result": "PASS",
+    "md5": "df5504f2bcdef73087343024adc72c5d",
+    "why": [],
+    "checked": "2026-11-21T09:08+05:30"
+   }
   },
   {
    "platform": "facebook",
@@ -461,7 +491,13 @@
      "name": "set_2111_5q_Q4-Q6_fa_S_V.mp4"
     }
    ],
-   "v51": true
+   "v51": true,
+   "sync": {
+    "result": "PASS",
+    "md5": "0974f33fec8827a3ff271087d237d1af",
+    "why": [],
+    "checked": "2026-11-21T09:08+05:30"
+   }
   },
   {
    "day": 1,
@@ -593,7 +629,15 @@
      "name": "set_2111_6q_Q13-Q15_in_S_V.mp4"
     }
    ],
-   "v51": true
+   "v51": true,
+   "sync": {
+    "result": "FAIL",
+    "md5": "662760266786b647b1cd2e38f1639ea5",
+    "why": [
+     "T3 Q15: line missing in the voice: \"two thousand one hundred ten. Pair two,\""
+    ],
+    "checked": "2026-11-21T09:08+05:30"
+   }
   },
   {
    "platform": "facebook",
@@ -641,7 +685,15 @@
      "name": "set_2111_6q_Q13-Q15_fa_S_V.mp4"
     }
    ],
-   "v51": true
+   "v51": true,
+   "sync": {
+    "result": "FAIL",
+    "md5": "8fc9b96a546b0e6b2523c5c76aa55482",
+    "why": [
+     "T3 Q15: line missing in the voice: \"two thousand one hundred ten. Pair two,\""
+    ],
+    "checked": "2026-11-21T09:08+05:30"
+   }
   },
   {
    "day": 1,
@@ -773,7 +825,13 @@
      "name": "set_2111_7q_Q25-Q27_in_S_V.mp4"
     }
    ],
-   "v51": true
+   "v51": true,
+   "sync": {
+    "result": "PASS",
+    "md5": "e95493485c02c71975201042ef4b8185",
+    "why": [],
+    "checked": "2026-11-21T09:08+05:30"
+   }
   },
   {
    "platform": "facebook",
@@ -821,7 +879,13 @@
      "name": "set_2111_7q_Q25-Q27_fa_S_V.mp4"
     }
    ],
-   "v51": true
+   "v51": true,
+   "sync": {
+    "result": "PASS",
+    "md5": "b4b8ef7a5839e3c7ca8be0c8784cfecf",
+    "why": [],
+    "checked": "2026-11-21T09:08+05:30"
+   }
   },
   {
    "day": 1,
@@ -953,7 +1017,13 @@
      "name": "set_2111_8q_Q7-Q9_in_S_V.mp4"
     }
    ],
-   "v51": true
+   "v51": true,
+   "sync": {
+    "result": "PASS",
+    "md5": "7672934efe358e820de09fb3f22f2e6e",
+    "why": [],
+    "checked": "2026-11-21T09:08+05:30"
+   }
   },
   {
    "platform": "facebook",
@@ -1001,7 +1071,13 @@
      "name": "set_2111_8q_Q7-Q9_fa_S_V.mp4"
     }
    ],
-   "v51": true
+   "v51": true,
+   "sync": {
+    "result": "PASS",
+    "md5": "15af74fe9f67f39c2e71a7b7828b30c2",
+    "why": [],
+    "checked": "2026-11-21T09:08+05:30"
+   }
   },
   {
    "day": 1,
