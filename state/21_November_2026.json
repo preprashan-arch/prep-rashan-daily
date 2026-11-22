@@ -246,10 +246,21 @@
    "thumb": true,
    "tries": 0,
    "time": "2026-11-22T17:22+05:30"
+  },
+  "d2-yo-068": {
+   "status": "done",
+   "id": "B4uT2O_ojbM",
+   "url": "https://youtu.be/B4uT2O_ojbM",
+   "scheduled": "2026-11-22T22:55:00+05:30",
+   "playlist": "PLQNak1qcUPis",
+   "thumb": true,
+   "tries": 0,
+   "time": "2026-11-22T17:22+05:30"
   }
  },
  "links": {
   "YT_MCQ": "https://youtu.be/MRRgZJ7O4HM",
-  "YT_PPT": "https://youtu.be/7PVRxORSU6w"
+  "YT_PPT": "https://youtu.be/7PVRxORSU6w",
+  "YT_EXP": "https://youtu.be/B4uT2O_ojbM"
  }
 }
