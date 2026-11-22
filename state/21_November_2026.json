@@ -76,9 +76,13 @@
    "privacy": "private→public at 17:00"
   },
   "ci2211-yo-12": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-22T15:43+05:30"
+   "time": "2026-11-22T15:44+05:30",
+   "id": "pEhY9ywC7Tc",
+   "url": "https://youtu.be/pEhY9ywC7Tc",
+   "scheduled": "2026-11-22T18:00:00+05:30",
+   "privacy": "private→public at 18:00"
   },
   "ci2211-yo-14": {
    "status": "uploading",
