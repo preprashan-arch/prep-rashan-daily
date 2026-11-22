@@ -28,11 +28,12 @@
    ],
    "slot": 6,
    "link_key": "TG_CDCA",
-   "day": 0,
+   "day": 1,
    "id": "cc-te-01",
    "paper": "Complete (GS-1 to GS-4)",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -55,11 +56,12 @@
    ],
    "slot": 6,
    "link_key": "TG_CMCQ",
-   "day": 0,
+   "day": 1,
    "id": "cc-te-02",
    "paper": "Complete (GS-1 to GS-4)",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -82,11 +84,12 @@
    ],
    "slot": 6,
    "link_key": "TG_CEXP",
-   "day": 0,
+   "day": 1,
    "id": "cc-te-03",
    "paper": "Complete (GS-1 to GS-4)",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -107,12 +110,13 @@
      "name": "01_Prep-Rashan_Weekly_Revision_Complete_GS-1_to_GS-4_16-20_November_2026_PPT_PDF_Part-1-of-2.pdf"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 13,
    "id": "cc-te-04",
    "paper": "Complete (GS-1 to GS-4)",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -133,12 +137,13 @@
      "name": "01_Prep-Rashan_Weekly_Revision_Complete_GS-1_to_GS-4_16-20_November_2026_PPT_PDF_Part-2-of-2.pdf"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 13,
    "id": "cc-te-05",
    "paper": "Complete (GS-1 to GS-4)",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -159,12 +164,13 @@
      "name": "02_Prep-Rashan_Weekly_Revision_Complete_GS-1_to_GS-4_16-20_November_2026_Flash_Cards_Day-1_MCQs_PDF_Part-1-of-2.pdf"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 13,
    "id": "cc-te-06",
    "paper": "Complete (GS-1 to GS-4)",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -185,12 +191,13 @@
      "name": "02_Prep-Rashan_Weekly_Revision_Complete_GS-1_to_GS-4_16-20_November_2026_Flash_Cards_Day-1_MCQs_PDF_Part-2-of-2.pdf"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 13,
    "id": "cc-te-07",
    "paper": "Complete (GS-1 to GS-4)",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -211,12 +218,13 @@
      "name": "03_Prep-Rashan_Weekly_Revision_Complete_GS-1_to_GS-4_16-20_November_2026_Flash_Cards_Day-2_MCQs_and_Explanations_PDF_Part-1-of-2.pdf"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 13,
    "id": "cc-te-08",
    "paper": "Complete (GS-1 to GS-4)",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -237,12 +245,13 @@
      "name": "03_Prep-Rashan_Weekly_Revision_Complete_GS-1_to_GS-4_16-20_November_2026_Flash_Cards_Day-2_MCQs_and_Explanations_PDF_Part-2-of-2.pdf"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 13,
    "id": "cc-te-09",
    "paper": "Complete (GS-1 to GS-4)",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "facebook",
@@ -343,12 +352,13 @@
      "name": "deck_Complete_ppt_10.jpg"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 21,
    "id": "cc-fa-11",
    "paper": "Complete (GS-1 to GS-4)",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "facebook",
@@ -449,12 +459,13 @@
      "name": "deck_Complete_d1_10.jpg"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 21,
    "id": "cc-fa-13",
    "paper": "Complete (GS-1 to GS-4)",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "facebook",
@@ -555,12 +566,13 @@
      "name": "deck_Complete_d2_10.jpg"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 21,
    "id": "cc-fa-15",
    "paper": "Complete (GS-1 to GS-4)",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   }
  ],
  "branch": "d/Compilation_Weekly_Complete_16-20_November_2026",
