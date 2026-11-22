@@ -1,9 +1,12 @@
 {
  "posts": {
   "c1-yo-21": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-22T13:22+05:30"
+   "time": "2026-11-22T13:32+05:30",
+   "id": "gO7HiNZXV_A",
+   "url": "https://youtu.be/gO7HiNZXV_A",
+   "scheduled": "2026-11-23T06:00:00+05:30"
   },
   "c1-yo-22": {
    "status": "uploading",
@@ -16,5 +19,7 @@
    "time": "2026-11-22T13:22+05:30"
   }
  },
- "links": {}
+ "links": {
+  "YT_PPT": "https://youtu.be/gO7HiNZXV_A"
+ }
 }
