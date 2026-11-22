@@ -67,9 +67,13 @@
    "privacy": "private→public at 16:00"
   },
   "ci2211-yo-10": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-22T15:43+05:30"
+   "time": "2026-11-22T15:44+05:30",
+   "id": "FrK2YW-6sko",
+   "url": "https://youtu.be/FrK2YW-6sko",
+   "scheduled": "2026-11-22T17:00:00+05:30",
+   "privacy": "private→public at 17:00"
   },
   "ci2211-yo-12": {
    "status": "uploading",
