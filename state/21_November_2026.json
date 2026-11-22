@@ -119,6 +119,14 @@
    "url": "https://youtu.be/na63mb5FbGE",
    "scheduled": "2026-11-22T22:00:00+05:30",
    "privacy": "private→public at 22:00"
+  },
+  "pa2211-te-2q1": {
+   "status": "done",
+   "id": 705,
+   "url": "https://t.me/Prep_Rashan/705",
+   "poll": 706,
+   "tries": 0,
+   "time": "2026-11-22T16:04+05:30"
   }
  },
  "links": {}
