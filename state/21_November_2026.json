@@ -707,7 +707,9 @@
    "id": "18224946874348754",
    "url": "https://www.instagram.com/reel/DgDRq1HSS4_/",
    "tries": 0,
-   "time": "2026-11-22T22:22+05:30"
+   "time": "2026-11-22T22:22+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "pa2211-fa-8q": {
    "status": "done",
