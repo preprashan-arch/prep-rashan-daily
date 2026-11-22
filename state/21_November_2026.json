@@ -112,9 +112,13 @@
    "privacy": "private→public at 21:00"
   },
   "ci2211-yo-20": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-22T15:43+05:30"
+   "time": "2026-11-22T15:44+05:30",
+   "id": "na63mb5FbGE",
+   "url": "https://youtu.be/na63mb5FbGE",
+   "scheduled": "2026-11-22T22:00:00+05:30",
+   "privacy": "private→public at 22:00"
   }
  },
  "links": {}
