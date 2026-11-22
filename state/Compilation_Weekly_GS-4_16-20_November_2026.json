@@ -1,9 +1,12 @@
 {
  "posts": {
   "c4-yo-21": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-22T13:23+05:30"
+   "time": "2026-11-22T13:32+05:30",
+   "id": "uVhln9CfH3Y",
+   "url": "https://youtu.be/uVhln9CfH3Y",
+   "scheduled": "2026-11-23T06:00:00+05:30"
   },
   "c4-yo-22": {
    "status": "uploading",
@@ -16,5 +19,7 @@
    "time": "2026-11-22T13:23+05:30"
   }
  },
- "links": {}
+ "links": {
+  "YT_PPT": "https://youtu.be/uVhln9CfH3Y"
+ }
 }
