@@ -112,12 +112,18 @@ def _yt_threads(days):
         if not token: break
     return out, errs
 
+TG_POLLS = {}      # owner 23 Nov 2026 02:21 ("Okay"): the latest state of every poll our bot sent (Mains vote poll) – sweep()["polls"]
 def _tg(offset):
-    r, e = run_composio_tool("TELEGRAM_GET_UPDATES", {"offset": offset, "allowed_updates": ["message"]})
+    r, e = run_composio_tool("TELEGRAM_GET_UPDATES", {"offset": offset, "allowed_updates": ["message", "poll"]})
     if e: return [], [f"telegram: {str(e)[:120]}"], offset
     rs = ((r.get("data") or {}).get("result") or [])
     out = []
     for u in rs:
+        p = u.get("poll")
+        if p:      # bots receive the new state of polls they sent: option texts with voter counts
+            TG_POLLS[p.get("id")] = dict(question=p.get("question", ""), total=p.get("total_voter_count", 0),
+                                         options=[(o.get("text", ""), o.get("voter_count", 0)) for o in p.get("options", [])])
+            continue
         m = u.get("message") or {}
         if m.get("is_automatic_forward") or (m.get("sender_chat") or {}).get("username") == RC_TG_CHAT.lstrip("@"): continue
         if m.get("from", {}).get("is_bot"): continue
@@ -147,7 +153,7 @@ def sweep(days=10, tg_offset=None, youtube=True):
     if tg_offset is not None:
         o, e, nxt = _tg(tg_offset); U += o; E += e; C["telegram_messages"] = len(o)
     U.sort(key=lambda x: x.get("time", ""))
-    return dict(unanswered=U, checked=C, errors=E, tg_next=nxt)
+    return dict(unanswered=U, checked=C, errors=E, tg_next=nxt, polls=dict(TG_POLLS))
 
 def reply_ig(comment_id, text):
     r, e = run_composio_tool("INSTAGRAM_POST_IG_COMMENT_REPLIES", {"ig_comment_id": comment_id, "message": text}); return e or (r.get("data") or {}).get("id")
