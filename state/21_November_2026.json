@@ -105,11 +105,12 @@
   "ci2211-yo-18": {
    "status": "done",
    "tries": 0,
-   "time": "2026-11-22T15:44+05:30",
-   "id": "GW_2PQV-kVg",
-   "url": "https://youtu.be/GW_2PQV-kVg",
+   "time": "2026-11-22T16:33+05:30",
+   "id": "KUjiFK-byS0",
+   "url": "https://youtu.be/KUjiFK-byS0",
    "scheduled": "2026-11-22T21:00:00+05:30",
-   "privacy": "private→public at 21:00"
+   "privacy": "private→public at 21:00",
+   "replaces": "GW_2PQV-kVg (Pulses – unscheduled, private)"
   },
   "ci2211-yo-20": {
    "status": "done",
