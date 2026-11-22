@@ -58,9 +58,13 @@
    "time": "2026-11-22T15:04+05:30"
   },
   "ci2211-yo-08": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-22T15:43+05:30"
+   "time": "2026-11-22T15:44+05:30",
+   "id": "EjWV_VYOZ_E",
+   "url": "https://youtu.be/EjWV_VYOZ_E",
+   "scheduled": "2026-11-22T16:00:00+05:30",
+   "privacy": "private→public at 16:00"
   },
   "ci2211-yo-10": {
    "status": "uploading",
