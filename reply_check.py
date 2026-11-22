@@ -154,7 +154,10 @@ def reply_ig(comment_id, text):
 def reply_fb(comment_id, text):
     r, e = run_composio_tool("FACEBOOK_CREATE_COMMENT", {"object_id": comment_id, "message": text}); return e or (r.get("data") or {}).get("id")
 def reply_yt(parent_id, text):
-    r, e = run_composio_tool("YOUTUBE_REPLY_TO_COMMENT", {"parentId": parent_id, "textOriginal": text}); return e or (r.get("data") or {}).get("id")
+    # 22 Nov 2026: the Composio tool YOUTUBE_REPLY_TO_COMMENT is gone (404 ToolNotFound) – the YouTube API directly
+    r, e = proxy_execute("POST", "https://www.googleapis.com/youtube/v3/comments", "youtube", query_params={"part": "snippet"},
+                         body={"snippet": {"parentId": parent_id, "textOriginal": text}})
+    return e or (r or {}).get("id")
 def reply_tg(chat, message_id, text):
     r, e = run_composio_tool("TELEGRAM_SEND_MESSAGE", {"chat_id": chat, "text": text, "reply_to_message_id": message_id})
     return e or ((r.get("data") or {}).get("result") or {}).get("message_id")
