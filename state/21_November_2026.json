@@ -182,7 +182,19 @@
    "time": "2026-11-22T16:31+05:30",
    "boost": "done",
    "yt_in_comment": false
+  },
+  "d1-yo-067": {
+   "status": "done",
+   "id": "MRRgZJ7O4HM",
+   "url": "https://youtu.be/MRRgZJ7O4HM",
+   "scheduled": "2026-11-22T20:00:00+05:30",
+   "playlist": "PLHFuRKWdrjas",
+   "thumb": true,
+   "tries": 0,
+   "time": "2026-11-22T16:54+05:30"
   }
  },
- "links": {}
+ "links": {
+  "YT_MCQ": "https://youtu.be/MRRgZJ7O4HM"
+ }
 }
