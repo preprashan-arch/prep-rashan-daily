@@ -9,9 +9,12 @@
    "scheduled": "2026-11-23T06:00:00+05:30"
   },
   "c3-yo-22": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-22T13:23+05:30"
+   "time": "2026-11-22T13:32+05:30",
+   "id": "oPqRskL2nFs",
+   "url": "https://youtu.be/oPqRskL2nFs",
+   "scheduled": "2026-11-23T06:00:00+05:30"
   },
   "c3-yo-23": {
    "status": "uploading",
@@ -20,6 +23,7 @@
   }
  },
  "links": {
-  "YT_PPT": "https://youtu.be/e4nHrFAivLs"
+  "YT_PPT": "https://youtu.be/e4nHrFAivLs",
+  "YT_MCQ": "https://youtu.be/oPqRskL2nFs"
  }
 }
