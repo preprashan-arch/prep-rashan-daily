@@ -345,6 +345,24 @@
    "time": "2026-11-22T17:37+05:30",
    "boost": "done",
    "yt_in_comment": false
+  },
+  "mains-premiere-2026-11-22": {
+   "status": "done",
+   "id": "EQRTkehLetg",
+   "url": "https://youtu.be/EQRTkehLetg",
+   "scheduled": "2026-11-22T20:15:00+05:30",
+   "premiere": "not set – Claude in Chrome not reachable (chat not linked to a computer); owner told the phone steps",
+   "questions": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    9
+   ],
+   "branch_commit": "eca12d4",
+   "tries": 0,
+   "time": "2026-11-22T17:39+05:30"
   }
  },
  "links": {
