@@ -236,9 +236,20 @@
    "id": "2201598854124107",
    "tries": 0,
    "time": "2026-11-22T17:02+05:30"
+  },
+  "d1-yo-066": {
+   "status": "done",
+   "id": "7PVRxORSU6w",
+   "url": "https://youtu.be/7PVRxORSU6w",
+   "privacy": "public",
+   "playlist": "PLEx7F9DBpUs4",
+   "thumb": true,
+   "tries": 0,
+   "time": "2026-11-22T17:22+05:30"
   }
  },
  "links": {
-  "YT_MCQ": "https://youtu.be/MRRgZJ7O4HM"
+  "YT_MCQ": "https://youtu.be/MRRgZJ7O4HM",
+  "YT_PPT": "https://youtu.be/7PVRxORSU6w"
  }
 }
