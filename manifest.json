@@ -30,12 +30,13 @@
      "name": "01_Prep-Rashan_Weekly_Revision_GS-3_16-20_November_2026_Daily_Current_Affairs-Rashan.pdf"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 12,
    "id": "c3-te-01",
    "paper": "GS-3",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -56,12 +57,13 @@
      "name": "02_Prep-Rashan_Weekly_Revision_GS-3_16-20_November_2026_Info-Rashan_1-Topic-in-1-Page.pdf"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 12,
    "id": "c3-te-02",
    "paper": "GS-3",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -82,12 +84,13 @@
      "name": "03_Prep-Rashan_Weekly_Revision_GS-3_16-20_November_2026_MCQs.pdf"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 12,
    "id": "c3-te-03",
    "paper": "GS-3",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -108,12 +111,13 @@
      "name": "04_Prep-Rashan_Weekly_Revision_GS-3_16-20_November_2026_MCQ_Explanations.pdf"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 12,
    "id": "c3-te-04",
    "paper": "GS-3",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -134,12 +138,13 @@
      "name": "05_Prep-Rashan_Weekly_Revision_GS-3_16-20_November_2026_PPT.zip"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 12,
    "id": "c3-te-05",
    "paper": "GS-3",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -160,12 +165,13 @@
      "name": "06_Prep-Rashan_Weekly_Revision_GS-3_16-20_November_2026_Flash_Cards_Day-1_MCQs.zip"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 12,
    "id": "c3-te-06",
    "paper": "GS-3",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -186,12 +192,13 @@
      "name": "07_Prep-Rashan_Weekly_Revision_GS-3_16-20_November_2026_Flash_Cards_Day-2_MCQs_and_Explanations.zip"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 12,
    "id": "c3-te-07",
    "paper": "GS-3",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -212,12 +219,13 @@
      "name": "08_Prep-Rashan_Weekly_Revision_GS-3_16-20_November_2026_PPT_PDF.pdf"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 12,
    "id": "c3-te-08",
    "paper": "GS-3",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -238,12 +246,13 @@
      "name": "09_Prep-Rashan_Weekly_Revision_GS-3_16-20_November_2026_Flash_Cards_Day-1_MCQs_PDF.pdf"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 12,
    "id": "c3-te-09",
    "paper": "GS-3",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "telegram",
@@ -264,12 +273,13 @@
      "name": "10_Prep-Rashan_Weekly_Revision_GS-3_16-20_November_2026_Flash_Cards_Day-2_MCQs_and_Explanations_PDF.pdf"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 12,
    "id": "c3-te-10",
    "paper": "GS-3",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "facebook",
@@ -334,12 +344,13 @@
      "name": "car_GS-3_06.jpg"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 17,
    "id": "c3-fa-12",
    "paper": "GS-3",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "facebook",
@@ -440,12 +451,13 @@
      "name": "deck_GS-3_ppt_10.jpg"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 17,
    "id": "c3-fa-14",
    "paper": "GS-3",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "facebook",
@@ -546,12 +558,13 @@
      "name": "deck_GS-3_d1_10.jpg"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 17,
    "id": "c3-fa-16",
    "paper": "GS-3",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "facebook",
@@ -652,12 +665,13 @@
      "name": "deck_GS-3_d2_10.jpg"
     }
    ],
-   "day": 0,
+   "day": 1,
    "slot": 17,
    "id": "c3-fa-18",
    "paper": "GS-3",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "instagram",
@@ -679,11 +693,12 @@
     }
    ],
    "slot": 17,
-   "day": 0,
+   "day": 1,
    "id": "c3-in-19",
    "paper": "GS-3",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "facebook",
@@ -705,11 +720,12 @@
     }
    ],
    "slot": 17,
-   "day": 0,
+   "day": 1,
    "id": "c3-fa-20",
    "paper": "GS-3",
    "needs_links": true,
-   "deck": "comp"
+   "deck": "comp",
+   "v51_monday": true
   },
   {
    "platform": "youtube",
