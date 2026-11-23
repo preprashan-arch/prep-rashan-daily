@@ -1,0 +1,105 @@
+{
+ "note": "Laptop hand-over of the posted day ZIPs (owner, 23 Nov 2026 23:06–23:08: \"let this deletion work be permanently be",
+ "entries": [
+  {
+   "date": "2099-01-01",
+   "name": "test_day.zip",
+   "size": 7000000,
+   "md5": "233512dd8f7be4fde835cef9601b7166",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/scratch/hotest/test_day.zip",
+   "uploaded_at": "2026-11-23T17:40+00:00",
+   "verified_md5": "233512dd8f7be4fde835cef9601b7166",
+   "released_at": "2026-11-23T17:41+00:00"
+  },
+  {
+   "date": "2099-01-02",
+   "name": "Prep-Rashan_Day_2099-01-02.zip",
+   "size": 4000779,
+   "md5": "1bd6150f4f97215233141514edc02305",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2099-01-02",
+   "uploaded_at": "2026-11-23T17:41+00:00",
+   "verified_md5": "1bd6150f4f97215233141514edc02305",
+   "released_at": "2026-11-23T17:41+00:00"
+  },
+  {
+   "date": "2099-01-03",
+   "name": "t2.zip",
+   "size": 5000000,
+   "md5": "7d19d285104bf325f18d1671d8806b42",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/scratch/hotest/t2.zip",
+   "uploaded_at": "2026-11-23T17:41+00:00",
+   "verified_md5": "7d19d285104bf325f18d1671d8806b42",
+   "released_at": "2026-11-23T17:42+00:00"
+  },
+  {
+   "date": "2099-01-04",
+   "name": "t3.zip",
+   "size": 5000000,
+   "md5": "33812e91627d6778e9b4a67708601d51",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/scratch/t3/t3.zip",
+   "uploaded_at": "2026-11-23T17:45+00:00",
+   "verified_md5": "33812e91627d6778e9b4a67708601d51",
+   "released_at": "2026-11-23T17:45+00:00"
+  },
+  {
+   "date": "2099-01-05",
+   "name": "Prep-Rashan_Day_2099-01-05.zip",
+   "size": 7000704,
+   "md5": "bfe55d59ea83c9a964e50b1b2b386a59",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2099-01-05",
+   "uploaded_at": "2026-11-23T17:46+00:00",
+   "verified_md5": "bfe55d59ea83c9a964e50b1b2b386a59",
+   "released_at": "2026-11-23T17:46+00:00"
+  },
+  {
+   "date": "2099-01-06",
+   "name": "Prep-Rashan_Day_2099-01-06.zip",
+   "size": 6000518,
+   "md5": "0e146af3d1bbc80e2a0f500446a584fd",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2099-01-06",
+   "uploaded_at": "2026-11-23T18:04+00:00",
+   "verified_md5": "0e146af3d1bbc80e2a0f500446a584fd",
+   "released_at": "2026-11-23T18:04+00:00"
+  },
+  {
+   "date": "2099-01-07",
+   "name": "Prep-Rashan_Day_2099-01-07.zip",
+   "size": 6000518,
+   "md5": "4cf6870e6c475117723a33c41778c6e5",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2099-01-07",
+   "uploaded_at": "2026-11-23T18:12+00:00",
+   "verified_md5": "4cf6870e6c475117723a33c41778c6e5",
+   "released_at": "2026-11-23T18:12+00:00"
+  },
+  {
+   "date": "2099-01-08",
+   "name": "Prep-Rashan_Day_2099-01-08.zip",
+   "size": 6000518,
+   "md5": "63f94174f4b0a9defb109367040becd2",
+   "parts": [
+    "2099-01-08/Prep-Rashan_Day_2099-01-08.zip.part00",
+    "2099-01-08/Prep-Rashan_Day_2099-01-08.zip.part01",
+    "2099-01-08/Prep-Rashan_Day_2099-01-08.zip.part02",
+    "2099-01-08/Prep-Rashan_Day_2099-01-08.zip.part03",
+    "2099-01-08/Prep-Rashan_Day_2099-01-08.zip.part04"
+   ],
+   "status": "uploaded",
+   "source": "/home/claude/archive/posted/2099-01-08",
+   "uploaded_at": "2026-11-23T18:12+00:00"
+  }
+ ]
+}
