@@ -689,7 +689,10 @@
    "paper": "GS-2",
    "needs_links": true,
    "deck": "comp",
-   "v51_monday": true
+   "v51_monday": true,
+   "cover": "weekly_rev_cover_GS-2.jpg",
+   "ig_cover": true,
+   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/Compilation_Weekly_GS-2_16-20_November_2026/weekly_rev_cover_GS-2.jpg"
   },
   {
    "platform": "facebook",
