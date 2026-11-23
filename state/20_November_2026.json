@@ -1225,7 +1225,9 @@
    "id": "18380578225210525",
    "url": "https://www.instagram.com/reel/DgFnnfgo9wh/",
    "tries": 0,
-   "time": "2026-11-23T20:12+05:30"
+   "time": "2026-11-23T20:12+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "live-promo-2026-11-23-te": {
    "status": "done",
