@@ -1008,7 +1008,9 @@
    "id": "1919259999236406",
    "url": "https://www.facebook.com/reel/1919259999236406/",
    "tries": 0,
-   "time": "2026-11-23T14:35+05:30"
+   "time": "2026-11-23T14:35+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "wk2311-in-4q": {
    "status": "done",
