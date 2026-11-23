@@ -675,11 +675,13 @@
    "time": "2026-11-23T08:24+05:30"
   },
   "wk2311-08-is": {
-   "status": "pending",
+   "status": "done",
    "resume": "18123165056022643",
    "tries": 1,
-   "time": "2026-11-23T08:29+05:30",
-   "error": "instagram container 18123164531022643 ERROR"
+   "time": "2026-11-23T08:32+05:30",
+   "error": "instagram container 18123164531022643 ERROR",
+   "id": "17964952637999698",
+   "url": "https://www.instagram.com/stories/prep_rashan/4036454563881588837"
   },
   "wk2311-in-1q": {
    "status": "done",
