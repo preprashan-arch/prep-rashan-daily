@@ -675,10 +675,11 @@
    "time": "2026-11-23T08:24+05:30"
   },
   "wk2311-08-is": {
-   "status": "pending",
+   "status": "error",
    "resume": "18123164531022643",
-   "tries": 0,
-   "time": "2026-11-23T08:24+05:30"
+   "tries": 1,
+   "time": "2026-11-23T08:26+05:30",
+   "error": "instagram container 18123164531022643 ERROR"
   },
   "wk2311-in-1q": {
    "status": "done",
