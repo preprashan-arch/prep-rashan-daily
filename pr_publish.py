@@ -149,7 +149,7 @@ def ig_carousel(x, links, dry=False):
 def ig_reel(x, links, resume=None, dry=False):
     body = {"media_type": "REELS", "video_url": x["urls"][0]["urls"][0], "caption": fill_links(x["caption"], links, x), "share_to_feed": True}
     # hook cover (P2, Option A 14 Nov 2026) – the question → answer pairs; the Concept Reels too (owner 16 Nov 2026 14:18)
-    if x.get("tag") in ("pair", "concept") and x.get("thumb_url"): body["cover_url"] = x["thumb_url"]
+    if (x.get("tag") in ("pair", "concept") or x.get("ig_cover")) and x.get("thumb_url"): body["cover_url"] = x["thumb_url"]   # ig_cover: weekly revision Reels (owner 23 Nov 2026 12:49)
     cid = resume or _ig("POST", "/me/media", body)["id"]
     if not _ig_wait(cid, 140): return {"status": "pending", "resume": cid}
     if dry: return {"status": "dry", "container": cid, "finished": True}
