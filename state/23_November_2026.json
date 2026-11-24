@@ -60,7 +60,9 @@
    "id": "17960258241266603",
    "url": "https://www.instagram.com/reel/DgG51MPsl0z/",
    "time": "2026-11-24T08:10+05:30",
-   "tries": 0
+   "tries": 0,
+   "boost": "done",
+   "yt_in_comment": false
   }
  },
  "links": {}
