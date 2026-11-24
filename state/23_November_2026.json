@@ -273,6 +273,14 @@
    "scheduled": "2026-11-24T17:00:00+05:30",
    "tries": 0,
    "time": "2026-11-24T13:42+05:30"
+  },
+  "ci2411-yo-08": {
+   "status": "done",
+   "id": "rCYWr9IZ6d8",
+   "url": "https://youtu.be/rCYWr9IZ6d8",
+   "scheduled": "2026-11-24T14:00:00+05:30",
+   "tries": 0,
+   "time": "2026-11-24T13:54+05:30"
   }
  },
  "links": {
