@@ -234,12 +234,17 @@
    "playlist": "added"
   },
   "d2-yo-069": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-24T13:19+05:30"
+   "time": "2026-11-24T13:32+05:30",
+   "id": "y4C1zjORabo",
+   "url": "https://youtu.be/y4C1zjORabo",
+   "scheduled": "2026-11-24T20:55:00+05:30",
+   "playlist": "added"
   }
  },
  "links": {
-  "YT_MCQ": "https://youtu.be/yMPi1znvLwc"
+  "YT_MCQ": "https://youtu.be/yMPi1znvLwc",
+  "YT_EXP": "https://youtu.be/y4C1zjORabo"
  }
 }
