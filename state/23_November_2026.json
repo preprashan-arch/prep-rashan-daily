@@ -374,10 +374,19 @@
    "url": "https://www.instagram.com/stories/prep_rashan/4037345198253181089",
    "tries": 0,
    "time": "2026-11-24T14:02+05:30"
+  },
+  "d1-yo-067": {
+   "status": "done",
+   "id": "B6MOGZ519_Q",
+   "url": "https://youtu.be/B6MOGZ519_Q",
+   "playlist": "added",
+   "tries": 0,
+   "time": "2026-11-24T14:03+05:30"
   }
  },
  "links": {
   "YT_MCQ": "https://youtu.be/yMPi1znvLwc",
-  "YT_EXP": "https://youtu.be/y4C1zjORabo"
+  "YT_EXP": "https://youtu.be/y4C1zjORabo",
+  "YT_PPT": "https://youtu.be/B6MOGZ519_Q"
  }
 }
