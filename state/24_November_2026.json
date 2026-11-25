@@ -228,6 +228,11 @@
    "time": "2026-11-25T12:12+05:30",
    "boost": "done",
    "yt_in_comment": false
+  },
+  "d1-yo-060": {
+   "status": "uploading",
+   "tries": 0,
+   "time": "2026-11-25T13:20+05:30"
   }
  },
  "links": {}
