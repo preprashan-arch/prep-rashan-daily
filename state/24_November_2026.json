@@ -722,6 +722,14 @@
    "media": "voice",
    "time": "2026-11-25T20:04+05:30",
    "tries": 0
+  },
+  "tg-links-d1": {
+   "status": "done",
+   "id": 986,
+   "url": "https://t.me/Prep_Rashan/986",
+   "reply_to": 930,
+   "tries": 0,
+   "time": "2026-11-25T20:05+05:30"
   }
  },
  "links": {
