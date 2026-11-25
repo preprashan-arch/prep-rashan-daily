@@ -366,6 +366,14 @@
    "scheduled": "2026-11-25T20:00:00+05:30",
    "time": "2026-11-25T13:37+05:30",
    "tries": 0
+  },
+  "tg-links-ppt": {
+   "status": "done",
+   "id": 954,
+   "url": "https://t.me/Prep_Rashan/954",
+   "reply_to": 929,
+   "tries": 0,
+   "time": "2026-11-25T13:39+05:30"
   }
  },
  "links": {
