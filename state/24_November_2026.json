@@ -203,7 +203,9 @@
    "photo_id": "122113014351531280",
    "url": "https://www.facebook.com/122107782309531280/posts/122113014387531280",
    "tries": 0,
-   "time": "2026-11-25T12:04+05:30"
+   "time": "2026-11-25T12:04+05:30",
+   "boost": "done",
+   "yt_in_comment": false
   },
   "v51-12-fs": {
    "status": "done",
