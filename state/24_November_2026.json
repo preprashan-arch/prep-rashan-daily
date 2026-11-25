@@ -792,6 +792,16 @@
    "reply_to": 988,
    "time": "2026-11-25T21:04+05:30",
    "tries": 0
+  },
+  "day-zip-2026-11-25": {
+   "status": "done",
+   "files": [
+    "Prep-Rashan_Posting_Pack_25_November_2026.zip"
+   ],
+   "mb": 305,
+   "handover": "uploaded md5 de1c88ff",
+   "time": "2026-11-25T22:18+05:30",
+   "tries": 0
   }
  },
  "links": {
