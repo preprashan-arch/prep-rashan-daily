@@ -548,6 +548,25 @@
    "boost": "done",
    "tries": 0,
    "time": "2026-11-25T17:03+05:30"
+  },
+  "mains-premiere-2026-11-25": {
+   "status": "done",
+   "id": "FKTxNPbSyE8",
+   "url": "https://youtu.be/FKTxNPbSyE8",
+   "scheduled": "2026-11-25T20:15:00+05:30",
+   "premiere": "not set – Chrome not linked; publishAt 20:15",
+   "av_check": "PASS",
+   "av_md5": "b51bc75bf957161bc8afd13812522c69",
+   "questions": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    9
+   ],
+   "tries": 0,
+   "time": "2026-11-25T17:49+05:30"
   }
  },
  "links": {
