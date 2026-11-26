@@ -596,6 +596,21 @@
    "copied_at": "2026-11-26T00:50+05:30",
    "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-20-weekly-extras\\",
    "released_at": "2026-11-26T00:22+00:00"
+  },
+  {
+   "date": "2026-11-26",
+   "name": "Prep-Rashan_Posting_Pack_26_November_2026.zip",
+   "size": 388151563,
+   "md5": "119160b664a11bc79f4cb2fd0537640d",
+   "parts": [
+    "2026-11-26/Prep-Rashan_Posting_Pack_26_November_2026.zip.part00",
+    "2026-11-26/Prep-Rashan_Posting_Pack_26_November_2026.zip.part01",
+    "2026-11-26/Prep-Rashan_Posting_Pack_26_November_2026.zip.part02",
+    "2026-11-26/Prep-Rashan_Posting_Pack_26_November_2026.zip.part03"
+   ],
+   "status": "uploaded",
+   "source": "/home/claude/final2611/endday/Prep-Rashan_Posting_Pack_26_November_2026.zip",
+   "uploaded_at": "2026-11-26T16:37+00:00"
   }
  ]
 }
