@@ -547,6 +547,17 @@
    "boost": "done",
    "tries": 0,
    "time": "2026-11-26T17:03+05:30"
+  },
+  "mains-premiere-2026-11-26": {
+   "status": "done",
+   "id": "IC8MEUnh1iw",
+   "url": "https://youtu.be/IC8MEUnh1iw",
+   "scheduled": "2026-11-26T20:15:00+05:30",
+   "av_check": "PASS",
+   "av_md5": "720862338b44e38d2b17806b4f41711f",
+   "premiere": "publishAt only – Set as Premiere by hand (Chrome not linked)",
+   "tries": 0,
+   "time": "2026-11-26T17:52+05:30"
   }
  },
  "links": {
