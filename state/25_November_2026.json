@@ -187,6 +187,13 @@
    "poll": 1014,
    "tries": 0,
    "time": "2026-11-26T12:04+05:30"
+  },
+  "v51-12-ti": {
+   "status": "done",
+   "id": 1015,
+   "url": "https://t.me/Prep_Rashan/1015",
+   "tries": 0,
+   "time": "2026-11-26T12:04+05:30"
   }
  },
  "links": {}
