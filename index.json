@@ -1,0 +1,601 @@
+{
+ "note": "Laptop hand-over of the posted day ZIPs (owner, 23 Nov 2026 23:06–23:08: \"let this deletion work be permanently be",
+ "entries": [
+  {
+   "date": "2026-11-23",
+   "name": "Prep-Rashan_Posting_Pack_23_November_2026.zip",
+   "size": 346282827,
+   "md5": "4ffdd6b65e4d6b88751f3682f5bb702c",
+   "parts": [],
+   "status": "released",
+   "source": "/mnt/user-data/outputs/posting_packs/Prep-Rashan_Posting_Pack_23_November_2026.zip",
+   "uploaded_at": "2026-11-23T17:43+00:00",
+   "verified_md5": "4ffdd6b65e4d6b88751f3682f5bb702c",
+   "copied_at": "2026-11-24T00:57+05:30",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-23\\Prep-Rashan_Posting_Pack_23_November_2026.zip",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-06",
+   "name": "Prep-Rashan_Day_2026-11-06.zip",
+   "size": 531406966,
+   "md5": "40dd41f7ebfea731cf0a6a2e9305270a",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2026-11-06",
+   "uploaded_at": "2026-11-23T17:47+00:00",
+   "verified_md5": "40dd41f7ebfea731cf0a6a2e9305270a",
+   "copied_at": "2026-11-24T01:50+05:30",
+   "copied_as": "pieces",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-06\\",
+   "pieces_on_computer": [
+    {
+     "name": "Prep-Rashan_Day_2026-11-06.zip.001",
+     "size": 265703483,
+     "md5": "36f04501e2f0a8f2d2ec1af3f50634d3"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-06.zip.002",
+     "size": 265703483,
+     "md5": "2a36cc69426472e0a46145e2a2e2f299"
+    }
+   ],
+   "join_cmd": "Join_2026-11-06.cmd",
+   "note": "ZIP > 400 MB (desktop-app write limit): kept on the computer as pieces, each md5-checked on the computer; their join = this md5. Double-click the Join file to rebuild the ZIP.",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-07",
+   "name": "Prep-Rashan_Day_2026-11-07.zip",
+   "size": 582344583,
+   "md5": "84f5d9ab72471bf5e1653b25894c8a4b",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2026-11-07",
+   "uploaded_at": "2026-11-23T17:50+00:00",
+   "verified_md5": "84f5d9ab72471bf5e1653b25894c8a4b",
+   "copied_at": "2026-11-24T01:50+05:30",
+   "copied_as": "pieces",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-07\\",
+   "pieces_on_computer": [
+    {
+     "name": "Prep-Rashan_Day_2026-11-07.zip.001",
+     "size": 291172292,
+     "md5": "57d44b690aa7536109288328f2fcbcba"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-07.zip.002",
+     "size": 291172291,
+     "md5": "20b0e0c7ab34ca985cea8099eb4383a2"
+    }
+   ],
+   "join_cmd": "Join_2026-11-07.cmd",
+   "note": "ZIP > 400 MB (desktop-app write limit): kept on the computer as pieces, each md5-checked on the computer; their join = this md5. Double-click the Join file to rebuild the ZIP.",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-08",
+   "name": "Prep-Rashan_Day_2026-11-08.zip",
+   "size": 507657312,
+   "md5": "6dc6722b061bdad6e51bf3963e24d852",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2026-11-08",
+   "uploaded_at": "2026-11-23T17:53+00:00",
+   "verified_md5": "6dc6722b061bdad6e51bf3963e24d852",
+   "copied_at": "2026-11-24T01:50+05:30",
+   "copied_as": "pieces",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-08\\",
+   "pieces_on_computer": [
+    {
+     "name": "Prep-Rashan_Day_2026-11-08.zip.001",
+     "size": 253828656,
+     "md5": "c53c10aab0bc1f9d96673762c94aa957"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-08.zip.002",
+     "size": 253828656,
+     "md5": "5980a56668cfbf1e5e28e6dc87fa1933"
+    }
+   ],
+   "join_cmd": "Join_2026-11-08.cmd",
+   "note": "ZIP > 400 MB (desktop-app write limit): kept on the computer as pieces, each md5-checked on the computer; their join = this md5. Double-click the Join file to rebuild the ZIP.",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-09",
+   "name": "Prep-Rashan_Day_2026-11-09.zip",
+   "size": 215344449,
+   "md5": "d7739b4fb5b66b6a2e0605dfb561d2cd",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2026-11-09",
+   "uploaded_at": "2026-11-23T17:55+00:00",
+   "verified_md5": "d7739b4fb5b66b6a2e0605dfb561d2cd",
+   "copied_at": "2026-11-24T00:57+05:30",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-09\\Prep-Rashan_Day_2026-11-09.zip",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-11",
+   "name": "Prep-Rashan_Day_2026-11-11.zip",
+   "size": 477654960,
+   "md5": "656029f863a005b1fa419f4c42d2a979",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2026-11-11",
+   "uploaded_at": "2026-11-23T18:14+00:00",
+   "verified_md5": "656029f863a005b1fa419f4c42d2a979",
+   "copied_at": "2026-11-24T01:50+05:30",
+   "copied_as": "pieces",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-11\\",
+   "pieces_on_computer": [
+    {
+     "name": "Prep-Rashan_Day_2026-11-11.zip.001",
+     "size": 238827480,
+     "md5": "68bc97b4682e0cb1b31eeb2ac9488792"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-11.zip.002",
+     "size": 238827480,
+     "md5": "6dbc7cdc8d312cef69d3bec800951937"
+    }
+   ],
+   "join_cmd": "Join_2026-11-11.cmd",
+   "note": "ZIP > 400 MB (desktop-app write limit): kept on the computer as pieces, each md5-checked on the computer; their join = this md5. Double-click the Join file to rebuild the ZIP.",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-12",
+   "name": "Prep-Rashan_Day_2026-11-12.zip",
+   "size": 559671629,
+   "md5": "5d0d8b478c52aa09ee5ba01e118fd3d8",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2026-11-12",
+   "uploaded_at": "2026-11-23T18:15+00:00",
+   "verified_md5": "5d0d8b478c52aa09ee5ba01e118fd3d8",
+   "copied_at": "2026-11-24T01:50+05:30",
+   "copied_as": "pieces",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-12\\",
+   "pieces_on_computer": [
+    {
+     "name": "Prep-Rashan_Day_2026-11-12.zip.001",
+     "size": 279835815,
+     "md5": "c6a32bda7bf138f7da26f1855b5364d3"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-12.zip.002",
+     "size": 279835814,
+     "md5": "23c9fe3107b95d0dbe1fe56a6a19723e"
+    }
+   ],
+   "join_cmd": "Join_2026-11-12.cmd",
+   "note": "ZIP > 400 MB (desktop-app write limit): kept on the computer as pieces, each md5-checked on the computer; their join = this md5. Double-click the Join file to rebuild the ZIP.",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-13",
+   "name": "Prep-Rashan_Day_2026-11-13.zip",
+   "size": 572548380,
+   "md5": "2f1de92b4b11334d065ef5fbad5459cc",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2026-11-13",
+   "uploaded_at": "2026-11-23T18:16+00:00",
+   "verified_md5": "2f1de92b4b11334d065ef5fbad5459cc",
+   "copied_at": "2026-11-24T01:50+05:30",
+   "copied_as": "pieces",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-13\\",
+   "pieces_on_computer": [
+    {
+     "name": "Prep-Rashan_Day_2026-11-13.zip.001",
+     "size": 286274190,
+     "md5": "ca8795f832e3850abe5f3dd450ef6de2"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-13.zip.002",
+     "size": 286274190,
+     "md5": "20d5eed3d094c7bbf640a3c74a56366f"
+    }
+   ],
+   "join_cmd": "Join_2026-11-13.cmd",
+   "note": "ZIP > 400 MB (desktop-app write limit): kept on the computer as pieces, each md5-checked on the computer; their join = this md5. Double-click the Join file to rebuild the ZIP.",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-14",
+   "name": "Prep-Rashan_Day_2026-11-14.zip",
+   "size": 603405940,
+   "md5": "5b8a3bc7f14931f09b887f3a992849a6",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2026-11-14",
+   "uploaded_at": "2026-11-23T18:18+00:00",
+   "verified_md5": "5b8a3bc7f14931f09b887f3a992849a6",
+   "copied_at": "2026-11-24T01:50+05:30",
+   "copied_as": "pieces",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-14\\",
+   "pieces_on_computer": [
+    {
+     "name": "Prep-Rashan_Day_2026-11-14.zip.001",
+     "size": 301702970,
+     "md5": "79bb49473e081a9a3fc0e22bab7c90dd"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-14.zip.002",
+     "size": 301702970,
+     "md5": "61c6ec69b8192cc5b4e9f884e6b5371d"
+    }
+   ],
+   "join_cmd": "Join_2026-11-14.cmd",
+   "note": "ZIP > 400 MB (desktop-app write limit): kept on the computer as pieces, each md5-checked on the computer; their join = this md5. Double-click the Join file to rebuild the ZIP.",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-15",
+   "name": "Prep-Rashan_Day_2026-11-15.zip",
+   "size": 581056019,
+   "md5": "9cef723e1db5110961a17bb7df2481b4",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2026-11-15",
+   "uploaded_at": "2026-11-23T18:19+00:00",
+   "verified_md5": "9cef723e1db5110961a17bb7df2481b4",
+   "copied_at": "2026-11-24T01:50+05:30",
+   "copied_as": "pieces",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-15\\",
+   "pieces_on_computer": [
+    {
+     "name": "Prep-Rashan_Day_2026-11-15.zip.001",
+     "size": 290528010,
+     "md5": "01f308d77d4425d587ac3a35cb1f5b34"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-15.zip.002",
+     "size": 290528009,
+     "md5": "68d6f92248de93771e41b633c8deacdb"
+    }
+   ],
+   "join_cmd": "Join_2026-11-15.cmd",
+   "note": "ZIP > 400 MB (desktop-app write limit): kept on the computer as pieces, each md5-checked on the computer; their join = this md5. Double-click the Join file to rebuild the ZIP.",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-17",
+   "name": "Prep-Rashan_Day_2026-11-17.zip",
+   "size": 483086908,
+   "md5": "7aad0bde0a7a1868e2c45e638b74daac",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2026-11-17",
+   "uploaded_at": "2026-11-23T18:20+00:00",
+   "verified_md5": "7aad0bde0a7a1868e2c45e638b74daac",
+   "copied_at": "2026-11-24T01:50+05:30",
+   "copied_as": "pieces",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-17\\",
+   "pieces_on_computer": [
+    {
+     "name": "Prep-Rashan_Day_2026-11-17.zip.001",
+     "size": 241543454,
+     "md5": "f935fa6793b1b46ed89a041367c04848"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-17.zip.002",
+     "size": 241543454,
+     "md5": "6501ab0ffe54013afd9f930a77608065"
+    }
+   ],
+   "join_cmd": "Join_2026-11-17.cmd",
+   "note": "ZIP > 400 MB (desktop-app write limit): kept on the computer as pieces, each md5-checked on the computer; their join = this md5. Double-click the Join file to rebuild the ZIP.",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-18",
+   "name": "Prep-Rashan_Day_2026-11-18.zip",
+   "size": 634219121,
+   "md5": "1001a1abc579aa2ec60906117b409ebc",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2026-11-18",
+   "uploaded_at": "2026-11-23T18:22+00:00",
+   "verified_md5": "1001a1abc579aa2ec60906117b409ebc",
+   "copied_at": "2026-11-24T01:50+05:30",
+   "copied_as": "pieces",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-18\\",
+   "pieces_on_computer": [
+    {
+     "name": "Prep-Rashan_Day_2026-11-18.zip.001",
+     "size": 317109561,
+     "md5": "a3696e336724910b6b36a9bd045397ed"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-18.zip.002",
+     "size": 317109560,
+     "md5": "a2dad2f3464e2379bb185fea2da74d25"
+    }
+   ],
+   "join_cmd": "Join_2026-11-18.cmd",
+   "note": "ZIP > 400 MB (desktop-app write limit): kept on the computer as pieces, each md5-checked on the computer; their join = this md5. Double-click the Join file to rebuild the ZIP.",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-19",
+   "name": "Prep-Rashan_Day_2026-11-19.zip",
+   "size": 264696937,
+   "md5": "5054bcc9d1f40ee26bc9dfcb4835f311",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2026-11-19",
+   "uploaded_at": "2026-11-23T18:22+00:00",
+   "verified_md5": "5054bcc9d1f40ee26bc9dfcb4835f311",
+   "copied_at": "2026-11-24T00:57+05:30",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-19\\Prep-Rashan_Day_2026-11-19.zip",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-20",
+   "name": "Prep-Rashan_Day_2026-11-20.zip",
+   "size": 580817468,
+   "md5": "288ddfae79e16ad8d86aa4952ebb1439",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2026-11-20",
+   "uploaded_at": "2026-11-23T18:24+00:00",
+   "verified_md5": "288ddfae79e16ad8d86aa4952ebb1439",
+   "copied_at": "2026-11-24T01:50+05:30",
+   "copied_as": "pieces",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-20\\",
+   "pieces_on_computer": [
+    {
+     "name": "Prep-Rashan_Day_2026-11-20.zip.001",
+     "size": 290408734,
+     "md5": "0772ee623135a96cc6a3a6fd3175bacc"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-20.zip.002",
+     "size": 290408734,
+     "md5": "77a789715b008bf33b02cf67a32d2e68"
+    }
+   ],
+   "join_cmd": "Join_2026-11-20.cmd",
+   "note": "ZIP > 400 MB (desktop-app write limit): kept on the computer as pieces, each md5-checked on the computer; their join = this md5. Double-click the Join file to rebuild the ZIP.",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-21",
+   "name": "Prep-Rashan_Day_2026-11-21.zip",
+   "size": 192162191,
+   "md5": "3579894944ff54caadc07fefe5dca311",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2026-11-21",
+   "uploaded_at": "2026-11-23T18:25+00:00",
+   "verified_md5": "3579894944ff54caadc07fefe5dca311",
+   "copied_at": "2026-11-24T00:57+05:30",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-21\\Prep-Rashan_Day_2026-11-21.zip",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-22",
+   "name": "Prep-Rashan_Posting_Pack_22_November_2026_Part-1.zip",
+   "size": 330456847,
+   "md5": "44d3d94e1fb500fc41f6c9b819abe0c9",
+   "parts": [],
+   "status": "released",
+   "source": "/mnt/user-data/outputs/posting_packs/Prep-Rashan_Posting_Pack_22_November_2026_Part-1.zip",
+   "uploaded_at": "2026-11-23T18:25+00:00",
+   "verified_md5": "44d3d94e1fb500fc41f6c9b819abe0c9",
+   "copied_at": "2026-11-24T00:57+05:30",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-22\\Prep-Rashan_Posting_Pack_22_November_2026_Part-1.zip",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-22",
+   "name": "Prep-Rashan_Posting_Pack_22_November_2026_Part-2.zip",
+   "size": 405266024,
+   "md5": "08caba7ad5e3a32014ccf5bcb5ade02a",
+   "parts": [],
+   "status": "released",
+   "source": "/mnt/user-data/outputs/posting_packs/Prep-Rashan_Posting_Pack_22_November_2026_Part-2.zip",
+   "uploaded_at": "2026-11-23T18:26+00:00",
+   "verified_md5": "08caba7ad5e3a32014ccf5bcb5ade02a",
+   "copied_at": "2026-11-24T00:57+05:30",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-22\\Prep-Rashan_Posting_Pack_22_November_2026_Part-2.zip",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-22",
+   "name": "Prep-Rashan_Posting_Pack_22_November_2026_Part-3.zip",
+   "size": 383685924,
+   "md5": "d80713f0e800cb97c6cbaf03c58b906d",
+   "parts": [],
+   "status": "released",
+   "source": "/mnt/user-data/outputs/posting_packs/Prep-Rashan_Posting_Pack_22_November_2026_Part-3.zip",
+   "uploaded_at": "2026-11-23T18:27+00:00",
+   "verified_md5": "d80713f0e800cb97c6cbaf03c58b906d",
+   "copied_at": "2026-11-24T00:57+05:30",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-22\\Prep-Rashan_Posting_Pack_22_November_2026_Part-3.zip",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-10",
+   "name": "Prep-Rashan_Day_2026-11-10.zip",
+   "size": 1214246657,
+   "md5": "ede084452c4b170973f71c816ae9a9c9",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2026-11-10",
+   "uploaded_at": "2026-11-23T18:31+00:00",
+   "verified_md5": "ede084452c4b170973f71c816ae9a9c9",
+   "copied_at": "2026-11-24T01:50+05:30",
+   "copied_as": "pieces",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-10\\",
+   "pieces_on_computer": [
+    {
+     "name": "Prep-Rashan_Day_2026-11-10.zip.001",
+     "size": 303561665,
+     "md5": "8c1434eff9f3cce34fb2d2bc64d43b50"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-10.zip.002",
+     "size": 303561665,
+     "md5": "ad536ec6b16715b186eb295e52f1f2d0"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-10.zip.003",
+     "size": 303561665,
+     "md5": "a560e853334cc496c60f48d7d59ed7eb"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-10.zip.004",
+     "size": 303561662,
+     "md5": "2c7938ffe33205038f1aa94cf02bdbb3"
+    }
+   ],
+   "join_cmd": "Join_2026-11-10.cmd",
+   "note": "ZIP > 400 MB (desktop-app write limit): kept on the computer as pieces, each md5-checked on the computer; their join = this md5. Double-click the Join file to rebuild the ZIP.",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-16",
+   "name": "Prep-Rashan_Day_2026-11-16.zip",
+   "size": 2815915412,
+   "md5": "c5071bd939542c774d34271991bae71e",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/archive/posted/2026-11-16",
+   "uploaded_at": "2026-11-23T18:37+00:00",
+   "verified_md5": "c5071bd939542c774d34271991bae71e",
+   "copied_at": "2026-11-24T01:50+05:30",
+   "copied_as": "pieces",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-16\\",
+   "pieces_on_computer": [
+    {
+     "name": "Prep-Rashan_Day_2026-11-16.zip.001",
+     "size": 351989427,
+     "md5": "1d53bb5a90ad60f2e085dd0ed88f0694"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-16.zip.002",
+     "size": 351989427,
+     "md5": "68e9dae9cde3d31a02751c241c316b0f"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-16.zip.003",
+     "size": 351989427,
+     "md5": "0ef3e0c2b5c9205e2c484553293b88a3"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-16.zip.004",
+     "size": 351989427,
+     "md5": "6081087cfe19e31c6d05e5caac78a92b"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-16.zip.005",
+     "size": 351989427,
+     "md5": "ed66089542f952bbe6481ac8d7a3e9db"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-16.zip.006",
+     "size": 351989427,
+     "md5": "a23e9cf9cbbd1de6d9020c692c696540"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-16.zip.007",
+     "size": 351989427,
+     "md5": "f0e1433fa04de56c9fcc6bfd3b1f2302"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-16.zip.008",
+     "size": 351989423,
+     "md5": "fe238f6e4515b40934f7e87ff2ad9810"
+    }
+   ],
+   "join_cmd": "Join_2026-11-16.cmd",
+   "note": "ZIP > 400 MB (desktop-app write limit): kept on the computer as pieces, each md5-checked on the computer; their join = this md5. Double-click the Join file to rebuild the ZIP.",
+   "released_at": "2026-11-23T20:53+00:00"
+  },
+  {
+   "date": "2026-11-24",
+   "name": "Prep-Rashan_Posting_Pack_24_November_2026.zip",
+   "size": 256258989,
+   "md5": "f3b4cd530a233e2d22bc7851dd68b05a",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/fin2411/endday/Prep-Rashan_Posting_Pack_24_November_2026.zip",
+   "uploaded_at": "2026-11-24T16:21+00:00",
+   "verified_md5": "f3b4cd530a233e2d22bc7851dd68b05a",
+   "copied_at": "2026-11-26T00:24+05:30",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-24\\Prep-Rashan_Posting_Pack_24_November_2026.zip",
+   "released_at": "2026-11-26T00:22+00:00"
+  },
+  {
+   "date": "2026-11-25",
+   "name": "Prep-Rashan_Posting_Pack_25_November_2026.zip",
+   "size": 320097408,
+   "md5": "de1c88ff96c82b71fb07c8f234732951",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/fin2511/endday/Prep-Rashan_Posting_Pack_25_November_2026.zip",
+   "uploaded_at": "2026-11-25T16:40+00:00",
+   "verified_md5": "de1c88ff96c82b71fb07c8f234732951",
+   "copied_at": "2026-11-26T00:24+05:30",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-25\\Prep-Rashan_Posting_Pack_25_November_2026.zip",
+   "released_at": "2026-11-26T00:22+00:00"
+  },
+  {
+   "date": "2026-11-20-weekly",
+   "name": "Prep-Rashan_Day_2026-11-20-weekly.zip",
+   "size": 1208160680,
+   "md5": "ebcfb6c7933761cf880bebf8a4a98b37",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/compilations/Weekly_16-20_November_2026/zip",
+   "uploaded_at": "2026-11-25T19:05+00:00",
+   "verified_md5": "ebcfb6c7933761cf880bebf8a4a98b37",
+   "copied_at": "2026-11-26T00:50+05:30",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-20-weekly\\",
+   "copied_as": "pieces",
+   "pieces_on_computer": [
+    {
+     "name": "Prep-Rashan_Day_2026-11-20-weekly.zip.001",
+     "size": 302040170,
+     "md5": "96db6ed72f66d209ff62bd8fa18b980c"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-20-weekly.zip.002",
+     "size": 302040170,
+     "md5": "6da8a3c19162f11b83afb97ee3c17807"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-20-weekly.zip.003",
+     "size": 302040170,
+     "md5": "0bb319f2228a0084277da00629be1748"
+    },
+    {
+     "name": "Prep-Rashan_Day_2026-11-20-weekly.zip.004",
+     "size": 302040170,
+     "md5": "9e444c471c4fe7ef9c23c0f3eb6eb5ae"
+    }
+   ],
+   "join_cmd": "Join_2026-11-20-weekly.cmd",
+   "note": "ZIP > 400 MB (desktop-app write limit): kept on the computer as pieces, each md5-checked on the computer; their join = this md5. Double-click the Join file to rebuild the ZIP.",
+   "released_at": "2026-11-26T00:22+00:00"
+  },
+  {
+   "date": "2026-11-20-weekly-extras",
+   "name": "Prep-Rashan_Weekly_16-20_November_2026_extras.zip",
+   "size": 155270761,
+   "md5": "edfb908804ea608620b8eeaf2cc047f9",
+   "parts": [],
+   "status": "released",
+   "source": "/home/claude/Prep-Rashan_Weekly_16-20_November_2026_extras.zip",
+   "uploaded_at": "2026-11-25T19:09+00:00",
+   "verified_md5": "edfb908804ea608620b8eeaf2cc047f9",
+   "copied_at": "2026-11-26T00:50+05:30",
+   "copied_to": "E:\\Download\\Prep-Rashan Archive\\2026-11-20-weekly-extras\\",
+   "released_at": "2026-11-26T00:22+00:00"
+  }
+ ]
+}
