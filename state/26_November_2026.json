@@ -255,6 +255,14 @@
    "url": "https://youtu.be/Hz5hJkpJYco",
    "playlist": "added",
    "scheduled": "2026-11-27T20:55:00+05:30"
+  },
+  "ci2711-yo-08": {
+   "status": "done",
+   "id": "L8GXjot6fvk",
+   "url": "https://youtu.be/L8GXjot6fvk",
+   "scheduled": "2026-11-27T14:00:00+05:30",
+   "tries": 0,
+   "time": "2026-11-27T13:34+05:30"
   }
  },
  "links": {
