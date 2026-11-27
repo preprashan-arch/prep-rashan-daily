@@ -611,6 +611,21 @@
    "status": "uploaded",
    "source": "/home/claude/final2611/endday/Prep-Rashan_Posting_Pack_26_November_2026.zip",
    "uploaded_at": "2026-11-26T16:37+00:00"
+  },
+  {
+   "date": "2026-11-27",
+   "name": "Prep-Rashan_Posting_Pack_27_November_2026.zip",
+   "size": 331098251,
+   "md5": "146fce039e1100af82a6629e07259155",
+   "parts": [
+    "2026-11-27/Prep-Rashan_Posting_Pack_27_November_2026.zip.part00",
+    "2026-11-27/Prep-Rashan_Posting_Pack_27_November_2026.zip.part01",
+    "2026-11-27/Prep-Rashan_Posting_Pack_27_November_2026.zip.part02",
+    "2026-11-27/Prep-Rashan_Posting_Pack_27_November_2026.zip.part03"
+   ],
+   "status": "uploaded",
+   "source": "/home/claude/final2711/endday/Prep-Rashan_Posting_Pack_27_November_2026.zip",
+   "uploaded_at": "2026-11-27T16:17+00:00"
   }
  ]
 }
