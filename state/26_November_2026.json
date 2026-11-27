@@ -239,9 +239,13 @@
    "playlist": "added"
   },
   "d1-yo-059": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-27T13:19+05:30"
+   "time": "2026-11-27T13:32+05:30",
+   "id": "k8gHibg4fPI",
+   "url": "https://youtu.be/k8gHibg4fPI",
+   "playlist": "added",
+   "scheduled": "2026-11-27T20:00:00+05:30"
   },
   "d2-yo-060": {
    "status": "uploading",
@@ -250,6 +254,7 @@
   }
  },
  "links": {
-  "YT_PPT": "https://youtu.be/YUigW5_8JQk"
+  "YT_PPT": "https://youtu.be/YUigW5_8JQk",
+  "YT_MCQ": "https://youtu.be/k8gHibg4fPI"
  }
 }
