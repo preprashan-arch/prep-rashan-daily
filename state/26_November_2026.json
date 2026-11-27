@@ -248,13 +248,18 @@
    "scheduled": "2026-11-27T20:00:00+05:30"
   },
   "d2-yo-060": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-27T13:19+05:30"
+   "time": "2026-11-27T13:32+05:30",
+   "id": "Hz5hJkpJYco",
+   "url": "https://youtu.be/Hz5hJkpJYco",
+   "playlist": "added",
+   "scheduled": "2026-11-27T20:55:00+05:30"
   }
  },
  "links": {
   "YT_PPT": "https://youtu.be/YUigW5_8JQk",
-  "YT_MCQ": "https://youtu.be/k8gHibg4fPI"
+  "YT_MCQ": "https://youtu.be/k8gHibg4fPI",
+  "YT_EXP": "https://youtu.be/Hz5hJkpJYco"
  }
 }
