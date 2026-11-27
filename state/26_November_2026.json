@@ -392,6 +392,14 @@
    "poll": 1081,
    "tries": 0,
    "time": "2026-11-27T14:04+05:30"
+  },
+  "pa2711-te-5q2": {
+   "status": "done",
+   "id": 1082,
+   "url": "https://t.me/Prep_Rashan/1082",
+   "poll": 1083,
+   "tries": 0,
+   "time": "2026-11-27T14:04+05:30"
   }
  },
  "links": {
