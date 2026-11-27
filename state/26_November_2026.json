@@ -557,9 +557,11 @@
    "scheduled": "2026-11-27T20:15:00+05:30",
    "av_check": "PASS",
    "av_md5": "4e1c176dde55baa2fc60631b29de5bac",
-   "premiere": "publishAt only – Set as Premiere by hand (Chrome not linked)",
+   "premiere": "upcoming",
    "tries": 0,
-   "time": "2026-11-27T17:52+05:30"
+   "time": "2026-11-27T17:52+05:30",
+   "scheduledStartTime": "2026-11-27T20:15:00+05:30",
+   "premiere_checked": "2026-11-27T18:42+05:30"
   },
   "live-promo-2026-11-27-te": {
    "status": "done",
