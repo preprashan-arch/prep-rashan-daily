@@ -557,11 +557,13 @@
    "scheduled": "2026-11-27T20:15:00+05:30",
    "av_check": "PASS",
    "av_md5": "4e1c176dde55baa2fc60631b29de5bac",
-   "premiere": "upcoming",
+   "premiere": "live",
    "tries": 0,
    "time": "2026-11-27T17:52+05:30",
    "scheduledStartTime": "2026-11-27T20:15:00+05:30",
-   "premiere_checked": "2026-11-27T18:42+05:30"
+   "premiere_checked": "2026-11-27T18:42+05:30",
+   "actualStartTime": "2026-11-27T20:15:10+05:30",
+   "desc_pdf_link": "https://t.me/Prep_Rashan/1111"
   },
   "live-promo-2026-11-27-te": {
    "status": "done",
