@@ -1529,7 +1529,15 @@
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/Daily_Current_Affairs_-_Rashan_27_November_2026_PPT_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/thumb_ppt.jpg",
    "v51": true,
-   "v51_publish": "public"
+   "v51_publish": "public",
+   "sync": {
+    "result": "FAIL",
+    "md5": "28ec57d6c275cc854827f318d6b8d439",
+    "why": [
+     "T0 MISSING voice 3406.1s: \"दो हज़ार पच्चीस से छब्बीस में, चार point दो छह। Caveat, यानी ध्यान रहे\" (heard 12%)"
+    ],
+    "checked": "2026-11-28T08:30+05:30"
+   }
   },
   {
    "platform": "youtube",
@@ -2064,7 +2072,13 @@
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/Daily_Current_Affairs_-_Rashan_27_November_2026_MCQs_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/thumb_d1.jpg",
    "v51": true,
-   "v51_publish": "20:00"
+   "v51_publish": "20:00",
+   "sync": {
+    "result": "PASS",
+    "md5": "4aea92da25eebd2038dc734e413fbfc2",
+    "why": [],
+    "checked": "2026-11-28T08:30+05:30"
+   }
   },
   {
    "platform": "youtube",
@@ -2654,7 +2668,17 @@
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/Daily_Current_Affairs_-_Rashan_27_November_2026_MCQs_and_Explanations_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/thumb_d2.jpg",
    "v51": true,
-   "v51_publish": "20:55"
+   "v51_publish": "20:55",
+   "sync": {
+    "result": "FAIL",
+    "md5": "aacbf19d069f4870eb28b5e27e1437e5",
+    "why": [
+     "T0 MISSING voice 2550.2s: \"उन्नीस सौ पचास का आठ point छह का भूकंप और reservoir triggered seismici\" (heard 47%)",
+     "T1 voice vs slide 253.9s off by +1.3s: \"Consider the following statements about गुरु तेग ब\"",
+     "T1 voice vs slide 258.6s off by +1.4s: \"he became गुरु in sixteen sixty four after गुरु हर\""
+    ],
+    "checked": "2026-11-28T08:30+05:30"
+   }
   },
   {
    "platform": "telegram",
