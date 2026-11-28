@@ -1378,7 +1378,17 @@
     }
    ],
    "v51": true,
-   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/set_2811_8q_cover.jpg"
+   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/set_2811_8q_cover.jpg",
+   "sync": {
+    "result": "PASS",
+    "md5": "b2b3cd383ff257647a0ac6e09a37c9e6",
+    "why": [],
+    "checked": "2026-11-28T08:44+05:30",
+    "names": [
+     "Hundred",
+     "Swayamsiddha"
+    ]
+   }
   },
   {
    "platform": "facebook",
