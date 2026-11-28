@@ -941,7 +941,16 @@
     }
    ],
    "v51": true,
-   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/set_2811_6q_cover.jpg"
+   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/set_2811_6q_cover.jpg",
+   "sync": {
+    "result": "PASS",
+    "md5": "5f955e73c9e0de250d0569e8b479242b",
+    "why": [],
+    "checked": "2026-11-28T08:42+05:30",
+    "names": [
+     "Eighth"
+    ]
+   }
   },
   {
    "platform": "facebook",
