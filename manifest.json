@@ -1574,21 +1574,15 @@
       "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/Daily_Current_Affairs_-_Rashan_27_November_2026_PPT_Video_Complete.mp4.part00",
       "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/Daily_Current_Affairs_-_Rashan_27_November_2026_PPT_Video_Complete.mp4.part01"
      ],
-     "md5": "28ec57d6c275cc854827f318d6b8d439",
-     "size": 130769484,
+     "md5": "bb0247655ee35f355c2fda3640ab03ec",
+     "size": 130844396,
      "name": "Daily_Current_Affairs_-_Rashan_27_November_2026_PPT_Video_Complete.mp4"
     }
    ],
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/Daily_Current_Affairs_-_Rashan_27_November_2026_PPT_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/thumb_ppt.jpg",
    "v51": true,
-   "v51_publish": "public",
-   "sync": {
-    "result": "PASS",
-    "md5": "28ec57d6c275cc854827f318d6b8d439",
-    "why": [],
-    "checked": "2026-11-28T08:57+05:30"
-   }
+   "v51_publish": "public"
   },
   {
    "platform": "youtube",
