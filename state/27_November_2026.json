@@ -348,6 +348,14 @@
    "scheduled": "2026-11-28T18:00:00+05:30",
    "tries": 0,
    "time": "2026-11-28T13:36+05:30"
+  },
+  "ci2811-yo-18": {
+   "status": "done",
+   "id": "oOMWSqPEslw",
+   "url": "https://youtu.be/oOMWSqPEslw",
+   "scheduled": "2026-11-28T19:00:00+05:30",
+   "tries": 0,
+   "time": "2026-11-28T13:36+05:30"
   }
  },
  "links": {
