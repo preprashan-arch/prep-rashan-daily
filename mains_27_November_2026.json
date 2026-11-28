@@ -1,0 +1,694 @@
+{
+ "edition": "27 November 2026",
+ "file": "27_November_2026",
+ "date": "28 November 2026",
+ "questions": [
+  {
+   "n": 1,
+   "paper": "GS-I",
+   "marks": 10,
+   "words": 150,
+   "q": "Discuss how the monsoon winds shaped the maritime trade of ancient Kalinga with Southeast Asia.",
+   "case": false,
+   "topic": "boita"
+  },
+  {
+   "n": 2,
+   "paper": "GS-I",
+   "marks": 15,
+   "words": 250,
+   "q": "Education has widened the opportunities of Indian women, but the passage from the classroom to leadership remains narrow. Comment.",
+   "case": false,
+   "topic": "swayam"
+  },
+  {
+   "n": 3,
+   "paper": "GS-II",
+   "marks": 15,
+   "words": 250,
+   "q": "'The Constitution of India is first and foremost a social document.' In the light of this view, discuss how constitutional amendments have been used both to deepen social justice and to dilute constitutional safeguards.",
+   "case": false,
+   "topic": "constitution"
+  },
+  {
+   "n": 4,
+   "paper": "GS-II",
+   "marks": 10,
+   "words": 150,
+   "q": "Divided oversight of cosmetics between the Centre and the States leaves consumers exposed to unsafe products sold online. Examine, with reference to India's commitments under the Minamata Convention.",
+   "case": false,
+   "topic": "cosmetics"
+  },
+  {
+   "n": 5,
+   "paper": "GS-II",
+   "marks": 10,
+   "words": 150,
+   "q": "How is India–UAE defence cooperation moving from dialogue and exercises towards joint development and production? What does this shift mean for India's interests in the Gulf?",
+   "case": false,
+   "topic": "jdcc"
+  },
+  {
+   "n": 6,
+   "paper": "GS-III",
+   "marks": 15,
+   "words": 250,
+   "q": "Evaluate the case for and against unconditional cash transfers to women by the States. How can an ex-ante 'Social Detailed Project Report' make such schemes fiscally sustainable?",
+   "case": false,
+   "topic": "cashtransfer"
+  },
+  {
+   "n": 7,
+   "paper": "GS-III",
+   "marks": 10,
+   "words": 150,
+   "q": "Distinguish between malus and clawback provisions in executive pay. How do they help align risk with reward in India's banking sector?",
+   "case": false,
+   "topic": "malus"
+  },
+  {
+   "n": 8,
+   "paper": "GS-III",
+   "marks": 10,
+   "words": 150,
+   "q": "The Siang Upper Multipurpose Project is presented as a strategic buffer against China's Medog dam. Examine the security and environmental considerations that India must weigh.",
+   "case": false,
+   "topic": "siang"
+  },
+  {
+   "n": 9,
+   "paper": "GS-IV",
+   "marks": 10,
+   "words": 150,
+   "q": "Defending the rights of those whose beliefs one does not share is a true test of conscience. What does this demand of a civil servant who receives instructions that may deny equal treatment to a minority group?",
+   "case": false,
+   "topic": "tegh"
+  },
+  {
+   "n": 10,
+   "paper": "GS-IV",
+   "marks": 20,
+   "words": 250,
+   "q": "You are the Designated Officer for food safety in a district. The government laboratory reports that samples of a popular local brand of packaged drinking water contain bromate above the permitted limit. The brand employs about 400 people and, during a hot summer, supplies the district hospital and several schools; no other supplier can meet this demand at short notice. Its owner, a well-known local figure, says the laboratory is wrong and asks you to wait two weeks for a re-test. A local reporter has a copy of the report and wants your comment, and your senior officer hints that stopping the sales now could cause a water shortage and public anger. (a) Identify the ethical issues and the stakeholders involved. (b) What options do you have? Evaluate them and state the course of action you would take, with reasons.",
+   "case": true,
+   "topic": "bromate"
+  }
+ ],
+ "items": [
+  {
+   "n": 1,
+   "paper": "GS-I",
+   "marks": 10,
+   "words": 150,
+   "topic": "boita",
+   "q": "Discuss how the monsoon winds shaped the maritime trade of ancient Kalinga with Southeast Asia.",
+   "decode": {
+    "directive": "Discuss – explain the link with reasons and examples, and show its effects",
+    "demands": [
+     "1. How the monsoon winds governed the timing and routes of the voyages",
+     "2. What this trade meant for Kalinga and Southeast Asia"
+    ],
+    "limiters": "Ancient Kalinga; Southeast Asia; the monsoon winds as the cause",
+    "skeleton": "Intro: Kalinga as a sea-trading region → Body: (a) winds set the calendar (b) winds set ports and routes (c) the legacy → Conclusion"
+   },
+   "answer": [
+    [
+     "Introduction",
+     "Ancient Kalinga, today's Odisha, was a leading sea-trading region. More than 2,500 years ago its merchant-sailors crossed the Bay of Bengal to Southeast Asia."
+    ],
+    [
+     "The winds set the calendar",
+     "• The monsoon winds reverse with the seasons, so voyages could be planned both ways.\n• Ships left around Kartik Purnima, in October–November, with the north-east monsoon of the season.\n• They returned with the south-west monsoon of summer."
+    ],
+    [
+     "The winds set ports and routes",
+     "• Ports such as Tamralipti, Palur, Chelitalo and Manikpatna faced the open bay.\n• Ships reached Sri Lanka, Myanmar, Siam, Java, Sumatra, Borneo and Bali."
+    ],
+    [
+     "The legacy of this trade",
+     "• It carried Indian scripts, art and religious ideas into Southeast Asia.\n• Odisha's dawn rite of floating miniature boats on Kartik Purnima still recalls the departures.\n• Similar rites in Thailand and Bali echo this shared past."
+    ],
+    [
+     "Conclusion",
+     "The predictable monsoon made Kalinga a bridge to Southeast Asia; this shared memory can strengthen India's Act East Policy today."
+    ]
+   ],
+   "check": [
+    "Both demands – how the winds worked and what the trade achieved – answered",
+    "Evidence: seasonal reversal of winds, the sailing time, named ports and destinations",
+    "Analysis: why predictable winds made two-way trade possible",
+    "Conclusion links heritage to the Act East Policy"
+   ],
+   "narr": {
+    "q": "पहला question, GS paper एक से, दस marks का, एक सौ पचास words. Discuss how the monsoon winds shaped the maritime trade of ancient Kalinga with Southeast Asia.",
+    "decode": "इस question को decode करते हैं। Directive word है discuss, यानी कारण और examples के साथ link समझाना, और उसका असर दिखाना। दो demands हैं। पहली, monsoon winds ने यात्राओं का समय और रास्ते कैसे तय किए। दूसरी, इस trade का कलिंग और Southeast Asia के लिए क्या मतलब था। Limiters हैं, प्राचीन कलिंग, Southeast Asia, और कारण के रूप में monsoon winds. Skeleton होगा, intro में कलिंग एक sea trading region, फिर winds और calendar, फिर ports और routes, फिर legacy, और conclusion.",
+    "a": [
+     "Introduction में context है। प्राचीन कलिंग, यानी आज का ओडिशा, sea trade का बड़ा केंद्र था, और दो हज़ार पाँच सौ साल से भी पहले यहाँ के merchant sailors Bay of Bengal पार करके Southeast Asia जाते थे।",
+     "पहली sub-heading में बताया है कि winds ने calendar कैसे बनाया। Monsoon winds मौसम के साथ दिशा बदलती हैं, इसलिए आने और जाने, दोनों यात्राएँ plan हो सकती थीं। जहाज़ कार्तिक पूर्णिमा के आसपास, October और November में, उस मौसम के north east monsoon के साथ निकलते थे, और गर्मियों के south west monsoon के साथ लौटते थे।",
+     "दूसरी sub-heading में ports और routes हैं। ताम्रलिप्ति, पालुर, चेलितालो और माणिकपटना जैसे ports खुली bay की ओर थे, और जहाज़ Sri Lanka, Myanmar, Siam, Java, Sumatra, Borneo और Bali तक पहुँचते थे।",
+     "तीसरी sub-heading में legacy है। इस trade के साथ Indian scripts, कला और धार्मिक विचार Southeast Asia पहुँचे। ओडिशा में कार्तिक पूर्णिमा की सुबह छोटी नावें तैराने की रीत आज भी उन यात्राओं की याद दिलाती है, और Thailand और Bali की मिलती जुलती रीतें इस साझा इतिहास की गूँज हैं।",
+     "Conclusion में बात पूरी होती है। भरोसेमंद monsoon ने कलिंग को Southeast Asia का bridge बनाया, और यही साझा याद आज India की Act East Policy को मज़बूत कर सकती है।"
+    ],
+    "check": "अब examiner की नज़र से check कीजिए। दोनों demands, winds कैसे काम करती थीं और trade ने क्या दिया, answer हुईं या नहीं। Evidence, winds का मौसम के साथ पलटना, यात्रा का समय, और ports और destinations के नाम। Analysis, भरोसेमंद winds से दो तरफ़ का trade कैसे मुमकिन हुआ। और conclusion, heritage को Act East Policy से जोड़ता है।"
+   },
+   "case": false,
+   "word_count": 156
+  },
+  {
+   "n": 2,
+   "paper": "GS-I",
+   "marks": 15,
+   "words": 250,
+   "topic": "swayam",
+   "q": "Education has widened the opportunities of Indian women, but the passage from the classroom to leadership remains narrow. Comment.",
+   "decode": {
+    "directive": "Comment – give a reasoned opinion on the statement, with evidence for both of its parts",
+    "demands": [
+     "1. How education has widened women's opportunities",
+     "2. Why the passage to leadership stays narrow – and a judgment with a way forward"
+    ],
+    "limiters": "Indian women; from education to leadership; hidden demand – say how far the statement holds",
+    "skeleton": "Intro: the gap in one line → Body: (a) gains from education (b) barriers to leadership (c) way forward → Conclusion: judgment"
+   },
+   "answer": [
+    [
+     "Introduction",
+     "Indian women now enrol in higher education in numbers close to men, yet female labour-force participation, though up from about 17–18%, is only about 35%, and far fewer women reach top decision-making roles."
+    ],
+    [
+     "How education has widened opportunities",
+     "• Higher education has opened careers in science, law, medicine and public service.\n• Educated women marry later, have healthier families and invest more in their children's schooling.\n• Reserved seats in panchayats and municipalities since the 73rd and 74th Amendments have brought many women into local leadership."
+    ],
+    [
+     "Why the passage to leadership stays narrow",
+     "• Social: the burden of unpaid care work and safety concerns limit mobility and career continuity.\n• Economic: too few good jobs near home; many women leave work after marriage or childbirth.\n• Institutional: few mentors, networks or flexible workplaces; leadership remains male-dominated.\n• Regional: rural and disadvantaged women gain the least from education."
+    ],
+    [
+     "Way forward",
+     "• Link degrees to skills, research and entrepreneurship – the idea behind the Maharashtra VIJAYA framework proposed at the Swayamsiddha conference in Nagpur.\n• Expand creches, safe transport and hostels for working women.\n• Implement the Nari Shakti Vandan Adhiniyam, 2023, which reserves one-third of seats in the Lok Sabha and State Assemblies.\n• Mentorship and board-level targets in firms and universities."
+    ],
+    [
+     "Conclusion",
+     "The statement largely holds: education is necessary but not sufficient. Leadership needs jobs, care support and shared responsibility at home, moving India from welfare for women to women-led development."
+    ]
+   ],
+   "check": [
+    "Both parts of the statement examined, with a clear judgment",
+    "Evidence: near-equal enrolment, female labour-force participation of about 35%, 73rd and 74th Amendments, the 2023 Act",
+    "Dimensions: social, economic, institutional and regional barriers",
+    "Way forward names who does what; conclusion balanced, not emotional"
+   ],
+   "narr": {
+    "q": "दूसरा question, GS paper एक से, पंद्रह marks का, दो सौ पचास words. Education has widened the opportunities of Indian women, but the passage from the classroom to leadership remains narrow. Comment.",
+    "decode": "इस question को decode करते हैं। Directive word है comment, यानी statement पर तर्क के साथ अपनी राय, और उसके दोनों हिस्सों के लिए evidence. दो demands हैं। पहली, education ने women के अवसर कैसे बढ़ाए। दूसरी, leadership तक का रास्ता संकरा क्यों है, साथ में एक judgment और way forward. Limiters हैं, Indian women, और education से leadership तक का सफ़र। Hidden demand ये है कि बताइए statement कितना सही है। Skeleton होगा, intro में gap एक line में, फिर education से फ़ायदे, फिर leadership की रुकावटें, फिर way forward, और conclusion में judgment.",
+    "a": [
+     "Introduction में gap एक line में रखा है। आज Indian women higher education में करीब करीब पुरुषों जितनी संख्या में हैं, फिर भी female labour force participation, सत्रह अठारह percent से बढ़कर भी, सिर्फ़ करीब पैंतीस percent है, और top decision making roles तक बहुत कम women पहुँचती हैं।",
+     "पहली sub-heading में education के फ़ायदे हैं। Higher education ने science, law, medicine और public service में careers खोले। पढ़ी लिखी women देर से शादी करती हैं, परिवार ज़्यादा स्वस्थ होते हैं, और बच्चों की पढ़ाई पर ज़्यादा ध्यान जाता है। और तिहत्तरवें और चौहत्तरवें Amendment के बाद panchayats और municipalities में reserved seats से बहुत सी women local leadership में आईं।",
+     "दूसरी sub-heading में रुकावटें हैं, चार dimensions में। Social, यानी घर के बिना वेतन वाले care work का बोझ और safety की चिंता, जिससे आना जाना और career की निरंतरता रुकती है। Economic, यानी घर के पास अच्छी jobs कम हैं, और बहुत सी women शादी या बच्चे के बाद काम छोड़ देती हैं। Institutional, यानी mentors, networks और flexible workplaces कम हैं, और leadership अब भी पुरुष प्रधान है। और regional, यानी rural और disadvantaged women को education का सबसे कम फ़ायदा मिलता है।",
+     "तीसरी sub-heading में way forward है। Degrees को skills, research और entrepreneurship से जोड़ना, यही नागपुर की स्वयंसिद्धा conference में proposed महाराष्ट्र विजया framework का idea है। Working women के लिए creches, safe transport और hostels बढ़ाना। नारी शक्ति वंदन Act, दो हज़ार तेईस को लागू करना, जो लोक सभा और State Assemblies में एक तिहाई seats reserve करता है। और firms और universities में mentorship और board level targets.",
+     "Conclusion में judgment है। Statement काफ़ी हद तक सही है, education ज़रूरी है पर काफ़ी नहीं। Leadership के लिए jobs, care support और घर में बराबर की ज़िम्मेदारी चाहिए, ताकि India women के लिए welfare से आगे बढ़कर women led development तक पहुँचे।"
+    ],
+    "check": "अब examiner की नज़र से check कीजिए। Statement के दोनों हिस्से जाँचे गए और एक साफ़ judgment दिया गया या नहीं। Evidence, enrolment में बराबरी, करीब पैंतीस percent female labour force participation, तिहत्तरवाँ और चौहत्तरवाँ Amendment, और दो हज़ार तेईस का Act. Dimensions, social, economic, institutional और regional रुकावटें। और way forward में साफ़ है कि कौन क्या करे, और conclusion balanced है, भावुक नहीं।"
+   },
+   "case": false,
+   "word_count": 231
+  },
+  {
+   "n": 3,
+   "paper": "GS-II",
+   "marks": 15,
+   "words": 250,
+   "topic": "constitution",
+   "q": "'The Constitution of India is first and foremost a social document.' In the light of this view, discuss how constitutional amendments have been used both to deepen social justice and to dilute constitutional safeguards.",
+   "decode": {
+    "directive": "Discuss – explain both sides with examples and reach a reasoned view",
+    "demands": [
+     "1. Amendments that deepened social justice",
+     "2. Amendments that diluted safeguards – and how the Constitution recovered"
+    ],
+    "limiters": "Constitutional amendments only; the 'social document' view as the lens",
+    "skeleton": "Intro: the social-document view and the Preamble → Body: (a) amendments that deepened justice (b) amendments that diluted safeguards (c) the correction → Conclusion"
+   },
+   "answer": [
+    [
+     "Introduction",
+     "Granville Austin called the Constitution 'first and foremost a social document' because its aim, stated in the Preamble, is social, economic and political justice – ending privilege by birth."
+    ],
+    [
+     "Amendments that deepened social justice",
+     "• The First Amendment (1951) added clause (4) of Article 15, allowing special provisions for backward classes.\n• The 73rd and 74th Amendments (1992) gave local bodies constitutional status, with seats reserved for women, SCs and STs.\n• The 86th Amendment (2002) made education a fundamental right under Article 21A.\n• The 102nd Amendment gave constitutional status to the National Commission for Backward Classes; the 103rd provided 10% reservation for the Economically Weaker Sections."
+    ],
+    [
+     "Amendments that diluted safeguards",
+     "• The same First Amendment widened restrictions on free speech.\n• The 38th and 39th Amendments of the Emergency years and the 42nd Amendment (1976) curtailed judicial review.\n• Article 356 has been used nearly 100 times, often to remove elected State governments."
+    ],
+    [
+     "How the Constitution corrected itself",
+     "• The basic structure doctrine of Kesavananda Bharati (1973) set limits on amending power.\n• The 44th Amendment (1978) restored many safeguards; Minerva Mills (1980) protected judicial review.\n• S.R. Bommai (1994) made the use of Article 356 open to judicial review.\n• Janhit Abhiyan (2022) upheld the EWS quota after testing it against the basic structure."
+    ],
+    [
+     "Conclusion",
+     "Amendments have been tools of both justice and power. The basic structure, an alert judiciary and citizens who know their rights and duties keep the social document on course."
+    ]
+   ],
+   "check": [
+    "Both uses of amendments discussed, not one side only",
+    "Evidence: Article 15, clause (4), Articles 21A and 356; the 73rd, 74th, 86th, 102nd, 103rd, 42nd and 44th Amendments",
+    "Landmark cases: Kesavananda Bharati, Minerva Mills, S.R. Bommai",
+    "Balanced conclusion on constitutional values"
+   ],
+   "narr": {
+    "q": "तीसरा question, GS paper दो से, पंद्रह marks का, दो सौ पचास words. 'The Constitution of India is first and foremost a social document.' In the light of this view, discuss how constitutional amendments have been used both to deepen social justice and to dilute constitutional safeguards.",
+    "decode": "इस question को decode करते हैं। Directive word है discuss, यानी दोनों पक्ष examples के साथ समझाकर एक तर्कपूर्ण राय तक पहुँचना। दो demands हैं। पहली, वो amendments जिन्होंने social justice को गहरा किया। दूसरी, वो amendments जिन्होंने safeguards कमज़ोर किए, और Constitution ख़ुद को कैसे सुधार पाया। Limiters हैं, सिर्फ़ constitutional amendments, और social document वाला नज़रिया। Skeleton होगा, intro में social document की बात और Preamble, फिर justice बढ़ाने वाले amendments, फिर safeguards कमज़ोर करने वाले, फिर सुधार, और conclusion.",
+    "a": [
+     "Introduction में Granville Austin का नज़रिया है। उन्होंने Constitution को सबसे पहले एक social document कहा, क्योंकि Preamble का मक़सद social, economic और political justice है, यानी जन्म से मिलने वाले privilege को ख़त्म करना।",
+     "पहली sub-heading में वो amendments हैं जिन्होंने social justice बढ़ाया। उन्नीस सौ इक्यावन के First Amendment ने Article पंद्रह चार जोड़ा, जिससे backward classes के लिए special provisions मुमकिन हुए। उन्नीस सौ बानवे के तिहत्तरवें और चौहत्तरवें Amendment ने local bodies को constitutional status दिया, women, SCs और STs के लिए reserved seats के साथ। दो हज़ार दो के छियासीवें Amendment ने Article इक्कीस A में education को fundamental right बनाया। एक सौ दोवें Amendment ने National Commission for Backward Classes को constitutional status दिया, और एक सौ तीनवें ने Economically Weaker Sections को दस percent reservation दिया।",
+     "दूसरी sub-heading में दूसरा पक्ष है। उसी First Amendment ने free speech पर पाबंदियाँ बढ़ाईं। Emergency के समय के अड़तीसवें और उनतालीसवें Amendment, और उन्नीस सौ छिहत्तर के बयालीसवें Amendment ने judicial review को सीमित किया। और Article तीन सौ छप्पन का करीब सौ बार इस्तेमाल हुआ, अक्सर चुनी हुई State governments हटाने के लिए।",
+     "तीसरी sub-heading में बताया है कि Constitution ने ख़ुद को कैसे सुधारा। उन्नीस सौ तिहत्तर के केशवानंद भारती case के basic structure doctrine ने amending power की सीमा तय की। उन्नीस सौ अठहत्तर के चौवालीसवें Amendment ने कई safeguards वापस लाए, और उन्नीस सौ अस्सी के मिनर्वा मिल्स case ने judicial review को बचाया। उन्नीस सौ चौरानवे के S R बोम्मई case ने Article तीन सौ छप्पन के इस्तेमाल को judicial review के दायरे में रखा। और दो हज़ार बाईस के जनहित अभियान case ने EWS quota को basic structure की कसौटी पर परखकर सही ठहराया।",
+     "Conclusion में बात पूरी होती है। Amendments justice और power, दोनों के tools रहे हैं। Basic structure, सजग judiciary, और अपने rights और duties जानने वाले citizens, इस social document को सही रास्ते पर रखते हैं।"
+    ],
+    "check": "अब examiner की नज़र से check कीजिए। Amendments के दोनों इस्तेमाल discuss हुए, सिर्फ़ एक पक्ष नहीं। Evidence, Article पंद्रह चार, इक्कीस A और तीन सौ छप्पन, और तिहत्तरवाँ, चौहत्तरवाँ, छियासीवाँ, एक सौ दोवाँ, एक सौ तीनवाँ, बयालीसवाँ और चौवालीसवाँ Amendment. Landmark cases, केशवानंद भारती, मिनर्वा मिल्स और S R बोम्मई। और conclusion constitutional values पर balanced है।"
+   },
+   "case": false,
+   "word_count": 237
+  },
+  {
+   "n": 4,
+   "paper": "GS-II",
+   "marks": 10,
+   "words": 150,
+   "topic": "cosmetics",
+   "q": "Divided oversight of cosmetics between the Centre and the States leaves consumers exposed to unsafe products sold online. Examine, with reference to India's commitments under the Minamata Convention.",
+   "decode": {
+    "directive": "Examine – look closely at the claim, find the gaps behind it and judge it",
+    "demands": [
+     "1. How cosmetics are regulated, and where the divided oversight fails online",
+     "2. What the Minamata Convention requires of India"
+    ],
+    "limiters": "Cosmetics; online sales; Centre–State division; the Minamata Convention",
+    "skeleton": "Intro: the Keralam case → Body: (a) the framework (b) the gaps (c) the treaty duty and reforms → Conclusion"
+   },
+   "answer": [
+    [
+     "Introduction",
+     "A teenager in Keralam developed a kidney disease after using a fairness cream bought online; it held about 12,500 ppm of mercury against a limit of 1 ppm."
+    ],
+    [
+     "The framework",
+     "• The Cosmetic Rules, 2020, under the Union Health Ministry, cap mercury present by accident at 1 ppm, and at 70 ppm in eye products.\n• CDSCO controls imports and new ingredients; State drug controllers license makers and watch markets."
+    ],
+    [
+     "Where it fails online",
+     "• Online sellers, often unlicensed or abroad, escape State inspection.\n• Testing laboratories and inspectors are few; recalls are slow.\n• Buyers rarely read labels that list hazardous ingredients."
+    ],
+    [
+     "The treaty duty",
+     "• Article 4 of the Minamata Convention, ratified by India in 2018, bans making, importing or exporting cosmetics with mercury above 1 ppm.\n• Meeting it needs liability for e-commerce platforms under the consumer protection rules, random online sampling, and a public alert list."
+    ],
+    [
+     "Conclusion",
+     "The claim largely holds; one shared Centre–State online surveillance system would protect consumers and honour India's treaty commitment."
+    ]
+   ],
+   "check": [
+    "Both demands – the domestic gaps and the treaty duty – answered",
+    "Evidence: 1 ppm and 70 ppm limits, 12,500 ppm found, CDSCO and State roles, Article 4, ratified 2018",
+    "Analysis: why online sales slip between Centre and States",
+    "Specific reforms: platform liability, sampling, alert list"
+   ],
+   "narr": {
+    "q": "चौथा question, GS paper दो से, दस marks का, एक सौ पचास words. Divided oversight of cosmetics between the Centre and the States leaves consumers exposed to unsafe products sold online. Examine, with reference to India's commitments under the Minamata Convention.",
+    "decode": "इस question को decode करते हैं। Directive word है examine, यानी दावे को ध्यान से जाँचना, उसके पीछे की कमियाँ ढूँढना, और फिर judgment देना। दो demands हैं। पहली, cosmetics का regulation कैसे होता है, और online sales में बँटी हुई निगरानी कहाँ fail होती है। दूसरी, Minamata Convention India से क्या माँगता है। Limiters हैं, cosmetics, online sales, Centre और States का बँटवारा, और Minamata Convention. Skeleton होगा, intro में केरलम का case, फिर framework, फिर कमियाँ, फिर treaty की ज़िम्मेदारी और reforms, और conclusion.",
+    "a": [
+     "Introduction में केरलम का case है। एक teenager को online ख़रीदी fairness cream से kidney disease हो गई, उस cream में करीब बारह हज़ार पाँच सौ ppm mercury थी, जबकि limit एक ppm है।",
+     "पहली sub-heading में framework है। Union Health Ministry के Cosmetic Rules, दो हज़ार बीस, accidental mercury को एक ppm तक, और eye products में सत्तर ppm तक सीमित करते हैं। CDSCO imports और नए ingredients देखता है, और State drug controllers makers को licence देते हैं और markets पर नज़र रखते हैं।",
+     "दूसरी sub-heading में online वाली कमियाँ हैं। Online sellers, जो अक्सर बिना licence के या विदेश में होते हैं, State की जाँच से बच जाते हैं। Testing labs और inspectors कम हैं, और recall धीमे होते हैं। और ख़रीदार hazardous ingredients वाले labels शायद ही पढ़ते हैं।",
+     "तीसरी sub-heading में treaty की ज़िम्मेदारी है। Minamata Convention का Article चार, जिसे India ने दो हज़ार अठारह में ratify किया, एक ppm से ज़्यादा mercury वाले cosmetics बनाने, import और export करने पर रोक लगाता है। इसके लिए consumer protection rules के तहत e commerce platforms की liability, online products की random sampling, और एक public alert list चाहिए।",
+     "Conclusion में judgment है। दावा काफ़ी हद तक सही है, और Centre और States का एक साझा online surveillance system consumers को बचाएगा और India का treaty commitment भी निभाएगा।"
+    ],
+    "check": "अब examiner की नज़र से check कीजिए। दोनों demands, देश के अंदर की कमियाँ और treaty की ज़िम्मेदारी, answer हुईं या नहीं। Evidence, एक ppm और सत्तर ppm की limits, बारह हज़ार पाँच सौ ppm का मिलना, CDSCO और States की भूमिका, Article चार, और दो हज़ार अठारह का ratification. Analysis, online sales Centre और States के बीच कैसे फिसल जाती हैं। और specific reforms, platform liability, sampling और alert list."
+   },
+   "case": false,
+   "word_count": 163
+  },
+  {
+   "n": 5,
+   "paper": "GS-II",
+   "marks": 10,
+   "words": 150,
+   "topic": "jdcc",
+   "q": "How is India–UAE defence cooperation moving from dialogue and exercises towards joint development and production? What does this shift mean for India's interests in the Gulf?",
+   "decode": {
+    "directive": "How … What – describe the shift with evidence, then explain its significance for India",
+    "demands": [
+     "1. How the cooperation is moving towards co-development and co-production",
+     "2. What the shift means for India's Gulf interests"
+    ],
+    "limiters": "India–UAE; defence cooperation; India's interests in the Gulf",
+    "skeleton": "Intro: the 14th JDCC → Body: (a) the path so far (b) the new agenda (c) significance for India → Conclusion"
+   },
+   "answer": [
+    [
+     "Introduction",
+     "At the 14th Joint Defence Cooperation Committee in Abu Dhabi, India and the UAE agreed to speed up the co-development and co-production of next-generation defence equipment."
+    ],
+    [
+     "The path so far",
+     "• A 2003 MoU on defence cooperation began annual tri-service staff talks.\n• A resident Defence Adviser has served in Abu Dhabi since 2013; joint exercises followed.\n• A Strategic Defence Partnership Framework was signed in May 2026."
+    ],
+    [
+     "The new agenda",
+     "• Joint work on naval drones, precision-guided munitions and missiles, and on building and refitting naval ships.\n• Cooperation in AI, cybersecurity and military training.\n• Industry links through visits to Tawazun, the UAE's defence-industrial body."
+    ],
+    [
+     "What it means for India",
+     "• Openings for defence exports and a reputation as a trusted maker in West Asia.\n• Better maritime awareness around the Strait of Hormuz, which carries India's energy imports.\n• Greater security for over 3.5 million Indians in the UAE."
+    ],
+    [
+     "Conclusion",
+     "The partnership is turning from dialogue into joint production; timely delivery and technology sharing will decide its depth."
+    ]
+   ],
+   "check": [
+    "Both demands – the shift and its significance – answered",
+    "Evidence: 2003 MoU, 2013 adviser, May 2026 framework, the 14th JDCC agenda",
+    "Dimensions: industrial, maritime, energy and diaspora",
+    "Balanced conclusion with the condition for success"
+   ],
+   "narr": {
+    "q": "पाँचवाँ question, GS paper दो से, दस marks का, एक सौ पचास words. How is India–UAE defence cooperation moving from dialogue and exercises towards joint development and production? What does this shift mean for India's interests in the Gulf?",
+    "decode": "इस question को decode करते हैं। Directive words हैं how और what, यानी पहले evidence के साथ बदलाव बताना, फिर India के लिए उसका महत्व। दो demands हैं। पहली, cooperation co development और co production की ओर कैसे बढ़ रहा है। दूसरी, इस बदलाव का Gulf में India के हितों के लिए क्या मतलब है। Limiters हैं, India और UAE, defence cooperation, और Gulf में India के हित। Skeleton होगा, intro में चौदहवीं JDCC, फिर अब तक का रास्ता, फिर नया agenda, फिर India के लिए महत्व, और conclusion.",
+    "a": [
+     "Introduction में ताज़ा घटना है। अबू धाबी में चौदहवीं Joint Defence Cooperation Committee में India और UAE ने next generation defence equipment को मिलकर develop और produce करने की रफ़्तार बढ़ाने पर सहमति दी।",
+     "पहली sub-heading में अब तक का रास्ता है। दो हज़ार तीन के defence cooperation MoU से सालाना tri service staff talks शुरू हुईं। दो हज़ार तेरह से अबू धाबी में एक resident Defence Adviser है, और joint exercises हुईं। और May दो हज़ार छब्बीस में Strategic Defence Partnership Framework sign हुआ।",
+     "दूसरी sub-heading में नया agenda है। Naval drones, precision guided munitions और missiles पर साथ काम, और naval ships बनाने और refit करने पर भी। AI, cybersecurity और military training में cooperation. और UAE की defence industrial body तवाज़ुन के दौरे से industry links.",
+     "तीसरी sub-heading में India के लिए मतलब है। Defence exports के मौक़े, और West Asia में एक भरोसेमंद maker की पहचान। Strait of Hormuz के आसपास बेहतर maritime awareness, जहाँ से India का energy import आता है। और UAE में रहने वाले पैंतीस लाख से ज़्यादा Indians की बेहतर security.",
+     "Conclusion में बात पूरी होती है। ये partnership बातचीत से आगे बढ़कर मिलकर production की ओर जा रही है, और समय पर delivery और technology sharing ही इसकी गहराई तय करेंगे।"
+    ],
+    "check": "अब examiner की नज़र से check कीजिए। दोनों demands, बदलाव और उसका महत्व, answer हुईं या नहीं। Evidence, दो हज़ार तीन का MoU, दो हज़ार तेरह का adviser, May दो हज़ार छब्बीस का framework, और चौदहवीं JDCC का agenda. Dimensions, industrial, maritime, energy और diaspora. और conclusion balanced है, सफलता की शर्त के साथ।"
+   },
+   "case": false,
+   "word_count": 163
+  },
+  {
+   "n": 6,
+   "paper": "GS-III",
+   "marks": 15,
+   "words": 250,
+   "topic": "cashtransfer",
+   "q": "Evaluate the case for and against unconditional cash transfers to women by the States. How can an ex-ante 'Social Detailed Project Report' make such schemes fiscally sustainable?",
+   "decode": {
+    "directive": "Evaluate – weigh merits and costs with evidence and give a judgment; then suggest a design",
+    "demands": [
+     "1. The case for and against unconditional cash transfers to women",
+     "2. How a Social DPR can make them sustainable"
+    ],
+    "limiters": "States; unconditional transfers; women; appraisal before the scheme starts",
+    "skeleton": "Intro: the scale → Body: (a) the case for (b) the case against (c) the Social DPR → Conclusion: judgment"
+   },
+   "answer": [
+    [
+     "Introduction",
+     "PRS estimates that 12 States will pay women about 1.68 lakh crore rupees in 2025–26 through unconditional cash transfers – about 0.5% of GDP, up from under 0.2% in just two years."
+    ],
+    [
+     "The case for",
+     "• Quick cash in hand helps poor households through price and income shocks.\n• Money in women's own accounts raises their say in household decisions.\n• The JAM trinity cuts middlemen and leakages, as PM-KISAN's 6,000 rupees a year shows."
+    ],
+    [
+     "The case against",
+     "• Fiscal: State subsidies reached 4.26 lakh crore rupees in 2025–26, more than double the 1.87 lakh crore rupees of 2018–19, as RBI data show.\n• Crowding out: such schemes are hard to withdraw, so capital spending and services suffer – in Tamil Nadu, thousands of college teaching posts stay vacant even as new scholarships are funded.\n• Design: many are announced in manifestos without any appraisal, so inclusion errors and poor targeting go unchecked."
+    ],
+    [
+     "How a Social DPR can help",
+     "• A needs assessment with clear objectives and measurable success criteria.\n• A comparison of options: targeted or universal, cash or in-kind, conditional or unconditional.\n• A 10-year cost projection showing the source of funds.\n• Sunset clauses and coverage reported per 100 target households, with independent evaluation.\n• Publication before the scheme starts, so the legislature and public can scrutinise it."
+    ],
+    [
+     "Conclusion",
+     "Cash transfers can empower women, but only within the State's means. A published Social DPR would turn promises into appraised policy, protecting both welfare and the fiscal space for schools and health."
+    ]
+   ],
+   "check": [
+    "Both demands – the evaluation and the Social DPR design – answered",
+    "Evidence: ₹1.68 lakh crore, 12 States, 0.5% of GDP, RBI subsidy data, PM-KISAN",
+    "Balance: women's agency against fiscal strain",
+    "Specific design features; judgment in the conclusion"
+   ],
+   "narr": {
+    "q": "छठा question, GS paper तीन से, पंद्रह marks का, दो सौ पचास words. Evaluate the case for and against unconditional cash transfers to women by the States. How can an ex-ante 'Social Detailed Project Report' make such schemes fiscally sustainable?",
+    "decode": "इस question को decode करते हैं। Directive word है evaluate, यानी evidence के साथ फ़ायदे और क़ीमत तौलना और judgment देना, फिर एक design सुझाना। दो demands हैं। पहली, women को unconditional cash transfers के पक्ष और विपक्ष के तर्क। दूसरी, Social DPR इन्हें sustainable कैसे बना सकता है। Limiters हैं, States, unconditional transfers, women, और scheme शुरू होने से पहले का appraisal. Skeleton होगा, intro में scale, फिर पक्ष, फिर विपक्ष, फिर Social DPR, और conclusion में judgment.",
+    "a": [
+     "Introduction में scale है। PRS के मुताबिक़ बारह States दो हज़ार पच्चीस छब्बीस में women को unconditional cash transfers में करीब एक point छह आठ लाख करोड़ देंगे, यानी GDP का करीब zero point पाँच percent, जो सिर्फ़ दो साल में zero point दो percent से नीचे से बढ़ा है।",
+     "पहली sub-heading में पक्ष के तर्क हैं। हाथ में तुरंत पैसा, ग़रीब परिवारों को महँगाई और आमदनी के झटकों से बचाता है। Women के अपने account में पैसा, घर के फ़ैसलों में उनकी आवाज़ बढ़ाता है। और JAM trinity middlemen और leakages को कम करती है, जैसा PM KISAN के साल के छह हज़ार रुपये दिखाते हैं।",
+     "दूसरी sub-heading में विपक्ष के तर्क हैं। Fiscal, यानी RBI data के मुताबिक़ State subsidies दो हज़ार पच्चीस छब्बीस में चार point दो छह लाख करोड़ तक पहुँच गईं, जो दो हज़ार अठारह उन्नीस के एक point आठ सात लाख करोड़ से दोगुने से भी ज़्यादा है। Crowding out, यानी ऐसी schemes वापस लेना मुश्किल है, इसलिए capital spending और services पर असर पड़ता है, तमिलनाडु में नई scholarships के लिए पैसा है, पर college की हज़ारों teaching posts ख़ाली हैं। और design, यानी बहुत सी schemes बिना appraisal के manifestos में announce होती हैं, इसलिए inclusion errors और कमज़ोर targeting पकड़ में नहीं आते।",
+     "तीसरी sub-heading में Social DPR है। साफ़ objectives और मापे जा सकने वाले success criteria के साथ needs assessment. Options की तुलना, targeted या universal, cash या in kind, conditional या unconditional. दस साल का cost projection, जिसमें पैसे का स्रोत दिखे। Sunset clauses, और हर सौ target households पर coverage की reporting, independent evaluation के साथ। और scheme शुरू होने से पहले publication, ताकि legislature और public उसकी जाँच कर सकें।",
+     "Conclusion में judgment है। Cash transfers women को empower कर सकते हैं, पर सिर्फ़ State की हैसियत के भीतर। एक published Social DPR वादों को appraised policy में बदलेगा, और welfare के साथ schools और health के लिए fiscal space भी बचाएगा।"
+    ],
+    "check": "अब examiner की नज़र से check कीजिए। दोनों demands, evaluation और Social DPR का design, answer हुईं या नहीं। Evidence, एक point छह आठ लाख करोड़, बारह States, GDP का zero point पाँच percent, RBI का subsidy data, और PM KISAN. Balance, women की agency बनाम fiscal दबाव। और specific design features, और conclusion में judgment."
+   },
+   "case": false,
+   "word_count": 244
+  },
+  {
+   "n": 7,
+   "paper": "GS-III",
+   "marks": 10,
+   "words": 150,
+   "topic": "malus",
+   "q": "Distinguish between malus and clawback provisions in executive pay. How do they help align risk with reward in India's banking sector?",
+   "decode": {
+    "directive": "Distinguish … How – bring out the differences clearly, then explain the mechanism",
+    "demands": [
+     "1. The differences between malus and clawback",
+     "2. How they align risk with reward in Indian banks"
+    ],
+    "limiters": "Executive pay; India's banking sector",
+    "skeleton": "Intro: the RBI framework → Body: (a) differences in a short table-like list (b) how they align risk and reward (c) limits and way forward → Conclusion"
+   },
+   "answer": [
+    [
+     "Introduction",
+     "The RBI's 2019 framework on the pay of bank top executives requires banks to build malus and clawback into the variable pay, such as bonuses and stock options, of senior staff."
+    ],
+    [
+     "The differences",
+     "• Timing: malus acts before payout; clawback after.\n• Action: malus cancels or cuts deferred, unpaid pay; clawback recovers pay already received.\n• Enforcement: malus is easier; a clawback may be challenged in court."
+    ],
+    [
+     "How they align risk with reward",
+     "• Pay can be reduced if accounts are restated, misconduct is proved or losses follow.\n• Executives are pushed towards long-term, prudent lending.\n• Shareholders and depositors see that rewards follow responsibility."
+    ],
+    [
+     "Limits and way forward",
+     "• A recent case is only the third known clawback since 2019.\n• Clear triggers in contracts and disclosure by remuneration committees would make use routine."
+    ],
+    [
+     "Conclusion",
+     "Malus and clawback move pay from short-term gains to long-term soundness, and protect public trust in banks."
+    ]
+   ],
+   "check": [
+    "Both demands – the distinction and the risk–reward link – answered",
+    "Evidence: RBI 2019 framework, the triggers, the third known clawback",
+    "Analysis: why deferred, recoverable pay changes behaviour",
+    "Specific way forward: contract triggers, committee disclosure"
+   ],
+   "narr": {
+    "q": "सातवाँ question, GS paper तीन से, दस marks का, एक सौ पचास words. Distinguish between malus and clawback provisions in executive pay. How do they help align risk with reward in India's banking sector?",
+    "decode": "इस question को decode करते हैं। Directive words हैं distinguish और how, यानी पहले फ़र्क़ साफ़ साफ़ बताना, फिर mechanism समझाना। दो demands हैं। पहली, malus और clawback में फ़र्क़। दूसरी, ये Indian banks में risk और reward को कैसे जोड़ते हैं। Limiters हैं, executive pay, और India का banking sector. Skeleton होगा, intro में RBI framework, फिर फ़र्क़ की छोटी list, फिर risk और reward का link, फिर limits और way forward, और conclusion.",
+    "a": [
+     "Introduction में framework है। RBI का दो हज़ार उन्नीस का framework, banks के top executives की pay पर, कहता है कि senior staff की variable pay, जैसे bonuses और stock options, में malus और clawback हों।",
+     "पहली sub-heading में फ़र्क़ हैं। Timing, malus payout से पहले, और clawback payout के बाद। Action, malus deferred और unpaid pay को cancel या कम करता है, और clawback पहले से मिली pay वापस लेता है। और enforcement, malus आसान है, जबकि clawback को court में challenge किया जा सकता है।",
+     "दूसरी sub-heading में risk और reward का link है। Accounts restate हों, misconduct साबित हो या losses हों, तो pay घटाई जा सकती है। इससे executives long term और सावधान lending की ओर जाते हैं। और shareholders और depositors देखते हैं कि reward के साथ responsibility भी है।",
+     "तीसरी sub-heading में limits और way forward है। हाल का case, दो हज़ार उन्नीस के बाद सिर्फ़ तीसरा known clawback है। Contracts में साफ़ triggers, और remuneration committees का disclosure, इनका इस्तेमाल routine बना देगा।",
+     "Conclusion में बात पूरी होती है। Malus और clawback pay को short term फ़ायदे से हटाकर long term मज़बूती से जोड़ते हैं, और banks पर public trust बचाते हैं।"
+    ],
+    "check": "अब examiner की नज़र से check कीजिए। दोनों demands, फ़र्क़ और risk reward का link, answer हुईं या नहीं। Evidence, RBI का दो हज़ार उन्नीस का framework, triggers, और तीसरा known clawback. Analysis, deferred और वापस ली जा सकने वाली pay व्यवहार कैसे बदलती है। और specific way forward, contract triggers और committee disclosure."
+   },
+   "case": false,
+   "word_count": 146
+  },
+  {
+   "n": 8,
+   "paper": "GS-III",
+   "marks": 10,
+   "words": 150,
+   "topic": "siang",
+   "q": "The Siang Upper Multipurpose Project is presented as a strategic buffer against China's Medog dam. Examine the security and environmental considerations that India must weigh.",
+   "decode": {
+    "directive": "Examine – look at both sets of considerations closely and reach a balanced view",
+    "demands": [
+     "1. The security case for the project",
+     "2. The environmental and social risks it carries"
+    ],
+    "limiters": "The Siang Upper Multipurpose Project; China's Medog dam; India's choices",
+    "skeleton": "Intro: the two projects → Body: (a) security considerations (b) environmental and social considerations (c) way forward → Conclusion"
+   },
+   "answer": [
+    [
+     "Introduction",
+     "China formally began its 60 GW Medog project on the Yarlung Tsangpo in July 2025. India's 11,200 MW Siang Upper Multipurpose Project (SUMP) in Arunachal Pradesh is proposed downstream."
+    ],
+    [
+     "Security considerations",
+     "• About 65% of the Siang's water is said to come from China; SUMP's 9.2 bcm live storage could absorb sudden releases.\n• There is no India–China water treaty, and the data MoU lapsed in June 2023."
+    ],
+    [
+     "Environmental and social considerations",
+     "• Seismic risk: the 1950 Assam–Tibet earthquake measured 8.6; reservoirs can trigger quakes.\n• Hungry water would erode banks downstream, threatening Majuli and the Golden Mahseer.\n• About 27 villages could be submerged; the Adi community objects over displacement and consent."
+    ],
+    [
+     "Way forward",
+     "• Publish the pre-feasibility report; commission independent seismic and ecological studies.\n• Real consent of Adi institutions, and openness to alternatives."
+    ],
+    [
+     "Conclusion",
+     "Strategy and safety must go together; a dam built without trust and science could create the very risk it aims to prevent."
+    ]
+   ],
+   "check": [
+    "Both demands – security and environmental-social – examined",
+    "Evidence: 60 GW and 11,200 MW, 9.2 bcm, 65% of water, 1950 quake of 8.6, 27 villages, the lapsed MoU",
+    "Balance: strategic need against ecological and human cost",
+    "Specific way forward"
+   ],
+   "narr": {
+    "q": "आठवाँ question, GS paper तीन से, दस marks का, एक सौ पचास words. The Siang Upper Multipurpose Project is presented as a strategic buffer against China's Medog dam. Examine the security and environmental considerations that India must weigh.",
+    "decode": "इस question को decode करते हैं। Directive word है examine, यानी दोनों तरह की बातों को ध्यान से देखना और balanced राय देना। दो demands हैं। पहली, project के पक्ष में security के तर्क। दूसरी, इसके environmental और social risks. Limiters हैं, सियांग Upper Multipurpose Project, China का Medog dam, और India के विकल्प। Skeleton होगा, intro में दोनों projects, फिर security, फिर environment और समाज, फिर way forward, और conclusion.",
+    "a": [
+     "Introduction में दोनों projects हैं। China ने July दो हज़ार पच्चीस में यारलुंग त्सांगपो पर अपना साठ GW का Medog project formally शुरू किया। और नीचे की ओर, अरुणाचल प्रदेश में, India का ग्यारह हज़ार दो सौ MW का सियांग Upper Multipurpose Project, यानी SUMP, प्रस्तावित है।",
+     "पहली sub-heading में security की बातें हैं। कहा जाता है कि सियांग का करीब पैंसठ percent पानी China से आता है, और SUMP की नौ point दो bcm live storage अचानक छोड़े गए पानी को सँभाल सकती है। India और China के बीच कोई water treaty नहीं है, और data MoU June दो हज़ार तेईस में lapse हो गया।",
+     "दूसरी sub-heading में environment और समाज की बातें हैं। Seismic risk, उन्नीस सौ पचास का असम तिब्बत भूकंप आठ point छह का था, और reservoirs भी भूकंप trigger कर सकते हैं। Hungry water नीचे के किनारों को काटेगा, जिससे माजुली और Golden Mahseer ख़तरे में होंगे। और करीब सत्ताईस गाँव डूब सकते हैं, और आदि समुदाय displacement और consent को लेकर विरोध कर रहा है।",
+     "तीसरी sub-heading में way forward है। Pre feasibility report publish हो, और independent seismic और ecological studies कराई जाएँ। आदि institutions की असली सहमति ली जाए, और alternatives के लिए दरवाज़ा खुला रहे।",
+     "Conclusion में बात पूरी होती है। Strategy और safety साथ चलनी चाहिए, क्योंकि भरोसे और science के बिना बना dam वही ख़तरा पैदा कर सकता है जिसे रोकने के लिए वो बना है।"
+    ],
+    "check": "अब examiner की नज़र से check कीजिए। दोनों demands, security और environmental social, जाँची गईं या नहीं। Evidence, साठ GW और ग्यारह हज़ार दो सौ MW, नौ point दो bcm, पानी का पैंसठ percent, उन्नीस सौ पचास का आठ point छह का भूकंप, सत्ताईस गाँव, और lapse हुआ MoU. Balance, strategic ज़रूरत बनाम ecological और इंसानी क़ीमत। और specific way forward."
+   },
+   "case": false,
+   "word_count": 153
+  },
+  {
+   "n": 9,
+   "paper": "GS-IV",
+   "marks": 10,
+   "words": 150,
+   "topic": "tegh",
+   "q": "Defending the rights of those whose beliefs one does not share is a true test of conscience. What does this demand of a civil servant who receives instructions that may deny equal treatment to a minority group?",
+   "decode": {
+    "directive": "What does this demand – explain the value, then apply it to the civil servant's situation",
+    "demands": [
+     "1. What the test of conscience means",
+     "2. What the civil servant should do with such instructions"
+    ],
+    "limiters": "A civil servant; instructions that may deny equal treatment; a minority group",
+    "skeleton": "Intro: the value and an example → Body: (a) what conscience demands (b) the steps the officer takes → Conclusion: values"
+   },
+   "answer": [
+    [
+     "Introduction",
+     "Conscience is the inner sense of right and wrong. Guru Tegh Bahadur, whose 350th Shaheedi Diwas observance has just closed, gave his life defending the freedom of belief of others."
+    ],
+    [
+     "What conscience demands",
+     "• Impartiality: the Constitution's Articles 14 and 15 bind the officer to equal treatment.\n• Courage of conviction: protecting a group's rights even when it is unpopular.\n• Loyalty to the Constitution, not to a person or a majority view."
+    ],
+    [
+     "What the officer should do",
+     "• Check the instruction against the law and rules; seek it in writing.\n• Put the legal and ethical objection on file, respectfully, with a lawful alternative.\n• If pressed, escalate to senior officers; do not carry out an illegal order.\n• Keep serving the affected group fairly."
+    ],
+    [
+     "Conclusion",
+     "Such conscience reflects integrity, impartiality and constitutional morality, the values the All India Services Conduct Rules expect."
+    ]
+   ],
+   "check": [
+    "Both demands – the meaning and the application – answered",
+    "Example from history used inside an applied answer",
+    "Evidence: Articles 14 and 15, the conduct rules",
+    "Practical, lawful steps; values named in the conclusion"
+   ],
+   "narr": {
+    "q": "नौवाँ question, GS paper चार से, दस marks का, एक सौ पचास words. Defending the rights of those whose beliefs one does not share is a true test of conscience. What does this demand of a civil servant who receives instructions that may deny equal treatment to a minority group?",
+    "decode": "इस question को decode करते हैं। Directive है what does this demand, यानी पहले value समझाना, फिर उसे civil servant की स्थिति पर लागू करना। दो demands हैं। पहली, conscience की इस परीक्षा का मतलब। दूसरी, ऐसे instructions मिलने पर civil servant क्या करे। Limiters हैं, एक civil servant, ऐसे instructions जो बराबर के व्यवहार से वंचित कर सकते हैं, और एक minority group. Skeleton होगा, intro में value और एक example, फिर conscience क्या माँगता है, फिर officer के steps, और conclusion में values.",
+    "a": [
+     "Introduction में value और example है। Conscience यानी सही और ग़लत की अंदरूनी समझ। गुरु तेग बहादुर, जिनके तीन सौ पचासवें शहीदी दिवस की year long observance अभी पूरी हुई है, उन्होंने दूसरों की आस्था की आज़ादी के लिए अपनी जान दी।",
+     "पहली sub-heading में बताया है कि conscience क्या माँगता है। Impartiality, यानी Constitution के Article चौदह और पंद्रह officer को बराबर के व्यवहार से बाँधते हैं। Courage of conviction, यानी किसी group के rights की हिफ़ाज़त, चाहे वो popular न हो। और loyalty Constitution के प्रति, किसी व्यक्ति या बहुमत की राय के प्रति नहीं।",
+     "दूसरी sub-heading में officer के steps हैं। पहले instruction को law और rules से मिलाकर देखें, और उसे लिखित में माँगें। फिर legal और ethical objection file पर सम्मान के साथ रखें, एक lawful alternative के साथ। दबाव हो, तो senior officers तक ले जाएँ, पर illegal order पर अमल न करें। और affected group की सेवा fairness से जारी रखें।",
+     "Conclusion में values हैं। ऐसा conscience integrity, impartiality और constitutional morality दिखाता है, यानी वही values जिनकी All India Services Conduct Rules उम्मीद करते हैं।"
+    ],
+    "check": "अब examiner की नज़र से check कीजिए। दोनों demands, मतलब और application, answer हुईं या नहीं। इतिहास का example एक applied answer के अंदर इस्तेमाल हुआ। Evidence, Article चौदह और पंद्रह, और conduct rules. और steps practical और lawful हैं, और conclusion में values के नाम हैं।"
+   },
+   "case": false,
+   "word_count": 138
+  },
+  {
+   "n": 10,
+   "paper": "GS-IV",
+   "marks": 20,
+   "words": 250,
+   "topic": "bromate",
+   "case": true,
+   "q": "You are the Designated Officer for food safety in a district. The government laboratory reports that samples of a popular local brand of packaged drinking water contain bromate above the permitted limit. The brand employs about 400 people and, during a hot summer, supplies the district hospital and several schools; no other supplier can meet this demand at short notice. Its owner, a well-known local figure, says the laboratory is wrong and asks you to wait two weeks for a re-test. A local reporter has a copy of the report and wants your comment, and your senior officer hints that stopping the sales now could cause a water shortage and public anger. (a) Identify the ethical issues and the stakeholders involved. (b) What options do you have? Evaluate them and state the course of action you would take, with reasons.",
+   "decode": {
+    "directive": "Case study – identify the ethical issues, weigh options, then give a reasoned course of action",
+    "demands": [
+     "(a) Ethical issues and stakeholders",
+     "(b) Options with merits and demerits",
+     "(b) Chosen course of action and why"
+    ],
+    "limiters": "You are the food safety officer; a test result above the limit; jobs and supply at stake; pressure to wait",
+    "skeleton": "Intro: the dilemma → Body: issues and stakeholders, options, course of action, long-term measures → Conclusion: values shown"
+   },
+   "answer": [
+    [
+     "The dilemma",
+     "The case pits public health against jobs, supply and pressure from an influential owner, while due process must still be followed."
+    ],
+    [
+     "(a) Ethical issues and stakeholders",
+     "• Right to life and health under Article 21 versus livelihoods.\n• Precaution versus waiting for certainty.\n• Integrity under pressure, and transparency with the public.\nStakeholders: consumers, patients and pupils, the workers, the owner, your senior, the reporter and the public."
+    ],
+    [
+     "(b) Options",
+     "• Wait two weeks quietly: avoids conflict, but exposes people to risk and breaches duty.\n• Seal the unit and publicise at once: protects health, but is harsh before the owner's right to a re-test.\n• Proportionate action: protects health and is fair to the owner."
+    ],
+    [
+     "(b) Course of action",
+     "• Stop the sale of the affected batches at once and seize the stock as the law allows.\n• Arrange tankers or other safe water for the hospital and schools.\n• Allow a fast re-test by the referral laboratory; ask the firm to fix its ozone treatment.\n• Brief the senior officer in writing; give the reporter facts, not blame."
+    ],
+    [
+     "Long-term measures",
+     "• Regular testing of every packaged water unit in the district, with results made public.\n• Training for small plants on safe ozone dosing and bromide checks.\n• Help for the workers if the unit must close for repairs."
+    ],
+    [
+     "Conclusion",
+     "This course shows integrity, objectivity, courage, compassion for workers and transparency, putting public health first within the law."
+    ]
+   ],
+   "check": [
+    "Both parts, (a) and (b), answered, with options weighed before the choice",
+    "Stakeholders and values named: Article 21, precaution, integrity, transparency",
+    "The course is lawful and practical – batch stop, safe supply, re-test, written briefing",
+    "Answer ends on values"
+   ],
+   "narr": {
+    "q": "दसवाँ question, GS paper चार से, case study, बीस marks का, दो सौ पचास words. You are the Designated Officer for food safety in a district. The government laboratory reports that samples of a popular local brand of packaged drinking water contain bromate above the permitted limit. The brand employs about 400 people and, during a hot summer, supplies the district hospital and several schools; no other supplier can meet this demand at short notice. Its owner, a well-known local figure, says the laboratory is wrong and asks you to wait two weeks for a re-test. A local reporter has a copy of the report and wants your comment, and your senior officer hints that stopping the sales now could cause a water shortage and public anger. (a) Identify the ethical issues and the stakeholders involved. (b) What options do you have? Evaluate them and state the course of action you would take, with reasons.",
+    "decode": "इस case study को decode करते हैं। यहाँ ethical issues पहचानने हैं, options तौलने हैं, और फिर तर्क के साथ course of action देना है। तीन demands हैं। Part a में ethical issues और stakeholders. Part b में options, उनके फ़ायदे और नुक़सान के साथ। और part b में ही चुना हुआ course of action और उसकी वजह। Limiters हैं, आप food safety officer हैं, test result limit से ऊपर है, jobs और supply दाँव पर हैं, और इंतज़ार का दबाव है। Skeleton होगा, intro में dilemma, फिर issues और stakeholders, फिर options, फिर course of action, फिर long term measures, और conclusion में values.",
+    "a": [
+     "Introduction में dilemma है। ये case public health को jobs, supply और एक प्रभावशाली owner के दबाव के सामने खड़ा करता है, और साथ में due process भी निभाना है।",
+     "Part a में ethical issues और stakeholders हैं। Article इक्कीस के तहत life और health का right, बनाम livelihoods. Precaution, बनाम निश्चितता का इंतज़ार। और दबाव में integrity, और public के साथ transparency. Stakeholders हैं, consumers, hospital के patients और schools के बच्चे, workers, owner, आपके senior, reporter और public.",
+     "Part b में options हैं। दो हफ़्ते चुपचाप इंतज़ार, टकराव से बचाता है, पर लोगों को risk में डालता है और duty का उल्लंघन है। Unit तुरंत seal करके publicity, health बचाती है, पर owner के re test के right से पहले कठोर है। और proportionate action, जो health भी बचाता है और owner के साथ fair भी है।",
+     "Part b में ही course of action है। affected batches की बिक्री तुरंत रोकें, और law के मुताबिक़ stock seize करें। Hospital और schools के लिए tankers या दूसरा safe पानी arrange करें। Referral laboratory से जल्दी re test होने दें, और firm से उसका ozone treatment ठीक करवाएँ। Senior officer को लिखित में brief करें, और reporter को facts दें, आरोप नहीं।",
+     "फिर long term measures हैं। District की हर packaged water unit की नियमित testing हो, और results public किए जाएँ। छोटे plants को safe ozone dosing और bromide checks की training मिले। और अगर repairs के लिए unit बंद करनी पड़े, तो workers की मदद हो।",
+     "Conclusion में values हैं। ये रास्ता integrity, objectivity, courage, workers के लिए compassion और transparency दिखाता है, और law के भीतर public health को सबसे ऊपर रखता है।"
+    ],
+    "check": "अब examiner की नज़र से check कीजिए। दोनों parts, a और b, answer हुए, और फ़ैसले से पहले options तौले गए या नहीं। Stakeholders और values के नाम हैं, Article इक्कीस, precaution, integrity और transparency. रास्ता lawful और practical है, batch रोकना, safe supply, re test और लिखित briefing. और answer values पर ख़त्म होता है।"
+   },
+   "word_count": 229
+  }
+ ],
+ "vote": {
+  "am": "Which question should we decode on YouTube tonight? Comment 1, 2, 3, 4 or 5 👇",
+  "pm": "Which one should we decode tonight at 8:15 PM? Vote 6, 7, 8, 9 or 10 in the comments 👇"
+ }
+}
