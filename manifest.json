@@ -2719,7 +2719,13 @@
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/Daily_Current_Affairs_-_Rashan_27_November_2026_MCQs_and_Explanations_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/thumb_d2.jpg",
    "v51": true,
-   "v51_publish": "20:55"
+   "v51_publish": "20:55",
+   "sync": {
+    "result": "PASS",
+    "md5": "987f08ae7ee1b309cec121f7827b16ab",
+    "why": [],
+    "checked": "2026-11-28T09:49+05:30"
+   }
   },
   {
    "platform": "telegram",
