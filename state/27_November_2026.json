@@ -308,6 +308,14 @@
    "scheduled": "2026-11-28T20:00:00+05:30",
    "tries": 0,
    "time": "2026-11-28T13:36+05:30"
+  },
+  "ci2811-yo-08": {
+   "status": "done",
+   "id": "VB0vetRCrIw",
+   "url": "https://youtu.be/VB0vetRCrIw",
+   "scheduled": "2026-11-28T14:00:00+05:30",
+   "tries": 0,
+   "time": "2026-11-28T13:36+05:30"
   }
  },
  "links": {
