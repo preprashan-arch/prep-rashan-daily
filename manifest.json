@@ -74,7 +74,7 @@
     "result": "PASS",
     "md5": "46cf74840ee43ad716771a7b39f01ffe",
     "why": [],
-    "checked": "2026-11-28T08:56+05:30"
+    "checked": "2026-11-28T12:06+05:30"
    }
   },
   {
@@ -291,7 +291,7 @@
     "result": "PASS",
     "md5": "346f3c72894b64f6bf3bd85de6af9da6",
     "why": [],
-    "checked": "2026-11-28T08:56+05:30"
+    "checked": "2026-11-28T12:06+05:30"
    }
   },
   {
@@ -508,7 +508,7 @@
     "result": "PASS",
     "md5": "bebf41f318c7c729c7f52baf79048fbc",
     "why": [],
-    "checked": "2026-11-28T08:56+05:30"
+    "checked": "2026-11-28T12:06+05:30"
    }
   },
   {
@@ -725,7 +725,7 @@
     "result": "PASS",
     "md5": "a133f4926469003ef769893b1994e5b3",
     "why": [],
-    "checked": "2026-11-28T08:56+05:30",
+    "checked": "2026-11-28T12:06+05:30",
     "names": [
      "Chowk",
      "Tegh"
@@ -946,7 +946,7 @@
     "result": "PASS",
     "md5": "5f955e73c9e0de250d0569e8b479242b",
     "why": [],
-    "checked": "2026-11-28T08:56+05:30",
+    "checked": "2026-11-28T12:06+05:30",
     "names": [
      "Eighth"
     ]
@@ -1166,7 +1166,7 @@
     "result": "PASS",
     "md5": "9cf1c0760256be20683b47ee498f3b83",
     "why": [],
-    "checked": "2026-11-28T08:56+05:30"
+    "checked": "2026-11-28T12:06+05:30"
    }
   },
   {
@@ -1383,7 +1383,7 @@
     "result": "PASS",
     "md5": "b2b3cd383ff257647a0ac6e09a37c9e6",
     "why": [],
-    "checked": "2026-11-28T08:56+05:30",
+    "checked": "2026-11-28T12:06+05:30",
     "names": [
      "Hundred",
      "Swayamsiddha"
@@ -1582,7 +1582,13 @@
    "captions_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/Daily_Current_Affairs_-_Rashan_27_November_2026_PPT_Video_Hindi_Captions.srt",
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/thumb_ppt.jpg",
    "v51": true,
-   "v51_publish": "public"
+   "v51_publish": "public",
+   "sync": {
+    "result": "PASS",
+    "md5": "bb0247655ee35f355c2fda3640ab03ec",
+    "why": [],
+    "checked": "2026-11-28T12:06+05:30"
+   }
   },
   {
    "platform": "youtube",
@@ -2122,7 +2128,7 @@
     "result": "PASS",
     "md5": "4aea92da25eebd2038dc734e413fbfc2",
     "why": [],
-    "checked": "2026-11-28T08:30+05:30"
+    "checked": "2026-11-28T12:06+05:30"
    }
   },
   {
@@ -2715,10 +2721,12 @@
    "v51": true,
    "v51_publish": "20:55",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "987f08ae7ee1b309cec121f7827b16ab",
-    "why": [],
-    "checked": "2026-11-28T09:49+05:30"
+    "why": [
+     "T0 MISSING voice 1941.1s: \"IT में पाँच point चार से पाँच point नौ million direct jobs सही है।\" (heard 46%)"
+    ],
+    "checked": "2026-11-28T12:06+05:30"
    }
   },
   {
@@ -2826,10 +2834,12 @@
    "ig_cover": true,
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/mains_27_November_2026_am_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "5dd84c9d911d18061ab18db61ae7eba1",
-    "why": [],
-    "checked": "2026-11-28T07:51+05:30"
+    "why": [
+     "clip without clip_at/deck – cannot be checked"
+    ],
+    "checked": "2026-11-28T12:06+05:30"
    }
   },
   {
@@ -2943,10 +2953,12 @@
    "ig_cover": true,
    "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/mains_27_November_2026_pm_cover.jpg",
    "sync": {
-    "result": "PASS",
+    "result": "FAIL",
     "md5": "1958f2b8b166391f6a7c2afb74d4ee2f",
-    "why": [],
-    "checked": "2026-11-28T07:51+05:30"
+    "why": [
+     "clip without clip_at/deck – cannot be checked"
+    ],
+    "checked": "2026-11-28T12:06+05:30"
    }
   },
   {
@@ -3300,7 +3312,7 @@
     "result": "PASS",
     "md5": "46cf74840ee43ad716771a7b39f01ffe",
     "why": [],
-    "checked": "2026-11-28T08:56+05:30"
+    "checked": "2026-11-28T12:06+05:30"
    }
   },
   {
@@ -3423,7 +3435,7 @@
     "result": "PASS",
     "md5": "346f3c72894b64f6bf3bd85de6af9da6",
     "why": [],
-    "checked": "2026-11-28T08:56+05:30"
+    "checked": "2026-11-28T12:06+05:30"
    }
   },
   {
@@ -3546,7 +3558,7 @@
     "result": "PASS",
     "md5": "bebf41f318c7c729c7f52baf79048fbc",
     "why": [],
-    "checked": "2026-11-28T08:56+05:30"
+    "checked": "2026-11-28T12:06+05:30"
    }
   },
   {
@@ -3669,7 +3681,7 @@
     "result": "PASS",
     "md5": "a133f4926469003ef769893b1994e5b3",
     "why": [],
-    "checked": "2026-11-28T08:56+05:30",
+    "checked": "2026-11-28T12:06+05:30",
     "names": [
      "Chowk",
      "Tegh"
@@ -3796,7 +3808,7 @@
     "result": "PASS",
     "md5": "5f955e73c9e0de250d0569e8b479242b",
     "why": [],
-    "checked": "2026-11-28T08:56+05:30",
+    "checked": "2026-11-28T12:06+05:30",
     "names": [
      "Eighth"
     ]
@@ -3922,7 +3934,7 @@
     "result": "PASS",
     "md5": "9cf1c0760256be20683b47ee498f3b83",
     "why": [],
-    "checked": "2026-11-28T08:56+05:30"
+    "checked": "2026-11-28T12:06+05:30"
    }
   },
   {
@@ -4045,7 +4057,7 @@
     "result": "PASS",
     "md5": "b2b3cd383ff257647a0ac6e09a37c9e6",
     "why": [],
-    "checked": "2026-11-28T08:56+05:30",
+    "checked": "2026-11-28T12:06+05:30",
     "names": [
      "Hundred",
      "Swayamsiddha"
