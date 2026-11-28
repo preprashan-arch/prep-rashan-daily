@@ -1584,12 +1584,10 @@
    "v51": true,
    "v51_publish": "public",
    "sync": {
-    "result": "FAIL",
+    "result": "PASS",
     "md5": "28ec57d6c275cc854827f318d6b8d439",
-    "why": [
-     "T0 MISSING voice 3406.1s: \"दो हज़ार पच्चीस से छब्बीस में, चार point दो छह। Caveat, यानी ध्यान रहे\" (heard 12%)"
-    ],
-    "checked": "2026-11-28T08:30+05:30"
+    "why": [],
+    "checked": "2026-11-28T08:57+05:30"
    }
   },
   {
