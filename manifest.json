@@ -3803,7 +3803,16 @@
     "current affairs in Hindi",
     "Prep-Rashan",
     "Shorts"
-   ]
+   ],
+   "sync": {
+    "result": "PASS",
+    "md5": "5f955e73c9e0de250d0569e8b479242b",
+    "why": [],
+    "checked": "2026-11-28T08:45+05:30",
+    "names": [
+     "Eighth"
+    ]
+   }
   },
   {
    "platform": "youtube",
