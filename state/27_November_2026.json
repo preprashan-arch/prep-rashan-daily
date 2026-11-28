@@ -557,7 +557,9 @@
    "av_check": "PASS",
    "av_md5": "885f9d06c7628c5342146b41df64dc80",
    "tries": 0,
-   "time": "2026-11-28T17:56+05:30"
+   "time": "2026-11-28T17:56+05:30",
+   "scheduled": "2026-11-28T20:15:00+05:30",
+   "premiere": "not set – Chrome not linked; publishAt 20:15 kept"
   },
   "live-promo-2026-11-28-te": {
    "status": "done",
