@@ -503,7 +503,13 @@
     }
    ],
    "v51": true,
-   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/set_2811_4q_cover.jpg"
+   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/set_2811_4q_cover.jpg",
+   "sync": {
+    "result": "PASS",
+    "md5": "bebf41f318c7c729c7f52baf79048fbc",
+    "why": [],
+    "checked": "2026-11-28T08:38+05:30"
+   }
   },
   {
    "platform": "facebook",
