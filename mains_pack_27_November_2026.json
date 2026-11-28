@@ -1,0 +1,20 @@
+{
+ "file": "27_November_2026",
+ "tar_md5": "a28aad4c182a180f7172f0a6a41f4c58",
+ "tar_size": 165560320,
+ "video": "Mains_Answer_Writing_Rashan_10_Questions_28_November_2026.mp4",
+ "video_md5": "96552bb42858dacd40634ef3be497bc0",
+ "pdf": "Mains_Answer_Writing_Rashan_28_November_2026.pdf",
+ "parts": [
+  {
+   "name": "mains_pack_27_November_2026.tar.part00",
+   "md5": "7126d897964e8fd6f6561871b5aa18f5",
+   "size": 99614720
+  },
+  {
+   "name": "mains_pack_27_November_2026.tar.part01",
+   "md5": "c1a648534c6945c7ad888069b23a7196",
+   "size": 65945600
+  }
+ ]
+}
