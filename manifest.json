@@ -2759,7 +2759,13 @@
    "mains_reel": true,
    "cover": "mains_27_November_2026_am_cover.jpg",
    "ig_cover": true,
-   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/mains_27_November_2026_am_cover.jpg"
+   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/mains_27_November_2026_am_cover.jpg",
+   "sync": {
+    "result": "PASS",
+    "md5": "5dd84c9d911d18061ab18db61ae7eba1",
+    "why": [],
+    "checked": "2026-11-28T07:51+05:30"
+   }
   },
   {
    "day": 1,
@@ -2870,7 +2876,13 @@
    "mains_reel": true,
    "cover": "mains_27_November_2026_pm_cover.jpg",
    "ig_cover": true,
-   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/mains_27_November_2026_pm_cover.jpg"
+   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/mains_27_November_2026_pm_cover.jpg",
+   "sync": {
+    "result": "PASS",
+    "md5": "1958f2b8b166391f6a7c2afb74d4ee2f",
+    "why": [],
+    "checked": "2026-11-28T07:51+05:30"
+   }
   },
   {
    "day": 1,
