@@ -720,7 +720,17 @@
     }
    ],
    "v51": true,
-   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/set_2811_5q_cover.jpg"
+   "thumb_url": "https://raw.githubusercontent.com/preprashan-arch/prep-rashan-daily/d/27_November_2026/set_2811_5q_cover.jpg",
+   "sync": {
+    "result": "PASS",
+    "md5": "a133f4926469003ef769893b1994e5b3",
+    "why": [],
+    "checked": "2026-11-28T08:38+05:30",
+    "names": [
+     "Chowk",
+     "Tegh"
+    ]
+   }
   },
   {
    "platform": "facebook",
