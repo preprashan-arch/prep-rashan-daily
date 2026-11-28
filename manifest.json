@@ -3260,7 +3260,13 @@
     "current affairs in Hindi",
     "Prep-Rashan",
     "Shorts"
-   ]
+   ],
+   "sync": {
+    "result": "PASS",
+    "md5": "46cf74840ee43ad716771a7b39f01ffe",
+    "why": [],
+    "checked": "2026-11-28T08:34+05:30"
+   }
   },
   {
    "platform": "youtube",
