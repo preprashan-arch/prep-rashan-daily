@@ -238,9 +238,12 @@
    "url": "https://youtu.be/ZoUob7IBFVU"
   },
   "d1-yo-065": {
-   "status": "uploading",
+   "status": "done",
    "tries": 0,
-   "time": "2026-11-28T13:20+05:30"
+   "time": "2026-11-28T13:32+05:30",
+   "id": "4IpYQGNMbYE",
+   "url": "https://youtu.be/4IpYQGNMbYE",
+   "scheduled": "2026-11-28T20:00:00+05:30"
   },
   "d2-yo-066": {
    "status": "uploading",
@@ -249,6 +252,7 @@
   }
  },
  "links": {
-  "YT_PPT": "https://youtu.be/ZoUob7IBFVU"
+  "YT_PPT": "https://youtu.be/ZoUob7IBFVU",
+  "YT_MCQ": "https://youtu.be/4IpYQGNMbYE"
  }
 }
